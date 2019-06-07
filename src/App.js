@@ -10,7 +10,9 @@ import './App.css';
 
 function App() {
     return (
-        <div className="app" onContextMenu={(e) => e.preventDefault()}>
+        <div className="app"
+             // onContextMenu={ (e) => e.preventDefault() }
+        >
             {/*header*/}
             <Switch>
                 <Route exact path='/' component={Main}/>

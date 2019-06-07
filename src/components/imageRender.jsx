@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
+import Player from "./player/player";
 
 
 class ImageRender extends Component {
@@ -19,7 +20,7 @@ class ImageRender extends Component {
 
     render() {
         const {slide} = this.props;
-        const {parts, partSize, fullSize, cropSize, textArea} = slide.pictureData;
+        const {parts, partSize, fullSize, cropSize, textArea, soundtrack} = slide.pictureData;
 
         const PictureTitle = () => {
             const PictureTitle = styled.div`
@@ -48,6 +49,9 @@ class ImageRender extends Component {
         };
         const PictureDescription = () => {
             const DescriptionArea = styled.div`
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                 position: fixed;
                 right: 0;
                 top: 0;
@@ -58,8 +62,6 @@ class ImageRender extends Component {
             const TextArea = styled.p`
                 display: flex;
                 align-items: center;
-                align-content: stretch;
-                height: 100%;
                 padding: 20px 40px 20px 20px; 
                 font-weight: 300;
                 font-size: 1.1rem;
@@ -68,6 +70,21 @@ class ImageRender extends Component {
             return (
                 <DescriptionArea>
                     <TextArea>{textArea.info}</TextArea>
+
+                    { soundtrack ?
+                    <Player soundtrack={soundtrack}/>
+                        : null }
+
+                    {/*<PlayBtn onClick={playSound}/>*/}
+
+                    {/*{ soundtrack ?*/}
+                        {/*<Soundtrack*/}
+                            {/*controls controlsList="nodownload"*/}
+                            {/*// preload='none'*/}
+                            {/*src={soundtrack}>*/}
+                        {/*</Soundtrack>*/}
+                        {/*: null }*/}
+
                 </DescriptionArea>
             );
         };
@@ -110,7 +127,7 @@ class ImageRender extends Component {
             flex-direction: row;
             flex-wrap: wrap;
             background-color: gray;
-        `;
+            `;
             const MosaicParts = parts.map((image, id) => {
                 const Mosaic = styled.div`
                 width: ${partSize.width}px;
@@ -138,7 +155,7 @@ class ImageRender extends Component {
             );
         };
         const FullOrDetailed = () => {
-            return(
+            return (
                 <React.Fragment>
                     {cropSize ? <FullImage/> : <DetailedView/>}
                 </React.Fragment>

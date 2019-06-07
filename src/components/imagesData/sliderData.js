@@ -15,30 +15,31 @@ import p14 from "../../images/mosaic/p2/Renoir_14.jpg";
 import p15 from "../../images/mosaic/p2/Renoir_15.jpg";
 import p16 from "../../images/mosaic/p2/Renoir_16.jpg";
 import cropSizeRenoir from "../../images/cropImages/Renoir-compressor.jpeg";
+import cityNoise from '../../media/sounds/CityNoise.mp3';
 
 const SliderData = {
-    'path': [
-        {
-            'prevPath': '/',
-            'nextPath': '/slider-2'
-        },
-        {
-            'prevPath': '/slider',
-            'nextPath': '/slider-3'
-        },
-        {
-            'prevPath': '/',
-            'nextPath': '/slider-4'
-        },
-        {
-            'prevPath': '/slider',
-            'nextPath': '/slider-5'
-        },
-        {
-            'prevPath': '/',
-            'nextPath': '/slider-6'
-        }
-    ],
+    // 'path': [
+    //     {
+    //         'prevPath': '/',
+    //         'nextPath': '/slider-2'
+    //     },
+    //     {
+    //         'prevPath': '/slider',
+    //         'nextPath': '/slider-3'
+    //     },
+    //     {
+    //         'prevPath': '/',
+    //         'nextPath': '/slider-4'
+    //     },
+    //     {
+    //         'prevPath': '/slider',
+    //         'nextPath': '/slider-5'
+    //     },
+    //     {
+    //         'prevPath': '/',
+    //         'nextPath': '/slider-6'
+    //     }
+    // ],
     'slides': [
         {
             "index": 0,
@@ -134,12 +135,13 @@ const SliderData = {
                         'top': 1200,
                         'left': 1000,
                     },
+                'soundtrack': cityNoise,
                 'textArea': {
                     'author': 'Пьер Огюст Ренуар (1841-1919)',
                     'pictureTitle': 'Площадь перед церковью Святой Троицы в Париже',
                     'year': '1893',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus deserunt eum, explicabo facilis iste labore molestias nam, nesciunt nobis perferendis possimus quam qui sed sequi sint, tempore tenetur vel voluptatibus?'
+                    'info': 'Примечательно изображение людей на картине – это всего лишь силуэты написанные тёмными красками. Однако автору достаточно всего лишь несколько мазков, чтобы показать нам человека в его деятельности и характере: можно увидеть, как справа двое непринуждённо болтают, а на повозке можно заметить, как сгорбился усталый извозчик.'
                 }
             }
         }

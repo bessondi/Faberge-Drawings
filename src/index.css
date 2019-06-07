@@ -8,3 +8,9 @@ body::-webkit-scrollbar {
     height: 0;
     background: transparent;
 }
+
+button, input {
+    outline: none;
+    border-color: transparent;
+    background-color: transparent;
+}
