@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23c252b7862ee0403d98e48345832e44",
+    "revision": "9b675046ad6eed3344449e856cca0cff",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "bef1aa4ee29ab2582ca5",
-    "url": "/Faberge-Drawings/static/css/main.5088cd48.chunk.css"
+    "revision": "0c5039ece0ebde9d7ce7",
+    "url": "/Faberge-Drawings/static/css/main.c18ef667.chunk.css"
   },
   {
-    "revision": "f5fb1feda92b138e67ce",
-    "url": "/Faberge-Drawings/static/js/2.685216f0.chunk.js"
+    "revision": "cefa453419a9f23f4976",
+    "url": "/Faberge-Drawings/static/js/2.67155eeb.chunk.js"
   },
   {
-    "revision": "bef1aa4ee29ab2582ca5",
-    "url": "/Faberge-Drawings/static/js/main.71eb3a1f.chunk.js"
+    "revision": "0c5039ece0ebde9d7ce7",
+    "url": "/Faberge-Drawings/static/js/main.a3cbe17f.chunk.js"
   },
   {
     "revision": "0263afbe168399bc9571",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "64b6f4e92ee99d6e49e9d4d5f49b9223",
     "url": "/Faberge-Drawings/static/media/Ammon.64b6f4e9.jpg"
+  },
+  {
+    "revision": "55e17987ba727329ec7d29381bfb41df",
+    "url": "/Faberge-Drawings/static/media/CityNoise.55e17987.mp3"
   },
   {
     "revision": "538f72aa1d8c330b52c4813539aa8330",
@@ -102,5 +106,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dca2cee0f909727a77a08d34932dd301",
     "url": "/Faberge-Drawings/static/media/Renoir_16.dca2cee0.jpg"
+  },
+  {
+    "revision": "f1a512d3c8fc63cdc303fc578f44a0f5",
+    "url": "/Faberge-Drawings/static/media/pauseBtn.f1a512d3.svg"
+  },
+  {
+    "revision": "e2d5ee6e7a23333b0ba38817ce6c50be",
+    "url": "/Faberge-Drawings/static/media/playBtn.e2d5ee6e.svg"
   }
 ]);

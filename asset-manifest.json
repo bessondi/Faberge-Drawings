@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Faberge-Drawings/static/css/main.5088cd48.chunk.css",
-    "main.js": "/Faberge-Drawings/static/js/main.71eb3a1f.chunk.js",
-    "main.js.map": "/Faberge-Drawings/static/js/main.71eb3a1f.chunk.js.map",
+    "main.css": "/Faberge-Drawings/static/css/main.c18ef667.chunk.css",
+    "main.js": "/Faberge-Drawings/static/js/main.a3cbe17f.chunk.js",
+    "main.js.map": "/Faberge-Drawings/static/js/main.a3cbe17f.chunk.js.map",
     "runtime~main.js": "/Faberge-Drawings/static/js/runtime~main.8a2e87dd.js",
     "runtime~main.js.map": "/Faberge-Drawings/static/js/runtime~main.8a2e87dd.js.map",
-    "static/js/2.685216f0.chunk.js": "/Faberge-Drawings/static/js/2.685216f0.chunk.js",
-    "static/js/2.685216f0.chunk.js.map": "/Faberge-Drawings/static/js/2.685216f0.chunk.js.map",
+    "static/js/2.67155eeb.chunk.js": "/Faberge-Drawings/static/js/2.67155eeb.chunk.js",
+    "static/js/2.67155eeb.chunk.js.map": "/Faberge-Drawings/static/js/2.67155eeb.chunk.js.map",
     "index.html": "/Faberge-Drawings/index.html",
-    "precache-manifest.5f1f85449c49e371a7c266d1d7d92662.js": "/Faberge-Drawings/precache-manifest.5f1f85449c49e371a7c266d1d7d92662.js",
+    "precache-manifest.51cc13b1d48678b88e1e9445b975f012.js": "/Faberge-Drawings/precache-manifest.51cc13b1d48678b88e1e9445b975f012.js",
     "service-worker.js": "/Faberge-Drawings/service-worker.js",
-    "static/css/main.5088cd48.chunk.css.map": "/Faberge-Drawings/static/css/main.5088cd48.chunk.css.map",
+    "static/css/main.c18ef667.chunk.css.map": "/Faberge-Drawings/static/css/main.c18ef667.chunk.css.map",
     "static/media/Ammon.jpg": "/Faberge-Drawings/static/media/Ammon.64b6f4e9.jpg",
+    "static/media/CityNoise.mp3": "/Faberge-Drawings/static/media/CityNoise.55e17987.mp3",
     "static/media/App.css": "/Faberge-Drawings/static/media/PFAgoraSansPro-Thin.9fe65381.ttf",
     "static/media/Renoir-compressor.jpeg": "/Faberge-Drawings/static/media/Renoir-compressor.215efe3e.jpeg",
     "static/media/Renoir_01.jpg": "/Faberge-Drawings/static/media/Renoir_01.f38356bf.jpg",
@@ -29,6 +30,7 @@
     "static/media/Renoir_13.jpg": "/Faberge-Drawings/static/media/Renoir_13.841cf1f4.jpg",
     "static/media/Renoir_14.jpg": "/Faberge-Drawings/static/media/Renoir_14.eabd07c7.jpg",
     "static/media/Renoir_15.jpg": "/Faberge-Drawings/static/media/Renoir_15.adc5c14c.jpg",
-    "static/media/Renoir_16.jpg": "/Faberge-Drawings/static/media/Renoir_16.dca2cee0.jpg"
+    "static/media/Renoir_16.jpg": "/Faberge-Drawings/static/media/Renoir_16.dca2cee0.jpg",
+    "static/media/player.module.css": "/Faberge-Drawings/static/media/playBtn.e2d5ee6e.svg"
   }
 }
