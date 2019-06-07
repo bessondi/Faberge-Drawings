@@ -28,7 +28,7 @@ class ImageRender extends Component {
                 flex-direction: column;
                 justify-content: flex-start;
                 left: 40px;
-                bottom: 40px;
+                bottom: 50px;
                 background: #fff;
                 width: 300px;
                 height: 80px;

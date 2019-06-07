@@ -8,13 +8,3 @@ body::-webkit-scrollbar {
     height: 0;
     background: transparent;
 }
-
-.App {
-    font-family: "PF Agora Sans Pro", 'Helvetica Neue', sans-serif;
-    font-size: calc(0.5rem + 2vmin);
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-    user-select: none;
-}

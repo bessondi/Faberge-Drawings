@@ -1,4 +1,4 @@
-.mainView {
+.app__main__mainView {
   background-color: #5e5d5a;
   height: 100vh;
   display: flex;
@@ -8,12 +8,12 @@
   color: #fff;
   overflow: hidden;
 }
-.mainTitle {
+.app__main__mainTitle {
   position: absolute;
   left: 15%;
   top: 40%;
 }
-.nextSlidePage {
+.app__main__nextSlidePage {
   position: absolute;
   right: 15%;
   top: 42%;
@@ -25,10 +25,10 @@
   border: 3px solid #fff;
   outline: none;
 }
-.nextSlidePage:hover {
+.app__main__nextSlidePage:hover {
   background-color: rgba(255,255,255,0.5);
 }
-.nextSlidePageArrow {
+.app__main__nextSlidePage_nextSlidePageArrow {
   border: solid #fff;
   border-width: 0 3px 3px 0;
   display: inline-block;

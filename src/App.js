@@ -5,11 +5,12 @@ import Main from "./components/main/main";
 import Slider from "./components/slider/slider";
 
 import './App.css';
+// import media from '../../css/media.module.css';
 
 
 function App() {
     return (
-        <div className="App" onContextMenu={(e) => e.preventDefault()}>
+        <div className="app" onContextMenu={(e) => e.preventDefault()}>
             {/*header*/}
             <Switch>
                 <Route exact path='/' component={Main}/>

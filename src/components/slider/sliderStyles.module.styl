@@ -5,9 +5,8 @@ backgroundColor = rgba(0,0,0,0.2)
 backgroundColorActive = rgba(0,0,0, 0.4)
 
 
-.prevSlidePageLeft
+.app__slider__prevSlidePageLeft, .app__slider__nextSlidePageRight
   position fixed
-  left -25px
   top 45%
   color colorWhite
   width 50px
@@ -20,34 +19,22 @@ backgroundColorActive = rgba(0,0,0, 0.4)
   &:hover
     background-color backgroundColorActive
 
-.prevSlidePageArrowLeft
+.app__slider_prevSlidePageArrowLeft, .app__slider_nextSlidePageArrowRight
   border solid colorWhite
   border-width 0 3px 3px 0
   display inline-block
   padding 4px
+
+.app__slider__prevSlidePageLeft
+  left -25px
+
+.app__slider__nextSlidePageRight
+  right -23px
+
+.app__slider_prevSlidePageArrowLeft
   margin-left 22px
   transform rotate(135deg)
 
-
-.nextSlidePageRight
-  position fixed
-  right -23px
-  top 45%
-  color colorWhite
-  width 50px
-  height 50px
-  border-radius 50%
-  background-color backgroundColor
-  border 3px solid colorWhite
-  outline none
-  box-shadow boxShadowRight
-  &:hover
-    background-color backgroundColorActive
-
-.nextSlidePageArrowRight
-  border solid colorWhite
-  border-width 0 3px 3px 0
-  display inline-block
-  padding 4px
+.app__slider_nextSlidePageArrowRight
   transform rotate(-45deg)
   margin-right 25px
