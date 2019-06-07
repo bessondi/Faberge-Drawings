@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
-import './main.css';
-import './media.css';
+import styles from './main.module.css';
 import AmmonImg from '../../images/Ammon.jpg';
 
 
@@ -20,17 +19,17 @@ class Main extends Component {
                 height: 100vh;
             `;
             return (
-                <main className="mainView">
+                <main className={styles.app__main__mainView}>
                     <Background>
 
-                        <div className='mainTitle'>
-                            <h1>МУЗЕЙ <br/> ФАБЕРЖЕ</h1>
+                        <div className={styles.app__main__mainTitle}>
+                            <h1>МУЗЕЙ<br/>ФАБЕРЖЕ</h1><br/>
                             <p>ЖИВОПИСЬ</p>
                         </div>
 
                         <NavLink to='/slider'>
-                            <button className='nextSlidePage'>
-                                <div className='nextSlidePageArrow'/>
+                            <button className={styles.app__main__nextSlidePage}>
+                                <div className={styles.app__main__nextSlidePage_nextSlidePageArrow}/>
                             </button>
                         </NavLink>
 

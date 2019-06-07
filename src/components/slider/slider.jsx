@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import ImageRender from "../imageRender";
 
-import SliderData from '../imagesData/imagesData';
-import './sliderStyles.css';
+import SliderData from '../imagesData/sliderData';
+import styles from './sliderStyles.module.css';
 
 
 class Slider extends Component {
@@ -56,14 +56,14 @@ class Slider extends Component {
                        this.state.slider.index === 0
                        ?
                        <NavLink to='/'>
-                           <button className='prevSlidePageLeft'>
-                               <div className='prevSlidePageArrowLeft'/>
+                           <button className={styles.app__slider__prevSlidePageLeft}>
+                               <div className={styles.app__slider_prevSlidePageArrowLeft}/>
                            </button>
                        </NavLink>
                        :
                        <button onClick={ () => this.prevImg() }
-                               className='prevSlidePageLeft'>
-                           <div className='prevSlidePageArrowLeft'/>
+                               className={styles.app__slider__prevSlidePageLeft}>
+                           <div className={styles.app__slider_prevSlidePageArrowLeft}/>
                        </button>
                    }
 
@@ -71,14 +71,14 @@ class Slider extends Component {
                         this.state.slider.index >= 1  // для двух слайдов
                         ?
                         <NavLink to='/'>
-                            <button className='nextSlidePageRight'>
-                                <div className='nextSlidePageArrowRight'/>
+                            <button className={styles.app__slider__nextSlidePageRight}>
+                                <div className={styles.app__slider_nextSlidePageArrowRight}/>
                             </button>
                         </NavLink>
                         :
                         <button onClick={() => this.nextImg()}
-                                className='nextSlidePageRight'>
-                            <div className='nextSlidePageArrowRight'/>
+                                className={styles.app__slider__nextSlidePageRight}>
+                            <div className={styles.app__slider_nextSlidePageArrowRight}/>
                         </button>
                     }
                 </React.Fragment>

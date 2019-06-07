@@ -1,0 +1,38 @@
+.app__slider__prevSlidePageLeft,
+.app__slider__nextSlidePageRight {
+  position: fixed;
+  top: 45%;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.2);
+  border: 3px solid #fff;
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 3px 0 2px rgba(1,1,1,0.3);
+}
+.app__slider__prevSlidePageLeft:hover,
+.app__slider__nextSlidePageRight:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+.app__slider_prevSlidePageArrowLeft,
+.app__slider_nextSlidePageArrowRight {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+.app__slider__prevSlidePageLeft {
+  left: -25px;
+}
+.app__slider__nextSlidePageRight {
+  right: -23px;
+}
+.app__slider_prevSlidePageArrowLeft {
+  margin-left: 22px;
+  transform: rotate(135deg);
+}
+.app__slider_nextSlidePageArrowRight {
+  transform: rotate(-45deg);
+  margin-right: 25px;
+}

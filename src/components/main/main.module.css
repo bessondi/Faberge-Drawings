@@ -1,0 +1,38 @@
+.app__main__mainView {
+  background-color: #5e5d5a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden;
+}
+.app__main__mainTitle {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+.app__main__nextSlidePage {
+  position: absolute;
+  right: 15%;
+  top: 42%;
+  color: #fff;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #fff;
+  outline: none;
+}
+.app__main__nextSlidePage:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+.app__main__nextSlidePage_nextSlidePageArrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  margin-right: 5px;
+  transform: rotate(-45deg);
+}
