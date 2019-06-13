@@ -3,10 +3,11 @@ import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
 import styles from './main.module.css';
-import AmmonImg from '../../images/Ammon.jpg';
+import AmmonImg from '../../media/images/compressed/Ammon.jpg';
 
 
 class Main extends Component {
+
     render() {
 
         const MainView = () => {
@@ -24,7 +25,13 @@ class Main extends Component {
 
                         <div className={styles.app__main__mainTitle}>
                             <h1>МУЗЕЙ<br/>ФАБЕРЖЕ</h1><br/>
-                            <p>ЖИВОПИСЬ</p>
+                            <p>ЖИВОПИСЬ</p><br/><br/>
+
+                            <NavLink to='/eng'>
+                                <button className={styles.app__main__languageToggle}>
+                                    <h4>ENG</h4>
+                                </button>
+                            </NavLink>
                         </div>
 
                         <NavLink to='/slider'>
