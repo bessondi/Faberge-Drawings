@@ -65,7 +65,7 @@ class ImageRender extends Component {
                 padding: 20px 40px 20px 20px; 
                 font-weight: 300;
                 font-size: 1.1rem;
-                overflow: scroll;
+                overflow: auto;
             `;
             return (
                 <DescriptionArea>

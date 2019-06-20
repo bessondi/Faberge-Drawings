@@ -18,7 +18,7 @@ function App() {
     return (
 
         <div className="app"
-             // onContextMenu={ (e) => e.preventDefault() }
+             onContextMenu={ (e) => e.preventDefault() }
         >
             {/*header*/}
                 <Switch>
