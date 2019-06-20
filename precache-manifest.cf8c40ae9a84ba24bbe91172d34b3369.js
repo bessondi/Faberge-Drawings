@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4361032eb1ceda57f33165238f8b27c9",
+    "revision": "132acc5d2f4721060fd3bc6a922ea128",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "f5f66d323454e5a7c99a",
-    "url": "/Faberge-Drawings/static/css/main.24f422f1.chunk.css"
+    "revision": "375b6ff60a5d024dda03",
+    "url": "/Faberge-Drawings/static/css/main.84c663d7.chunk.css"
   },
   {
     "revision": "28c051bdd86a75d50055",
     "url": "/Faberge-Drawings/static/js/2.0b7fa5f2.chunk.js"
   },
   {
-    "revision": "f5f66d323454e5a7c99a",
-    "url": "/Faberge-Drawings/static/js/main.cd6df589.chunk.js"
+    "revision": "375b6ff60a5d024dda03",
+    "url": "/Faberge-Drawings/static/js/main.e110235e.chunk.js"
   },
   {
     "revision": "0263afbe168399bc9571",
@@ -108,11 +108,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/Renoir_16.70847fd6.jpg"
   },
   {
-    "revision": "f1a512d3c8fc63cdc303fc578f44a0f5",
-    "url": "/Faberge-Drawings/static/media/pauseBtn.f1a512d3.svg"
+    "revision": "b1b650a4520f4bcd8fbc8aa0e10e2204",
+    "url": "/Faberge-Drawings/static/media/pauseBtn.b1b650a4.svg"
   },
   {
-    "revision": "e2d5ee6e7a23333b0ba38817ce6c50be",
-    "url": "/Faberge-Drawings/static/media/playBtn.e2d5ee6e.svg"
+    "revision": "a60ad10af2df5825bc01d00a6b9094ad",
+    "url": "/Faberge-Drawings/static/media/playBtn.a60ad10a.svg"
   }
 ]);

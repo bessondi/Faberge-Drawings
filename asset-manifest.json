@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Faberge-Drawings/static/css/main.24f422f1.chunk.css",
-    "main.js": "/Faberge-Drawings/static/js/main.cd6df589.chunk.js",
-    "main.js.map": "/Faberge-Drawings/static/js/main.cd6df589.chunk.js.map",
+    "main.css": "/Faberge-Drawings/static/css/main.84c663d7.chunk.css",
+    "main.js": "/Faberge-Drawings/static/js/main.e110235e.chunk.js",
+    "main.js.map": "/Faberge-Drawings/static/js/main.e110235e.chunk.js.map",
     "runtime~main.js": "/Faberge-Drawings/static/js/runtime~main.8a2e87dd.js",
     "runtime~main.js.map": "/Faberge-Drawings/static/js/runtime~main.8a2e87dd.js.map",
     "static/js/2.0b7fa5f2.chunk.js": "/Faberge-Drawings/static/js/2.0b7fa5f2.chunk.js",
     "static/js/2.0b7fa5f2.chunk.js.map": "/Faberge-Drawings/static/js/2.0b7fa5f2.chunk.js.map",
     "index.html": "/Faberge-Drawings/index.html",
-    "precache-manifest.e8bb10faea1b8a4e54be905ff858cb85.js": "/Faberge-Drawings/precache-manifest.e8bb10faea1b8a4e54be905ff858cb85.js",
+    "precache-manifest.cf8c40ae9a84ba24bbe91172d34b3369.js": "/Faberge-Drawings/precache-manifest.cf8c40ae9a84ba24bbe91172d34b3369.js",
     "service-worker.js": "/Faberge-Drawings/service-worker.js",
-    "static/css/main.24f422f1.chunk.css.map": "/Faberge-Drawings/static/css/main.24f422f1.chunk.css.map",
+    "static/css/main.84c663d7.chunk.css.map": "/Faberge-Drawings/static/css/main.84c663d7.chunk.css.map",
     "static/media/Ammon.jpg": "/Faberge-Drawings/static/media/Ammon.61bff468.jpg",
     "static/media/CityNoise.mp3": "/Faberge-Drawings/static/media/CityNoise.55e17987.mp3",
     "static/media/App.css": "/Faberge-Drawings/static/media/PFAgoraSansPro-Thin.9fe65381.ttf",
@@ -31,6 +31,6 @@
     "static/media/Renoir_14.jpg": "/Faberge-Drawings/static/media/Renoir_14.21f1972d.jpg",
     "static/media/Renoir_15.jpg": "/Faberge-Drawings/static/media/Renoir_15.7888c59c.jpg",
     "static/media/Renoir_16.jpg": "/Faberge-Drawings/static/media/Renoir_16.70847fd6.jpg",
-    "static/media/player.module.css": "/Faberge-Drawings/static/media/playBtn.e2d5ee6e.svg"
+    "static/media/player.module.css": "/Faberge-Drawings/static/media/playBtn.a60ad10a.svg"
   }
 }
