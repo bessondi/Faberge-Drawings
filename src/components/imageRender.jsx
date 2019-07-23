@@ -6,6 +6,7 @@ import Player from "./player/player";
 
 class ImageRender extends Component {
 
+    // скролл по картинке
     componentDidUpdate() {
         const {slide} = this.props;
         const {position} = slide.pictureData;
@@ -19,9 +20,20 @@ class ImageRender extends Component {
     }
 
     render() {
-        const {slide} = this.props;
-        const {parts, partSize, fullSize, cropSize, textArea, soundtrack} = slide.pictureData;
+        const { slide } = this.props;
+        const { parts, partSize, fullSize, cropSize, textArea, soundtrack } = slide.pictureData;
+        // const count = this.props.slide.index;
+        // console.log(count);
 
+
+        const ViewportGradient = styled.div`
+            background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 25%;
+            width: 70%;
+        `;
         const PictureTitle = () => {
             const PictureTitle = styled.div`
                 position: fixed;
@@ -29,10 +41,10 @@ class ImageRender extends Component {
                 flex-direction: column;
                 justify-content: flex-start;
                 left: 40px;
-                bottom: 50px;
+                bottom: 30px;
                 background: #fff;
                 width: 300px;
-                height: 80px;
+                height: 100px;
                 color: #fff;
                 background: transparent;
                 font-size: 0.7rem;
@@ -47,6 +59,7 @@ class ImageRender extends Component {
                 </PictureTitle>
             );
         };
+
         const PictureDescription = () => {
             const DescriptionArea = styled.div`
                 display: flex;
@@ -55,48 +68,60 @@ class ImageRender extends Component {
                 position: fixed;
                 right: 0;
                 top: 0;
-                background: #fff;
                 width: 30%;
                 height: 100vh;
+                background: #fff;
+                // background: #000;
             `;
             const TextArea = styled.p`
                 display: flex;
                 align-items: center;
-                padding: 20px 40px 20px 20px; 
+                padding: 20px 50px 20px 40px; 
                 font-weight: 300;
                 font-size: 1.1rem;
+                color: #000;
+                // color: #fff;
+                text-align: justify;
+                line-height: 1.6rem;
             `;
+
             return (
                 <DescriptionArea>
+
                     <TextArea>{textArea.info}</TextArea>
 
-                    { soundtrack ?
-                    <Player soundtrack={soundtrack}/>
-                        : null }
-
-                    {/*<PlayBtn onClick={playSound}/>*/}
-
-                    {/*{ soundtrack ?*/}
-                        {/*<Soundtrack*/}
-                            {/*controls controlsList="nodownload"*/}
-                            {/*// preload='none'*/}
-                            {/*src={soundtrack}>*/}
-                        {/*</Soundtrack>*/}
-                        {/*: null }*/}
+                    {/*{*/}
+                        {/*soundtrack ?*/}
+                        {/*<Player soundtrack={soundtrack.sound} soundtrackTitle={soundtrack.title}/>*/}
+                        {/*:*/}
+                        {/*null*/}
+                    {/*}*/}
 
                 </DescriptionArea>
             );
         };
 
+        const Ambient = () => {
+            const PlayBtn = styled.div`
+                position: fixed;
+                right: 33%;
+                bottom: 50px;
+            `;
+            return (
+                <PlayBtn>
+                    {
+                        soundtrack ?
+                            <Player soundtrack={soundtrack.sound} />
+                            :
+                            null
+                    }
+                </PlayBtn>
+            )
+        };
+
+
         // вывести изображение целиком или детализировано
-        const ViewportGradient = styled.div`
-            background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            height: 25%;
-            width: 70%;
-        `;
+
         const FullImage = () => {
             const Background = styled.div`
                 background-image: url(${cropSize});
@@ -112,11 +137,13 @@ class ImageRender extends Component {
                     <ViewportGradient/>
                     <Background/>
                     <PictureTitle/>
+                    <Ambient/>
 
                     <PictureDescription/>
                 </React.Fragment>
             );
         };
+
         const DetailedView = () => {
             const MosaicField = styled.div`
             padding-right: 30%;
@@ -125,7 +152,7 @@ class ImageRender extends Component {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            background-color: gray;
+            background-color: #000;
             `;
             const MosaicParts = parts.map((image, id) => {
                 const Mosaic = styled.div`
@@ -148,15 +175,17 @@ class ImageRender extends Component {
                     {MosaicParts}
                     <ViewportGradient/>
                     <PictureTitle/>
+                    <Ambient/>
 
                     <PictureDescription/>
                 </MosaicField>
             );
         };
+
         const FullOrDetailed = () => {
             return (
                 <React.Fragment>
-                    {cropSize ? <FullImage/> : <DetailedView/>}
+                    { cropSize ? <FullImage/> : <DetailedView/> }
                 </React.Fragment>
             );
         };

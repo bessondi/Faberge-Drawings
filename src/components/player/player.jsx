@@ -21,24 +21,28 @@ class Player extends Component {
     }
 
     render() {
-
+        // const soundTitle = this.props.soundtrackTitle;
         const src = this.props.soundtrack;
 
         return (
-            <div className={styles.wrapper}>
-                <audio ref={(audio) => { this.audio = audio }}
-                       src={src}/>
+            <React.Fragment>
+                <audio ref={ (audio) => { this.audio = audio } }
+                       src={ src } />
 
                 {this.state.isPlay === false ?
-                    <input type="button"
-                           onClick={this.handlePlay.bind(this)}
-                           className={styles.playBtn}/>
+                    <button className={ styles.audioField }
+                            onClick={ this.handlePlay.bind(this) } >
+                        <input type="button" className={ `${styles.playBtn} ${styles.icon}` }/>
+                        {/*<p className={ styles.soundTitle }>{ soundTitle }</p>*/}
+                    </button>
                     :
-                    <input type="button"
-                           onClick={this.handleStop.bind(this)}
-                           className={styles.pauseBtn}/>
+                    <button className={ styles.audioField }
+                            onClick={ this.handleStop.bind(this) } >
+                        <input type="button" className={ `${styles.pauseBtn} ${styles.icon}` }/>
+                        {/*<p className={ styles.soundTitle }>{ soundTitle }</p>*/}
+                    </button>
                 }
-            </div>
+            </React.Fragment>
         )
     }
 }

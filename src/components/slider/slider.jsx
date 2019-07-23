@@ -11,6 +11,7 @@ class Slider extends Component {
         super(props)
         this.state = {
             slider: SliderData.slides[0],
+            // audio: AudioData.s[0]
         }
     }
 
@@ -32,7 +33,7 @@ class Slider extends Component {
     nextImg = () => {
         let newIndex = this.state.slider.index + 1;
 
-        if (newIndex < 2) { // последний слайд
+        if ( newIndex < 7 ) { // последний слайд - на 1 >
             this.setState({
                 slider: SliderData.slides[newIndex],
             })
@@ -47,7 +48,8 @@ class Slider extends Component {
 
     render() {
         const {slider} = this.state;
-        console.log(this.state.slider.index);
+
+        // console.log(this.state.slider.index);
 
         const NavButtons = () => {
             return(
@@ -68,7 +70,8 @@ class Slider extends Component {
                    }
 
                     {
-                        this.state.slider.index >= 1  // для двух слайдов
+                        // this.state.slider.index >= 1  // для двух слайдов
+                        this.state.slider.index >= 6  // для n слайдов
                         ?
                         <NavLink to='/'>
                             <button className={styles.app__slider__nextSlidePageRight}>
@@ -76,7 +79,7 @@ class Slider extends Component {
                             </button>
                         </NavLink>
                         :
-                        <button onClick={() => this.nextImg()}
+                        <button onClick={ () => this.nextImg() }
                                 className={styles.app__slider__nextSlidePageRight}>
                             <div className={styles.app__slider_nextSlidePageArrowRight}/>
                         </button>
@@ -88,8 +91,10 @@ class Slider extends Component {
 
         return (
             <React.Fragment>
+
                 <ImageRender slide={slider} />
                 <NavButtons/>
+
             </React.Fragment>
         );
     }

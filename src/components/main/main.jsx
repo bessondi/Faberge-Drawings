@@ -24,8 +24,10 @@ class Main extends Component {
                     <Background>
 
                         <div className={styles.app__main__mainTitle}>
-                            <h1>МУЗЕЙ<br/>ФАБЕРЖЕ</h1><br/>
-                            <p>ЖИВОПИСЬ</p><br/><br/>
+                            <h1>МУЗЕЙ<br/>ФАБЕРЖЕ</h1>
+                            <br/>
+                            <p>ЖИВОПИСЬ</p>
+                            <br/><br/>
 
                             <NavLink to='/eng'>
                                 <button className={styles.app__main__languageToggle}>
