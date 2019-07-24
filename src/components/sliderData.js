@@ -55,9 +55,44 @@ import brullov13 from "../media/images/mosaic/Brullov/Brullov_13.jpg";
 import brullov14 from "../media/images/mosaic/Brullov/Brullov_14.jpg";
 import brullov15 from "../media/images/mosaic/Brullov/Brullov_15.jpg";
 import brullov16 from "../media/images/mosaic/Brullov/Brullov_16.jpg";
-// import brullovSounds from '../media/sounds/Sounds.mp3';
 
 
+import cropSizeMakovsky from "../media/images/compressed/Makovsky.jpg";
+import makovsky1 from "../media/images/mosaic/Makovsky/Makovsky_01.jpg";
+import makovsky2 from "../media/images/mosaic/Makovsky/Makovsky_02.jpg";
+import makovsky3 from "../media/images/mosaic/Makovsky/Makovsky_03.jpg";
+import makovsky4 from "../media/images/mosaic/Makovsky/Makovsky_04.jpg";
+import makovsky5 from "../media/images/mosaic/Makovsky/Makovsky_05.jpg";
+import makovsky6 from "../media/images/mosaic/Makovsky/Makovsky_06.jpg";
+import makovsky7 from "../media/images/mosaic/Makovsky/Makovsky_07.jpg";
+import makovsky8 from "../media/images/mosaic/Makovsky/Makovsky_08.jpg";
+import makovsky9 from "../media/images/mosaic/Makovsky/Makovsky_09.jpg";
+import makovsky10 from "../media/images/mosaic/Makovsky/Makovsky_10.jpg";
+import makovsky11 from "../media/images/mosaic/Makovsky/Makovsky_11.jpg";
+import makovsky12 from "../media/images/mosaic/Makovsky/Makovsky_12.jpg";
+import makovsky13 from "../media/images/mosaic/Makovsky/Makovsky_13.jpg";
+import makovsky14 from "../media/images/mosaic/Makovsky/Makovsky_14.jpg";
+import makovsky15 from "../media/images/mosaic/Makovsky/Makovsky_15.jpg";
+import makovsky16 from "../media/images/mosaic/Makovsky/Makovsky_16.jpg";
+
+
+import cropSizeSemiradskyChoice from "../media/images/compressed/Semiradskiy2.jpg";
+import semiradskyHard1 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_01.jpg";
+import semiradskyHard2 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_02.jpg";
+import semiradskyHard3 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_03.jpg";
+import semiradskyHard4 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_04.jpg";
+import semiradskyHard5 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_05.jpg";
+import semiradskyHard6 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_06.jpg";
+import semiradskyHard7 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_07.jpg";
+import semiradskyHard8 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_08.jpg";
+import semiradskyHard9 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_09.jpg";
+import semiradskyHard10 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_10.jpg";
+import semiradskyHard11 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_11.jpg";
+import semiradskyHard12 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_12.jpg";
+import semiradskyHard13 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_13.jpg";
+import semiradskyHard14 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_14.jpg";
+import semiradskyHard15 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_15.jpg";
+import semiradskyHard16 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_16.jpg";
 
 
 
@@ -375,10 +410,6 @@ const SliderData = {
             "index": 5,
             'pictureData': {
                 'cropSize': cropSizeBrullov,
-                // 'soundtrack': {
-                    // 'sound': brullovSounds,
-                    // 'title': 'Шум набережной'
-                // },
                 'textArea': {
                     'author': 'Карл Брюллов (1799–1852)',
                     'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
@@ -466,13 +497,223 @@ const SliderData = {
                     'height': 2880
                 },
                 'position': {
-                    'top': 1100,
+                    'top': 1200,
                     'left': 1600,
                 },
                 'textArea': {
                     'author': 'Карл Брюллов (1799–1852)',
                     'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
                     'year': '1850',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Описание..'
+                }
+            }
+        },
+
+
+        {
+            "index": 7,
+            'pictureData': {
+                'cropSize': cropSizeMakovsky,
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Текст о картине..'
+                }
+            }
+        },
+        {
+            "index": 8,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'fullSize': {
+                    'width': 5000,
+                    'height': 3100
+                },
+                'position': {
+                    'top': 1100,
+                    'left': 1300,
+                },
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Описание..'
+                }
+            }
+        },
+
+
+        {
+            "index": 9,
+            'pictureData': {
+                'cropSize': cropSizeSemiradskyChoice,
+                'textArea': {
+                    'author': 'Генрих Семирадский (1843–1902)',
+                    'pictureTitle': 'Трудный выбор',
+                    'year': '1887',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Текст о картине..'
+                }
+            }
+        },
+        {
+            "index": 10,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': semiradskyHard1
+                    },
+                    {
+                        'index': 1,
+                        'picture': semiradskyHard2
+                    },
+                    {
+                        'index': 2,
+                        'picture': semiradskyHard3
+                    },
+                    {
+                        'index': 3,
+                        'picture': semiradskyHard4
+                    },
+                    {
+                        'index': 4,
+                        'picture': semiradskyHard5
+                    },
+                    {
+                        'index': 5,
+                        'picture': semiradskyHard6
+                    },
+                    {
+                        'index': 6,
+                        'picture': semiradskyHard7
+                    },
+                    {
+                        'index': 7,
+                        'picture': semiradskyHard8
+                    },
+                    {
+                        'index': 8,
+                        'picture': semiradskyHard9
+                    },
+                    {
+                        'index': 9,
+                        'picture': semiradskyHard10
+                    },
+                    {
+                        'index': 10,
+                        'picture': semiradskyHard11
+                    },
+                    {
+                        'index': 11,
+                        'picture': semiradskyHard12
+                    },
+                    {
+                        'index': 12,
+                        'picture': semiradskyHard13
+                    },
+                    {
+                        'index': 13,
+                        'picture': semiradskyHard14
+                    },
+                    {
+                        'index': 14,
+                        'picture': semiradskyHard15
+                    },
+                    {
+                        'index': 15,
+                        'picture': semiradskyHard16
+                    }
+                ],
+                'partSize': {
+                    'width': 900,
+                    'height': 575
+                },
+                'fullSize': {
+                    'width': 3600,
+                    'height': 2300
+                },
+                'position': {
+                    'top': 800,
+                    'left': 1900,
+                },
+                'textArea': {
+                    'author': 'Генрих Семирадский (1843–1902)',
+                    'pictureTitle': 'Трудный выбор',
+                    'year': '1887',
                     'typeOfCanvas': 'Холст, масло',
                     'info': 'Описание..'
                 }

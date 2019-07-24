@@ -22,8 +22,8 @@ class ImageRender extends Component {
     render() {
         const { slide } = this.props;
         const { parts, partSize, fullSize, cropSize, textArea, soundtrack } = slide.pictureData;
-        // const count = this.props.slide.index;
-        // console.log(count);
+        const count = this.props.slide.index;
+        console.log(count);
 
 
         const ViewportGradient = styled.div`
@@ -31,7 +31,7 @@ class ImageRender extends Component {
             position: fixed;
             bottom: 0;
             left: 0;
-            height: 25%;
+            height: 30%;
             width: 70%;
         `;
         const PictureTitle = () => {
@@ -39,7 +39,7 @@ class ImageRender extends Component {
                 position: fixed;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
+                justify-content: flex-end;
                 left: 40px;
                 bottom: 30px;
                 background: #fff;
@@ -48,7 +48,6 @@ class ImageRender extends Component {
                 color: #fff;
                 background: transparent;
                 font-size: 0.7rem;
-                // border: 1px solid white;
             `;
             return (
                 <PictureTitle>
@@ -70,7 +69,7 @@ class ImageRender extends Component {
                 top: 0;
                 width: 30%;
                 height: 100vh;
-                background: #fff;
+                background: #f5f5f5;
                 // background: #000;
             `;
             const TextArea = styled.p`
@@ -183,9 +182,31 @@ class ImageRender extends Component {
         };
 
         const FullOrDetailed = () => {
+            // const RepeatScreen = () => {
+            //     const RepeatArea = styled.div`
+            //         position: fixed;
+            //         right: 0;
+            //         top: 0;
+            //         width: 100wh;
+            //         height: 100vh;
+            //         background: #fff;
+            //     `;
+            //     return(
+            //         <div>
+            //             <RepeatArea/>
+            //             {/*{*/}
+            //             {/*count > 10  // для n слайдов файла дата*/}
+            //             {/*? <RepeatArea/>*/}
+            //             {/*: null*/}
+            //             {/*}*/}
+            //         </div>
+            //     )
+            // };
+
             return (
                 <React.Fragment>
                     { cropSize ? <FullImage/> : <DetailedView/> }
+                    {/*{ count > 10 ? <RepeatScreen/> : null }*/}
                 </React.Fragment>
             );
         };
