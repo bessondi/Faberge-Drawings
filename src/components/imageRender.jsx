@@ -76,7 +76,7 @@ class ImageRender extends Component {
                 display: flex;
                 align-items: center;
                 padding: 20px 50px 20px 40px; 
-                font-weight: 300;
+                font-weight: 500;
                 font-size: 1.1rem;
                 color: #000;
                 // color: #fff;
@@ -100,7 +100,7 @@ class ImageRender extends Component {
             );
         };
 
-        const Ambient = () => {
+        const AmbientSounds = () => {
             const PlayBtn = styled.div`
                 position: fixed;
                 right: 33%;
@@ -136,7 +136,7 @@ class ImageRender extends Component {
                     <ViewportGradient/>
                     <Background/>
                     <PictureTitle/>
-                    <Ambient/>
+                    <AmbientSounds/>
 
                     <PictureDescription/>
                 </React.Fragment>
@@ -174,7 +174,7 @@ class ImageRender extends Component {
                     {MosaicParts}
                     <ViewportGradient/>
                     <PictureTitle/>
-                    <Ambient/>
+                    <AmbientSounds/>
 
                     <PictureDescription/>
                 </MosaicField>

@@ -95,6 +95,25 @@ import semiradskyHard15 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_1
 import semiradskyHard16 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_16.jpg";
 
 
+import cropSizeRopewalker from "../media/images/compressed/Semiradskiy.jpg";
+import ropewalker1 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_01.jpg";
+import ropewalker2 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_02.jpg";
+import ropewalker3 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_03.jpg";
+import ropewalker4 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_04.jpg";
+import ropewalker5 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_05.jpg";
+import ropewalker6 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_06.jpg";
+import ropewalker7 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_07.jpg";
+import ropewalker8 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_08.jpg";
+import ropewalker9 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_09.jpg";
+import ropewalker10 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_10.jpg";
+import ropewalker11 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_11.jpg";
+import ropewalker12 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_12.jpg";
+import ropewalker13 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_13.jpg";
+import ropewalker14 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_14.jpg";
+import ropewalker15 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_15.jpg";
+import ropewalker16 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_16.jpg";
+
+
 
 const SliderData = {
     'slides': [
@@ -705,6 +724,111 @@ const SliderData = {
                 'fullSize': {
                     'width': 3600,
                     'height': 2300
+                },
+                'position': {
+                    'top': 800,
+                    'left': 1900,
+                },
+                'textArea': {
+                    'author': 'Генрих Семирадский (1843–1902)',
+                    'pictureTitle': 'Трудный выбор',
+                    'year': '1887',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Описание..'
+                }
+            }
+        },
+
+
+        {
+            "index": 11,
+            'pictureData': {
+                'cropSize': cropSizeRopewalker,
+                'textArea': {
+                    'author': 'Генрих Семирадский (1843–1902)',
+                    'pictureTitle': 'Трудный выбор',
+                    'year': '1887',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Текст о картине..'
+                }
+            }
+        },
+        {
+            "index": 12,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': ropewalker1
+                    },
+                    {
+                        'index': 1,
+                        'picture': ropewalker2
+                    },
+                    {
+                        'index': 2,
+                        'picture': ropewalker3
+                    },
+                    {
+                        'index': 3,
+                        'picture': ropewalker4
+                    },
+                    {
+                        'index': 4,
+                        'picture': ropewalker5
+                    },
+                    {
+                        'index': 5,
+                        'picture': ropewalker6
+                    },
+                    {
+                        'index': 6,
+                        'picture': ropewalker7
+                    },
+                    {
+                        'index': 7,
+                        'picture': ropewalker8
+                    },
+                    {
+                        'index': 8,
+                        'picture': ropewalker9
+                    },
+                    {
+                        'index': 9,
+                        'picture': ropewalker10
+                    },
+                    {
+                        'index': 10,
+                        'picture': ropewalker11
+                    },
+                    {
+                        'index': 11,
+                        'picture': ropewalker12
+                    },
+                    {
+                        'index': 12,
+                        'picture': ropewalker13
+                    },
+                    {
+                        'index': 13,
+                        'picture': ropewalker14
+                    },
+                    {
+                        'index': 14,
+                        'picture': ropewalker15
+                    },
+                    {
+                        'index': 15,
+                        'picture': ropewalker16
+                    }
+                ],
+                'partSize': {
+                    'width': 950,
+                    'height': 500
+                },
+                'fullSize': {
+                    'width': 3800,
+                    'height': 2000
                 },
                 'position': {
                     'top': 800,

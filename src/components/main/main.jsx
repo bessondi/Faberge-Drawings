@@ -12,7 +12,7 @@ class Main extends Component {
 
         const MainView = () => {
             const Background = styled.div`
-                background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(${AmmonImg});
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${AmmonImg});
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -24,10 +24,9 @@ class Main extends Component {
                     <Background>
 
                         <div className={styles.app__main__mainTitle}>
-                            <h1>МУЗЕЙ<br/>ФАБЕРЖЕ</h1>
-                            <br/>
+                            <p>МУЗЕЙ</p>
+                            <p>ФАБЕРЖЕ</p>
                             <p>ЖИВОПИСЬ</p>
-                            <br/><br/>
 
                             <NavLink to='/eng'>
                                 <button className={styles.app__main__languageToggle}>

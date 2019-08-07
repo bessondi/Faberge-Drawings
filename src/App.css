@@ -1,18 +1,20 @@
 @font-face {
-    font-family: "PF Agora Sans Pro", sans-serif;
-    src: url(./fonts/PFAgoraSansPro-Medium.ttf) format('truetype');
+    font-family: "PF Agora Sans Pro";
+    src: url('./fonts/PFAgoraSansPro-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
 }
+
 @font-face {
-    font-family: "PF Agora Sans Pro", sans-serif;
-    src: url(./fonts/PFAgoraSansPro-Light.ttf) format('truetype');
+    font-family: "PF Agora Sans Pro";
+    src: url('./fonts/PFAgoraSansPro-Light.ttf') format('truetype');
     font-style: normal;
     font-weight: 500;
 }
+
 @font-face {
-    font-family: "PF Agora Sans Pro", sans-serif;
-    src: url(./fonts/PFAgoraSansPro-Thin.ttf) format('truetype');
+    font-family: "PF Agora Sans Pro";
+    src: url('./fonts/PFAgoraSansPro-Thin.ttf') format('truetype');
     font-style: normal;
     font-weight: 300;
 }
@@ -20,7 +22,7 @@
 .app {
     font-family: "PF Agora Sans Pro", "Helvetica Neue", sans-serif;
     font-size: calc(0.5rem + 2vmin);
-    font-weight: 300;
+    /*font-weight: 700;*/
     /*-webkit-font-smoothing: antialiased;*/
     /*-moz-osx-font-smoothing: grayscale;*/
 }

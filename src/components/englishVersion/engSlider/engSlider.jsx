@@ -70,7 +70,7 @@ class EngSlider extends Component {
                     {
                         this.state.slider.index >= 1  // для двух слайдов
                         ?
-                        <NavLink to='/eng'>
+                        <NavLink to='/lastSlideEng'>
                             <button className={styles.app__slider__nextSlidePageRight}>
                                 <div className={styles.app__slider_nextSlidePageArrowRight}/>
                             </button>

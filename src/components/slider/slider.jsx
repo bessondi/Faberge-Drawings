@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 
+
 import ImageRender from "../imageRender";
 
 import SliderData from '../sliderData';
@@ -33,7 +34,7 @@ class Slider extends Component {
     nextImg = () => {
         let newIndex = this.state.slider.index + 1;
 
-        if ( newIndex < 11 ) { // последний слайд - на 1 >
+        if ( newIndex < 13 ) { // последний слайд - на 1 >
             this.setState({
                 slider: SliderData.slides[newIndex],
             })
@@ -71,9 +72,9 @@ class Slider extends Component {
 
                     {
                         // this.state.slider.index >= 1  // для двух слайдов
-                        this.state.slider.index >= 10  // для n слайдов файла дата
+                        this.state.slider.index >= 12  // для n слайдов файла дата
                         ?
-                        <NavLink to='/'>
+                        <NavLink to='/lastSlide'>
                             <button className={styles.app__slider__nextSlidePageRight}>
                                 <div className={styles.app__slider_nextSlidePageArrowRight}/>
                             </button>
