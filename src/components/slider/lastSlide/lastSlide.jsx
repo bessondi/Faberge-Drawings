@@ -5,12 +5,20 @@ import styled from 'styled-components';
 import styles from './lastSlideStyles.module.css';
 import img from '../../../media/images/compressed/Ammon.jpg';
 import repeatBtn from '../../../media/icons/repeatBtn.svg';
+import {LastSlideData} from "../sliderData";
 
 
 
 class LastSlide extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            sections: LastSlideData.sections[0]
+        }
+    }
 
     render() {
+        const {sections} = this.state;
 
         // const LastSlide = () => {
 
@@ -91,7 +99,7 @@ class LastSlide extends Component {
                                     <RepeatArrow/>
                                 </RepeatBtn>
                                 <RepeatText>
-                                    Посмотреть еще раз
+                                    {sections.repeat}
                                 </RepeatText>
                             </Repeat>
                         </NavLink>
@@ -99,7 +107,7 @@ class LastSlide extends Component {
                         <NavLink to='/'>
                             <Return>
                                 <ReturnText>
-                                    Вернуться в начало
+                                    {sections.return}
                                 </ReturnText>
                             </Return>
                         </NavLink>
@@ -134,9 +142,9 @@ class LastSlide extends Component {
                 return (
                     <DescriptionArea>
                         <TextArea>
-                                Материалы подготовлены сотрудниками Музея Фаберже:
-                                <br/>
-                                <b>Гранкина А., Татарова А., ... Бессонов Д.</b>
+                            {sections.info}
+                            <br/><br/>
+                            {sections.names}
                         </TextArea>
                     </DescriptionArea>
                 );

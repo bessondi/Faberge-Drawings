@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
-import styles from '../../main/main.module.css';
-import AmmonImg from '../../../media/images/compressed/Ammon.jpg';
+import styles from './main.module.css';
+import AmmonImg from '../../media/images/compressed/Ammon.jpg';
 
 
 class EngMain extends Component {

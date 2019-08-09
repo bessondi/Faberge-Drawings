@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
 import Player from "./player/player";
-import img from '../media/images/Aivazovsky.jpg'
+import img from '../../media/images/Aivazovsky.jpg'
 
 
 class ImageRender extends Component {

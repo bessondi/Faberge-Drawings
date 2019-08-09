@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 
 
-import ImageRender from "../imageRender";
+import ImageRender from "./imageRender";
 
-import SliderData from '../sliderData';
+import {SliderData} from './sliderData';
 import styles from './sliderStyles.module.css';
 
 

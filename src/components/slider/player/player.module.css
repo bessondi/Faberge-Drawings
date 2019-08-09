@@ -22,11 +22,11 @@
 }
 
 .playBtn {
-    background: url("../../media/icons/playBtn.svg") no-repeat center;
+    background: url("../../../media/icons/playBtn.svg") no-repeat center;
 }
 
 .pauseBtn {
-    background: url("../../media/icons/pauseBtn.svg") no-repeat center;
+    background: url("../../../media/icons/pauseBtn.svg") no-repeat center;
 }
 
 .soundTitle {

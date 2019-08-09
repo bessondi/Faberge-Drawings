@@ -1,18 +1,26 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
-import styles from './lastSlideEngStyles.module.css';
-import img from '../../../../media/images/compressed/Ammon.jpg';
-import repeatBtn from '../../../../media/icons/repeatBtn.svg';
+import styles from './lastSlideStyles.module.css';
+import img from '../../../media/images/compressed/Ammon.jpg';
+import repeatBtn from '../../../media/icons/repeatBtn.svg';
+import {LastSlideDataEng} from "../sliderData";
 
 
 
-// class LastSlide extends Component {
-//
-//     render() {
+class LastSlideEng extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            sections: LastSlideDataEng.sections[0]
+        }
+    }
 
-        const LastSlideEng = () => {
+    render() {
+        const {sections} = this.state;
+
+        // const LastSlideEng = () => {
 
             const Background = () => {
                 const BlackField = styled.div`
@@ -91,7 +99,7 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
                                     <RepeatArrow/>
                                 </RepeatBtn>
                                 <RepeatText>
-                                    View drawings again
+                                    {sections.repeat}
                                 </RepeatText>
                             </Repeat>
                         </NavLink>
@@ -99,7 +107,7 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
                         <NavLink to='/eng'>
                             <Return>
                                 <ReturnText>
-                                    Back to the main page
+                                    {sections.return}
                                 </ReturnText>
                             </Return>
                         </NavLink>
@@ -134,26 +142,29 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
                 return (
                     <DescriptionArea>
                         <TextArea>
-                                Materials prepared by the Faberge Museum:
-                                <br/>
-                                <b>Grankina A., Tatarova A., ... Bessonov D.</b>
+                            {sections.info}
+                            <br/><br/>
+                            {sections.names}
                         </TextArea>
                     </DescriptionArea>
                 );
             };
 
-            return (
-                <React.Fragment>
-                    <Background/>
-                    <PictureDescription/>
-                </React.Fragment>
-            );
-        };
+        //     return (
+        //         <React.Fragment>
+        //             <Background/>
+        //             <PictureDescription/>
+        //         </React.Fragment>
+        //     );
+        // };
 
-//         return (
-//             <MainView/>
-//         )
-//     }
-// }
+        return (
+            <React.Fragment>
+                <Background/>
+                <PictureDescription/>
+            </React.Fragment>
+        )
+    }
+}
 
 export default LastSlideEng;

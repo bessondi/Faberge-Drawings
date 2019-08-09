@@ -1,121 +1,120 @@
-import cropSizeRenoir from "../media/images/compressed/Renoir.jpg";
-import renoir1 from "../media/images/mosaic/Renoir/Renoir_01.jpg";
-import renoir2 from "../media/images/mosaic/Renoir/Renoir_02.jpg";
-import renoir3 from "../media/images/mosaic/Renoir/Renoir_03.jpg";
-import renoir4 from "../media/images/mosaic/Renoir/Renoir_04.jpg";
-import renoir5 from "../media/images/mosaic/Renoir/Renoir_05.jpg";
-import renoir6 from "../media/images/mosaic/Renoir/Renoir_06.jpg";
-import renoir7 from "../media/images/mosaic/Renoir/Renoir_07.jpg";
-import renoir8 from "../media/images/mosaic/Renoir/Renoir_08.jpg";
-import renoir9 from "../media/images/mosaic/Renoir/Renoir_09.jpg";
-import renoir10 from "../media/images/mosaic/Renoir/Renoir_10.jpg";
-import renoir11 from "../media/images/mosaic/Renoir/Renoir_11.jpg";
-import renoir12 from "../media/images/mosaic/Renoir/Renoir_12.jpg";
-import renoir13 from "../media/images/mosaic/Renoir/Renoir_13.jpg";
-import renoir14 from "../media/images/mosaic/Renoir/Renoir_14.jpg";
-import renoir15 from "../media/images/mosaic/Renoir/Renoir_15.jpg";
-import renoir16 from "../media/images/mosaic/Renoir/Renoir_16.jpg";
-import renoirSound from '../media/sounds/CityNoise.mp3';
+import cropSizeRenoir from "../../media/images/compressed/Renoir.jpg";
+import renoir1 from "../../media/images/mosaic/Renoir/Renoir_01.jpg";
+import renoir2 from "../../media/images/mosaic/Renoir/Renoir_02.jpg";
+import renoir3 from "../../media/images/mosaic/Renoir/Renoir_03.jpg";
+import renoir4 from "../../media/images/mosaic/Renoir/Renoir_04.jpg";
+import renoir5 from "../../media/images/mosaic/Renoir/Renoir_05.jpg";
+import renoir6 from "../../media/images/mosaic/Renoir/Renoir_06.jpg";
+import renoir7 from "../../media/images/mosaic/Renoir/Renoir_07.jpg";
+import renoir8 from "../../media/images/mosaic/Renoir/Renoir_08.jpg";
+import renoir9 from "../../media/images/mosaic/Renoir/Renoir_09.jpg";
+import renoir10 from "../../media/images/mosaic/Renoir/Renoir_10.jpg";
+import renoir11 from "../../media/images/mosaic/Renoir/Renoir_11.jpg";
+import renoir12 from "../../media/images/mosaic/Renoir/Renoir_12.jpg";
+import renoir13 from "../../media/images/mosaic/Renoir/Renoir_13.jpg";
+import renoir14 from "../../media/images/mosaic/Renoir/Renoir_14.jpg";
+import renoir15 from "../../media/images/mosaic/Renoir/Renoir_15.jpg";
+import renoir16 from "../../media/images/mosaic/Renoir/Renoir_16.jpg";
+import renoirSound from '../../media/sounds/CityNoise.mp3';
 
 
-import cropSizeAmmon from "../media/images/compressed/Ammon.jpg";
-import ammon1 from "../media/images/mosaic/Ammon/Ammon_01.jpg";
-import ammon2 from "../media/images/mosaic/Ammon/Ammon_02.jpg";
-import ammon3 from "../media/images/mosaic/Ammon/Ammon_03.jpg";
-import ammon4 from "../media/images/mosaic/Ammon/Ammon_04.jpg";
-import ammon5 from "../media/images/mosaic/Ammon/Ammon_05.jpg";
-import ammon6 from "../media/images/mosaic/Ammon/Ammon_06.jpg";
-import ammon7 from "../media/images/mosaic/Ammon/Ammon_07.jpg";
-import ammon8 from "../media/images/mosaic/Ammon/Ammon_08.jpg";
-import ammon9 from "../media/images/mosaic/Ammon/Ammon_09.jpg";
-import ammon10 from "../media/images/mosaic/Ammon/Ammon_10.jpg";
-import ammon11 from "../media/images/mosaic/Ammon/Ammon_11.jpg";
-import ammon12 from "../media/images/mosaic/Ammon/Ammon_12.jpg";
-import ammon13 from "../media/images/mosaic/Ammon/Ammon_13.jpg";
-import ammon14 from "../media/images/mosaic/Ammon/Ammon_14.jpg";
-import ammon15 from "../media/images/mosaic/Ammon/Ammon_15.jpg";
-import ammon16 from "../media/images/mosaic/Ammon/Ammon_16.jpg";
-import ammonSounds from '../media/sounds/WaterSounds.mp3';
+import cropSizeAmmon from "../../media/images/compressed/Ammon.jpg";
+import ammon1 from "../../media/images/mosaic/Ammon/Ammon_01.jpg";
+import ammon2 from "../../media/images/mosaic/Ammon/Ammon_02.jpg";
+import ammon3 from "../../media/images/mosaic/Ammon/Ammon_03.jpg";
+import ammon4 from "../../media/images/mosaic/Ammon/Ammon_04.jpg";
+import ammon5 from "../../media/images/mosaic/Ammon/Ammon_05.jpg";
+import ammon6 from "../../media/images/mosaic/Ammon/Ammon_06.jpg";
+import ammon7 from "../../media/images/mosaic/Ammon/Ammon_07.jpg";
+import ammon8 from "../../media/images/mosaic/Ammon/Ammon_08.jpg";
+import ammon9 from "../../media/images/mosaic/Ammon/Ammon_09.jpg";
+import ammon10 from "../../media/images/mosaic/Ammon/Ammon_10.jpg";
+import ammon11 from "../../media/images/mosaic/Ammon/Ammon_11.jpg";
+import ammon12 from "../../media/images/mosaic/Ammon/Ammon_12.jpg";
+import ammon13 from "../../media/images/mosaic/Ammon/Ammon_13.jpg";
+import ammon14 from "../../media/images/mosaic/Ammon/Ammon_14.jpg";
+import ammon15 from "../../media/images/mosaic/Ammon/Ammon_15.jpg";
+import ammon16 from "../../media/images/mosaic/Ammon/Ammon_16.jpg";
+import ammonSounds from '../../media/sounds/WaterSounds.mp3';
 
 
-import cropSizeBrullov from "../media/images/compressed/Brullov.jpg";
-import brullov1 from "../media/images/mosaic/Brullov/Brullov_01.jpg";
-import brullov2 from "../media/images/mosaic/Brullov/Brullov_02.jpg";
-import brullov3 from "../media/images/mosaic/Brullov/Brullov_03.jpg";
-import brullov4 from "../media/images/mosaic/Brullov/Brullov_04.jpg";
-import brullov5 from "../media/images/mosaic/Brullov/Brullov_05.jpg";
-import brullov6 from "../media/images/mosaic/Brullov/Brullov_06.jpg";
-import brullov7 from "../media/images/mosaic/Brullov/Brullov_07.jpg";
-import brullov8 from "../media/images/mosaic/Brullov/Brullov_08.jpg";
-import brullov9 from "../media/images/mosaic/Brullov/Brullov_09.jpg";
-import brullov10 from "../media/images/mosaic/Brullov/Brullov_10.jpg";
-import brullov11 from "../media/images/mosaic/Brullov/Brullov_11.jpg";
-import brullov12 from "../media/images/mosaic/Brullov/Brullov_12.jpg";
-import brullov13 from "../media/images/mosaic/Brullov/Brullov_13.jpg";
-import brullov14 from "../media/images/mosaic/Brullov/Brullov_14.jpg";
-import brullov15 from "../media/images/mosaic/Brullov/Brullov_15.jpg";
-import brullov16 from "../media/images/mosaic/Brullov/Brullov_16.jpg";
+import cropSizeBrullov from "../../media/images/compressed/Brullov.jpg";
+import brullov1 from "../../media/images/mosaic/Brullov/Brullov_01.jpg";
+import brullov2 from "../../media/images/mosaic/Brullov/Brullov_02.jpg";
+import brullov3 from "../../media/images/mosaic/Brullov/Brullov_03.jpg";
+import brullov4 from "../../media/images/mosaic/Brullov/Brullov_04.jpg";
+import brullov5 from "../../media/images/mosaic/Brullov/Brullov_05.jpg";
+import brullov6 from "../../media/images/mosaic/Brullov/Brullov_06.jpg";
+import brullov7 from "../../media/images/mosaic/Brullov/Brullov_07.jpg";
+import brullov8 from "../../media/images/mosaic/Brullov/Brullov_08.jpg";
+import brullov9 from "../../media/images/mosaic/Brullov/Brullov_09.jpg";
+import brullov10 from "../../media/images/mosaic/Brullov/Brullov_10.jpg";
+import brullov11 from "../../media/images/mosaic/Brullov/Brullov_11.jpg";
+import brullov12 from "../../media/images/mosaic/Brullov/Brullov_12.jpg";
+import brullov13 from "../../media/images/mosaic/Brullov/Brullov_13.jpg";
+import brullov14 from "../../media/images/mosaic/Brullov/Brullov_14.jpg";
+import brullov15 from "../../media/images/mosaic/Brullov/Brullov_15.jpg";
+import brullov16 from "../../media/images/mosaic/Brullov/Brullov_16.jpg";
 
 
-import cropSizeMakovsky from "../media/images/compressed/Makovsky.jpg";
-import makovsky1 from "../media/images/mosaic/Makovsky/Makovsky_01.jpg";
-import makovsky2 from "../media/images/mosaic/Makovsky/Makovsky_02.jpg";
-import makovsky3 from "../media/images/mosaic/Makovsky/Makovsky_03.jpg";
-import makovsky4 from "../media/images/mosaic/Makovsky/Makovsky_04.jpg";
-import makovsky5 from "../media/images/mosaic/Makovsky/Makovsky_05.jpg";
-import makovsky6 from "../media/images/mosaic/Makovsky/Makovsky_06.jpg";
-import makovsky7 from "../media/images/mosaic/Makovsky/Makovsky_07.jpg";
-import makovsky8 from "../media/images/mosaic/Makovsky/Makovsky_08.jpg";
-import makovsky9 from "../media/images/mosaic/Makovsky/Makovsky_09.jpg";
-import makovsky10 from "../media/images/mosaic/Makovsky/Makovsky_10.jpg";
-import makovsky11 from "../media/images/mosaic/Makovsky/Makovsky_11.jpg";
-import makovsky12 from "../media/images/mosaic/Makovsky/Makovsky_12.jpg";
-import makovsky13 from "../media/images/mosaic/Makovsky/Makovsky_13.jpg";
-import makovsky14 from "../media/images/mosaic/Makovsky/Makovsky_14.jpg";
-import makovsky15 from "../media/images/mosaic/Makovsky/Makovsky_15.jpg";
-import makovsky16 from "../media/images/mosaic/Makovsky/Makovsky_16.jpg";
+import cropSizeMakovsky from "../../media/images/compressed/Makovsky.jpg";
+import makovsky1 from "../../media/images/mosaic/Makovsky/Makovsky_01.jpg";
+import makovsky2 from "../../media/images/mosaic/Makovsky/Makovsky_02.jpg";
+import makovsky3 from "../../media/images/mosaic/Makovsky/Makovsky_03.jpg";
+import makovsky4 from "../../media/images/mosaic/Makovsky/Makovsky_04.jpg";
+import makovsky5 from "../../media/images/mosaic/Makovsky/Makovsky_05.jpg";
+import makovsky6 from "../../media/images/mosaic/Makovsky/Makovsky_06.jpg";
+import makovsky7 from "../../media/images/mosaic/Makovsky/Makovsky_07.jpg";
+import makovsky8 from "../../media/images/mosaic/Makovsky/Makovsky_08.jpg";
+import makovsky9 from "../../media/images/mosaic/Makovsky/Makovsky_09.jpg";
+import makovsky10 from "../../media/images/mosaic/Makovsky/Makovsky_10.jpg";
+import makovsky11 from "../../media/images/mosaic/Makovsky/Makovsky_11.jpg";
+import makovsky12 from "../../media/images/mosaic/Makovsky/Makovsky_12.jpg";
+import makovsky13 from "../../media/images/mosaic/Makovsky/Makovsky_13.jpg";
+import makovsky14 from "../../media/images/mosaic/Makovsky/Makovsky_14.jpg";
+import makovsky15 from "../../media/images/mosaic/Makovsky/Makovsky_15.jpg";
+import makovsky16 from "../../media/images/mosaic/Makovsky/Makovsky_16.jpg";
 
 
-import cropSizeSemiradskyChoice from "../media/images/compressed/Semiradskiy2.jpg";
-import semiradskyHard1 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_01.jpg";
-import semiradskyHard2 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_02.jpg";
-import semiradskyHard3 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_03.jpg";
-import semiradskyHard4 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_04.jpg";
-import semiradskyHard5 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_05.jpg";
-import semiradskyHard6 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_06.jpg";
-import semiradskyHard7 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_07.jpg";
-import semiradskyHard8 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_08.jpg";
-import semiradskyHard9 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_09.jpg";
-import semiradskyHard10 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_10.jpg";
-import semiradskyHard11 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_11.jpg";
-import semiradskyHard12 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_12.jpg";
-import semiradskyHard13 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_13.jpg";
-import semiradskyHard14 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_14.jpg";
-import semiradskyHard15 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_15.jpg";
-import semiradskyHard16 from "../media/images/mosaic/Semiradsky-2/Semiradskiy2_16.jpg";
+import cropSizeSemiradskyChoice from "../../media/images/compressed/Semiradskiy2.jpg";
+import semiradskyHard1 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_01.jpg";
+import semiradskyHard2 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_02.jpg";
+import semiradskyHard3 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_03.jpg";
+import semiradskyHard4 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_04.jpg";
+import semiradskyHard5 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_05.jpg";
+import semiradskyHard6 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_06.jpg";
+import semiradskyHard7 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_07.jpg";
+import semiradskyHard8 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_08.jpg";
+import semiradskyHard9 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_09.jpg";
+import semiradskyHard10 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_10.jpg";
+import semiradskyHard11 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_11.jpg";
+import semiradskyHard12 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_12.jpg";
+import semiradskyHard13 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_13.jpg";
+import semiradskyHard14 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_14.jpg";
+import semiradskyHard15 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_15.jpg";
+import semiradskyHard16 from "../../media/images/mosaic/Semiradsky-2/Semiradskiy2_16.jpg";
 
 
-import cropSizeRopewalker from "../media/images/compressed/Semiradskiy.jpg";
-import ropewalker1 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_01.jpg";
-import ropewalker2 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_02.jpg";
-import ropewalker3 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_03.jpg";
-import ropewalker4 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_04.jpg";
-import ropewalker5 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_05.jpg";
-import ropewalker6 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_06.jpg";
-import ropewalker7 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_07.jpg";
-import ropewalker8 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_08.jpg";
-import ropewalker9 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_09.jpg";
-import ropewalker10 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_10.jpg";
-import ropewalker11 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_11.jpg";
-import ropewalker12 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_12.jpg";
-import ropewalker13 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_13.jpg";
-import ropewalker14 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_14.jpg";
-import ropewalker15 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_15.jpg";
-import ropewalker16 from "../media/images/mosaic/Semiradsky-1/Semiradskiy_16.jpg";
+import cropSizeRopewalker from "../../media/images/compressed/Semiradskiy.jpg";
+import ropewalker1 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_01.jpg";
+import ropewalker2 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_02.jpg";
+import ropewalker3 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_03.jpg";
+import ropewalker4 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_04.jpg";
+import ropewalker5 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_05.jpg";
+import ropewalker6 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_06.jpg";
+import ropewalker7 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_07.jpg";
+import ropewalker8 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_08.jpg";
+import ropewalker9 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_09.jpg";
+import ropewalker10 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_10.jpg";
+import ropewalker11 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_11.jpg";
+import ropewalker12 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_12.jpg";
+import ropewalker13 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_13.jpg";
+import ropewalker14 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_14.jpg";
+import ropewalker15 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_15.jpg";
+import ropewalker16 from "../../media/images/mosaic/Semiradsky-1/Semiradskiy_16.jpg";
 
 
-
-const SliderData = {
+export const SliderData = {
     'slides': [
         {
             "index": 0,
@@ -803,8 +802,8 @@ const SliderData = {
                     'height': 500
                 },
                 'position': {
-                    'top': 800,
-                    'left': 1900,
+                    'top': 400,
+                    'left': 2600,
                 },
                 'textArea': {
                     'author': 'Генрих Семирадский (1843–1902)',
@@ -821,4 +820,135 @@ const SliderData = {
     ]
 };
 
-export default SliderData;
+export const SliderDataEng = {
+    'slides': [
+        {
+            "index": 0,
+            'pictureData': {
+                'cropSize': cropSizeRenoir,
+                'textArea': {
+                    'author': 'Pierre-Auguste Renoir (1841-1919)',
+                    'pictureTitle': 'Square of Saint Trinity in Paris',
+                    'year': '1893',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Pierre-Auguste Renoir was born in Limoges, Haute-Vienne, France, in 1841. His father, Léonard Renoir, was a tailor of modest means, so in 1844, Renoir\'s family moved to Paris in search of more favorable prospects. The location of their home, in rue d’Argenteuil in central Paris, placed Renoir in proximity to the Louvre. Although the young Renoir had a natural proclivity for drawing, he exhibited a greater talent for singing. '
+                }
+            }
+        },
+        {
+            "index": 1,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': renoir1
+                    },
+                    {
+                        'index': 1,
+                        'picture': renoir2
+                    },
+                    {
+                        'index': 2,
+                        'picture': renoir3
+                    },
+                    {
+                        'index': 3,
+                        'picture': renoir4
+                    },
+                    {
+                        'index': 4,
+                        'picture': renoir5
+                    },
+                    {
+                        'index': 5,
+                        'picture': renoir6
+                    },
+                    {
+                        'index': 6,
+                        'picture': renoir7
+                    },
+                    {
+                        'index': 7,
+                        'picture': renoir8
+                    },
+                    {
+                        'index': 8,
+                        'picture': renoir9
+                    },
+                    {
+                        'index': 9,
+                        'picture': renoir10
+                    },
+                    {
+                        'index': 10,
+                        'picture': renoir11
+                    },
+                    {
+                        'index': 11,
+                        'picture': renoir12
+                    },
+                    {
+                        'index': 12,
+                        'picture': renoir13
+                    },
+                    {
+                        'index': 13,
+                        'picture': renoir14
+                    },
+                    {
+                        'index': 14,
+                        'picture': renoir15
+                    },
+                    {
+                        'index': 15,
+                        'picture': renoir16
+                    }
+                ],
+                'partSize': {
+                    'width': 600,
+                    'height': 503
+                },
+                'position': {
+                    'top': 1200,
+                    'left': 1000,
+                },
+                'soundtrack': {
+                    'sound': renoirSound,
+                    'title': 'Square noise'
+                },
+                'textArea': {
+                    'author': 'Pierre-Auguste Renoir (1841-1919)',
+                    'pictureTitle': 'Square of Saint Trinity in Paris',
+                    'year': '1893',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Although Renoir displayed a talent for his work, he frequently tired of the subject matter and sought refuge in the galleries of the Louvre. The owner of the factory recognized his apprentice’s talent and communicated this to Renoir’s family. Following this, Renoir started taking lessons to prepare for entry into Ecole des Beaux Arts.'
+                }
+            }
+        },
+
+
+    ]
+};
+
+
+export const LastSlideData = {
+    'sections': [
+        {
+            'repeat': 'Посмотреть еще раз',
+            'return': 'Вернуться в начало',
+            'info': 'Материалы подготовлены сотрудниками Музея Фаберже:',
+            'names': 'Анастасия Гранкина, Александра Татарова, ... Дмитрий Бессонов'
+        }
+    ]
+};
+
+export const LastSlideDataEng = {
+    'sections': [
+        {
+            'repeat': 'View drawings again',
+            'return': 'Back to the main page',
+            'info': 'Materials prepared by the Faberge Museum:\n',
+            'names': 'Anastasia Grankina, Alexandra Tatarova, ..., Dmitry Bessonov'
+        }
+    ]
+};

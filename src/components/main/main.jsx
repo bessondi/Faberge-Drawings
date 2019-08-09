@@ -7,9 +7,7 @@ import AmmonImg from '../../media/images/compressed/Ammon.jpg';
 
 
 class Main extends Component {
-
     render() {
-
         const MainView = () => {
             const Background = styled.div`
                 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${AmmonImg});
@@ -24,7 +22,6 @@ class Main extends Component {
             return (
                 <main className={styles.app__main__mainView}>
                     <Background>
-
                         <div className={styles.app__main__mainTitle}>
                             <p>МУЗЕЙ</p>
                             <p>ФАБЕРЖЕ</p>
@@ -42,12 +39,10 @@ class Main extends Component {
                                 <div className={styles.app__main__nextSlidePage_nextSlidePageArrow}/>
                             </button>
                         </NavLink>
-
                     </Background>
                 </main>
             );
         };
-
         return (
             <MainView/>
         )

@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
-import ImageRender from "../../imageRender";
+import ImageRender from "./imageRender";
 
-import SliderData from '../engSliderData';
-import styles from '../../slider/sliderStyles.module.css';
+import {SliderDataEng} from './sliderData';
+import styles from './sliderStyles.module.css';
 
 
 class EngSlider extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            slider: SliderData.slides[0],
+            slider: SliderDataEng.slides[0],
         }
     }
 
@@ -19,11 +19,11 @@ class EngSlider extends Component {
 
         if (newIndex < 0) {
             this.setState({
-                slider: SliderData.slides[0],
+                slider: SliderDataEng.slides[0],
             })
         } else {
             this.setState({
-                slider: SliderData.slides[newIndex],
+                slider: SliderDataEng.slides[newIndex],
             })
         }
         // console.log(this.state.slider.index);
@@ -34,11 +34,11 @@ class EngSlider extends Component {
 
         if (newIndex < 2) { // последний слайд
             this.setState({
-                slider: SliderData.slides[newIndex],
+                slider: SliderDataEng.slides[newIndex],
             })
         } else {
             this.setState({
-                slider: SliderData.slides[0]
+                slider: SliderDataEng.slides[0]
             })
         }
         // console.log(this.state.slider.index);
