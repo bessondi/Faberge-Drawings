@@ -23,6 +23,8 @@ import repeatBtn from '../../../media/icons/repeatBtn.svg';
                     width: 70%;
                     height: 100vh;
                     margin-right: 30%;
+                    animation-duration: .5s;
+                    animation-name: showPic;
                 `;
                 const ViewportGradient = styled.div`
                     background-color: rgba(0,0,0,0.5);

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
 import Player from "./player/player";
+import img from '../media/images/Aivazovsky.jpg'
 
 
 class ImageRender extends Component {
@@ -130,11 +131,13 @@ class ImageRender extends Component {
                 width: 70%;
                 height: 100vh;
                 margin-right: 30%;
+                animation-duration: .5s;
+                animation-name: showPic;
             `;
             return (
                 <React.Fragment>
-                    <ViewportGradient/>
                     <Background/>
+                    <ViewportGradient/>
                     <PictureTitle/>
                     <AmbientSounds/>
 
@@ -145,26 +148,40 @@ class ImageRender extends Component {
 
         const DetailedView = () => {
             const MosaicField = styled.div`
-            padding-right: 30%;
-            width: ${fullSize.width}px;
-            height: ${fullSize.height}px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color: #000;
+                padding-right: 30%;
+                width: ${fullSize.width}px;
+                height: ${fullSize.height}px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                background-color: #000;
             `;
             const MosaicParts = parts.map((image, id) => {
-                const Mosaic = styled.div`
-                width: ${partSize.width}px;
-                height: ${partSize.height}px;
-                background-image: url(${parts[id].picture});
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            `;
+
+                // const Mosaic = styled.div`
+                //     width: ${partSize.width}px;
+                //     height: ${partSize.height}px;
+                //     background-image: url( ${parts[id].picture} );
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-size: cover;
+                //     animation-duration: .5s;
+                //     animation-name: showPic;
+                //     }
+                // `;
+
                 return (
                     <LazyLoad width={partSize.width} height={partSize.height} key={id}>
-                        <Mosaic/>
+                        {/*<Mosaic/>*/}
+                        <img src={parts[id].picture}
+                             alt=""
+                             style={{
+                                 animationDuration: .3+'s',
+                                 animationName: 'showPic',
+                                 width: partSize.width,
+                                 height: partSize.height
+                            }}
+                        />
                     </LazyLoad>
                 );
             });

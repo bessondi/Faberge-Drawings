@@ -26,3 +26,13 @@
     /*-webkit-font-smoothing: antialiased;*/
     /*-moz-osx-font-smoothing: grayscale;*/
 }
+
+@keyframes showPic {
+    from {
+        opacity: 0;
+    }
+
+    to {
+       opacity: 1;
+    }
+}

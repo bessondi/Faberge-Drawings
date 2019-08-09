@@ -18,6 +18,8 @@ class Main extends Component {
                 background-size: cover;
                 width: 100%;
                 height: 100vh;
+                animation-duration: 1s;
+                animation-name: showPic;
             `;
             return (
                 <main className={styles.app__main__mainView}>
