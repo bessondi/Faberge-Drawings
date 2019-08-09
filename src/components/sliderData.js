@@ -207,10 +207,6 @@ const SliderData = {
                     'width': 600,
                     'height': 503
                 },
-                'fullSize': {
-                    'width': 2400,
-                    'height': 2010
-                },
                 'position': {
                     'top': 1200,
                     'left': 1000,
@@ -316,10 +312,6 @@ const SliderData = {
                     'width': 900,
                     'height': 579
                 },
-                'fullSize': {
-                    'width': 3600,
-                    'height': 2314
-                },
                 'position': {
                     'top': 1000,
                     'left': 1000,
@@ -405,10 +397,6 @@ const SliderData = {
                 'partSize': {
                     'width': 900,
                     'height': 579
-                },
-                'fullSize': {
-                    'width': 3600,
-                    'height': 2314
                 },
                 'position': {
                     'top': 1500,
@@ -511,10 +499,6 @@ const SliderData = {
                     'width': 900,
                     'height': 720
                 },
-                'fullSize': {
-                    'width': 3600,
-                    'height': 2880
-                },
                 'position': {
                     'top': 1200,
                     'left': 1600,
@@ -615,10 +599,6 @@ const SliderData = {
                 'partSize': {
                     'width': 1250,
                     'height': 775
-                },
-                'fullSize': {
-                    'width': 5000,
-                    'height': 3100
                 },
                 'position': {
                     'top': 1100,
@@ -721,10 +701,6 @@ const SliderData = {
                     'width': 900,
                     'height': 575
                 },
-                'fullSize': {
-                    'width': 3600,
-                    'height': 2300
-                },
                 'position': {
                     'top': 800,
                     'left': 1900,
@@ -825,10 +801,6 @@ const SliderData = {
                 'partSize': {
                     'width': 950,
                     'height': 500
-                },
-                'fullSize': {
-                    'width': 3800,
-                    'height': 2000
                 },
                 'position': {
                     'top': 800,

@@ -15,6 +15,9 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
         const LastSlideEng = () => {
 
             const Background = () => {
+                const BlackField = styled.div`
+                    background-color: #000;
+                `;
                 const Background = styled.div`
                     background-image: url(${img});
                     background-position: center;
@@ -78,7 +81,7 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
                 `;
 
                 return (
-                    <React.Fragment>
+                    <BlackField>
                         <Background/>
                         <ViewportGradient/>
 
@@ -101,7 +104,7 @@ import repeatBtn from '../../../../media/icons/repeatBtn.svg';
                             </Return>
                         </NavLink>
 
-                    </React.Fragment>
+                    </BlackField>
                 );
             };
 

@@ -1,5 +1,5 @@
 .app__main__mainView {
-    background-color: #5e5d5a;
+    background-color: #000;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,9 +30,9 @@
     font-size: 2rem;
 }
 
-.app__main__mainTitle_bold {
+/*.app__main__mainTitle_bold {*/
 
-}
+/*}*/
 
 .app__main__nextSlidePage {
     position: absolute;

@@ -21,7 +21,7 @@
 
 .app {
     font-family: "PF Agora Sans Pro", "Helvetica Neue", sans-serif;
-    font-size: calc(0.5rem + 2vmin);
+    /*font-size: calc(0.5rem + 2vmin);*/
     /*font-weight: 700;*/
     /*-webkit-font-smoothing: antialiased;*/
     /*-moz-osx-font-smoothing: grayscale;*/

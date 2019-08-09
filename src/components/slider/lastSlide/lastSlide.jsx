@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
@@ -8,13 +8,16 @@ import repeatBtn from '../../../media/icons/repeatBtn.svg';
 
 
 
-// class LastSlide extends Component {
-//
-//     render() {
+class LastSlide extends Component {
 
-        const LastSlide = () => {
+    render() {
+
+        // const LastSlide = () => {
 
             const Background = () => {
+                const BlackField = styled.div`
+                    background-color: #000;
+                `;
                 const Background = styled.div`
                     background-image: url(${img});
                     background-position: center;
@@ -78,7 +81,7 @@ import repeatBtn from '../../../media/icons/repeatBtn.svg';
                 `;
 
                 return (
-                    <React.Fragment>
+                    <BlackField>
                         <Background/>
                         <ViewportGradient/>
 
@@ -101,7 +104,7 @@ import repeatBtn from '../../../media/icons/repeatBtn.svg';
                             </Return>
                         </NavLink>
 
-                    </React.Fragment>
+                    </BlackField>
                 );
             };
 
@@ -139,18 +142,21 @@ import repeatBtn from '../../../media/icons/repeatBtn.svg';
                 );
             };
 
-            return (
-                <React.Fragment>
-                    <Background/>
-                    <PictureDescription/>
-                </React.Fragment>
-            );
-        };
+        //     return (
+        //         <React.Fragment>
+        //             <Background/>
+        //             <PictureDescription/>
+        //         </React.Fragment>
+        //     );
+        // };
 
-//         return (
-//             <MainView/>
-//         )
-//     }
-// }
+        return (
+            <React.Fragment>
+                          <Background/>
+                           <PictureDescription/>
+                       </React.Fragment>
+        )
+    }
+}
 
 export default LastSlide;

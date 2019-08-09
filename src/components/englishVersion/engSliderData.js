@@ -105,10 +105,6 @@ const SliderData = {
                     'width': 600,
                     'height': 503
                 },
-                'fullSize': {
-                    'width': 2400,
-                    'height': 2010
-                },
                 'position': {
                     'top': 1200,
                     'left': 1000,

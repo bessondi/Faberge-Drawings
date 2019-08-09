@@ -17,7 +17,7 @@ class EngMain extends Component {
                 background-size: cover;
                 width: 100%;
                 height: 100vh;
-                animation-duration: 1s;
+                animation-duration: .5s;
                 animation-name: showPic;
             `;
             return (

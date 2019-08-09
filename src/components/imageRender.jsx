@@ -7,7 +7,7 @@ import img from '../media/images/Aivazovsky.jpg'
 
 class ImageRender extends Component {
 
-    // скролл по картинке
+    // скролл к персонажу на картинке при рендере
     componentDidUpdate() {
         const {slide} = this.props;
         const {position} = slide.pictureData;
@@ -22,7 +22,7 @@ class ImageRender extends Component {
 
     render() {
         const { slide } = this.props;
-        const { parts, partSize, fullSize, cropSize, textArea, soundtrack } = slide.pictureData;
+        const { parts, partSize, cropSize, textArea, soundtrack } = slide.pictureData;
         const count = this.props.slide.index;
         console.log(count);
 
@@ -53,7 +53,9 @@ class ImageRender extends Component {
             return (
                 <PictureTitle>
                     <h3>{textArea.author}</h3>
-                    <h2>{textArea.pictureTitle}</h2><br/>
+                    <br/>
+                    <h2>{textArea.pictureTitle}</h2>
+                    <br/>
                     <p>{textArea.year}</p>
                     <p>{textArea.typeOfCanvas}</p>
                 </PictureTitle>
@@ -111,9 +113,8 @@ class ImageRender extends Component {
                 <PlayBtn>
                     {
                         soundtrack ?
-                            <Player soundtrack={soundtrack.sound} />
-                            :
-                            null
+                        <Player soundtrack={soundtrack.sound} />
+                        : null
                     }
                 </PlayBtn>
             )
@@ -121,7 +122,6 @@ class ImageRender extends Component {
 
 
         // вывести изображение целиком или детализировано
-
         const FullImage = () => {
             const Background = styled.div`
                 background-image: url(${cropSize});
@@ -131,57 +131,53 @@ class ImageRender extends Component {
                 width: 70%;
                 height: 100vh;
                 margin-right: 30%;
-                animation-duration: .5s;
+                animation-duration: 1s;
                 animation-name: showPic;
             `;
+            const BlackField = styled.div`
+                background-color: #000;
+            `;
             return (
-                <React.Fragment>
+                <BlackField>
                     <Background/>
                     <ViewportGradient/>
                     <PictureTitle/>
                     <AmbientSounds/>
 
                     <PictureDescription/>
-                </React.Fragment>
+                </BlackField>
             );
         };
 
         const DetailedView = () => {
             const MosaicField = styled.div`
-                padding-right: 30%;
-                width: ${fullSize.width}px;
-                height: ${fullSize.height}px;
+                padding-right: 30%;            
+                width: ${partSize.width * 4}px;
+                height: ${partSize.height * 4}px;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
                 background-color: #000;
             `;
+
             const MosaicParts = parts.map((image, id) => {
-
-                // const Mosaic = styled.div`
-                //     width: ${partSize.width}px;
-                //     height: ${partSize.height}px;
-                //     background-image: url( ${parts[id].picture} );
-                //     background-position: center;
-                //     background-repeat: no-repeat;
-                //     background-size: cover;
-                //     animation-duration: .5s;
-                //     animation-name: showPic;
-                //     }
-                // `;
-
-                return (
-                    <LazyLoad width={partSize.width} height={partSize.height} key={id}>
-                        {/*<Mosaic/>*/}
+                const Mosaic = () => {
+                    return(
                         <img src={parts[id].picture}
                              alt=""
                              style={{
-                                 animationDuration: .3+'s',
-                                 animationName: 'showPic',
+                                 display: 'block',
                                  width: partSize.width,
-                                 height: partSize.height
-                            }}
+                                 height: partSize.height,
+                                 animationDuration: .3+'s',
+                                 animationName: 'showPic'
+                             }}
                         />
+                    )
+                };
+                return (
+                    <LazyLoad width={partSize.width} height={partSize.height} key={id}>
+                        <Mosaic/>
                     </LazyLoad>
                 );
             });
@@ -199,31 +195,9 @@ class ImageRender extends Component {
         };
 
         const FullOrDetailed = () => {
-            // const RepeatScreen = () => {
-            //     const RepeatArea = styled.div`
-            //         position: fixed;
-            //         right: 0;
-            //         top: 0;
-            //         width: 100wh;
-            //         height: 100vh;
-            //         background: #fff;
-            //     `;
-            //     return(
-            //         <div>
-            //             <RepeatArea/>
-            //             {/*{*/}
-            //             {/*count > 10  // для n слайдов файла дата*/}
-            //             {/*? <RepeatArea/>*/}
-            //             {/*: null*/}
-            //             {/*}*/}
-            //         </div>
-            //     )
-            // };
-
             return (
                 <React.Fragment>
                     { cropSize ? <FullImage/> : <DetailedView/> }
-                    {/*{ count > 10 ? <RepeatScreen/> : null }*/}
                 </React.Fragment>
             );
         };
