@@ -16,6 +16,14 @@ class Slider extends Component {
         }
     }
 
+    componentDidMount() {
+        this.timer = setInterval( this.nextImg, 40000 )
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timer)
+    }
+
     prevImg = () => {
         let newIndex = this.state.slider.index - 1;
 
@@ -49,8 +57,7 @@ class Slider extends Component {
 
     render() {
         const {slider} = this.state;
-
-        // console.log(this.state.slider.index);
+        console.log(this.state.slider.index);
 
         const NavButtons = () => {
             return(

@@ -15,14 +15,11 @@ import './App.css';
 // import media from '../../css/media.module.css';
 
 
-// TODO:
-// Переработать плеер, работающий поверх слайдера - одна дорожка на 2 слайда без перезагрузки (сделать отдельный файл) - второй счетчик
-
-
 function App() {
     return (
         <div className="app"
-             // onContextMenu={ (e) => e.preventDefault() }
+             onContextMenu={ (e) => e.preventDefault() }
+             onMouseDown={ (e) => e.preventDefault() }
         >
             {/*header*/}
                 <Switch>

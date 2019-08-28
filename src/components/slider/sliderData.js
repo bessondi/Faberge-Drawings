@@ -320,7 +320,7 @@ export const SliderData = {
                     'pictureTitle': 'Вид Академии наук и Дворцовой набережной в Петербурге',
                     'year': '1850',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Описание пары в центре картины'
+                    'info': 'В центре картины можно увидеть молодую пару прогуливающуюся по набережной.'
                 }
             }
         },
@@ -406,7 +406,7 @@ export const SliderData = {
                     'pictureTitle': 'Вид Академии наук и Дворцовой набережной в Петербурге',
                     'year': '1850',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Описание девушки у воды'
+                    'info': 'А также молодую горничную стирающую вещи'
                 }
             }
         },
@@ -421,7 +421,7 @@ export const SliderData = {
                     'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
                     'year': '1850',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Текст о картине..'
+                    'info': 'Покинув Россию в 1849 году для лечения за рубежом после длительной болезни, Брюллов много и плодотворно работает. Свидетельство тому - эскиз картины «Месса в соборе Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX». Италия была любимой страной Брюллова и, находясь здесь в период  глубоких религиозно-политических изменений (провозглашение Итальянской Республики Джузеппе Гарибальди и ее разгром, реформа католической церкви), он счел себя обязанным запечатлеть это на холсте. Первая месса, в которой участвовал папа Пий IX после падения Республики при возвращении его в Рим,  была отслужена в старинном храме Санта Мариа Маджоре.'
                 }
             }
         },
@@ -507,7 +507,7 @@ export const SliderData = {
                     'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
                     'year': '1850',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Описание..'
+                    'info': 'Брюллов не успел застать все эти события, однако они были живы  и свежы в восприятии современников. Кроме набросков графитным карандашом общей композиции, деталей одежды, лиц и фигур персонажей, традиционно бегло или более тщательно проработанных очерком или с растушевкой, для этой картины художник выполнил еще и гуашевые наброски, намечая и колористическое решение. В своем эскизе Брюллов выбрал неожиданный композиционный ракурс: главный герой события находится на втором плане, а всю авансцену занимают изображения римлян и римлянок, монахов и мирян, коленопреклоненной паствы, участвующей в богослужении, притом, в основном,  это  дамы.  Ликующего народа художник не изобразил. Не исключено, что картина должна была стать политическим манифестом, но, разумеется, достоверно судить об этом  по эскизам невозможно.'
                 }
             }
         },
@@ -522,7 +522,7 @@ export const SliderData = {
                     'pictureTitle': 'Суд Париса',
                     'year': '1889',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Текст о картине..'
+                    'info': 'Картина «Суд Париса», написанная Константином Егоровичем Маковским на сюжет известного античного мифа, изображает спор трех богинь – Геры, Афины и Афродиты – о том, кто из них самая прекрасная. Большие размеры холста позволили раскрыть сюжет во всех подробностях. Сыграла свою роль и популярность в творческой среде так называемых «живых картин» – натурных постановок, напоминавших известные произведения искусства. Константин Маковский увлекался подобными картинами, позволявшими ему во всех подробностях передать многофигурную сцену.'
                 }
             }
         },
@@ -608,7 +608,7 @@ export const SliderData = {
                     'pictureTitle': 'Суд Париса',
                     'year': '1889',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Описание..'
+                    'info': '«Суд Париса» решен в эффектной живописной манере. Художник виртуозно передает фактуру, игру света, колористические нюансы. Это произведение Маковский отправил на Всемирную выставку в Париж в 1889 году. Он получил за него золотую медаль I степени и был награжден орденом Почетного легиона. Однако еще до открытия выставки «Суд Париса» купил американец Чарльз Шуманн. Работа долгое время находилась в его ювелирном магазине на Бродвее, в Нью-Йорке, а затем висела в интерьере частного спортивного клуба.'
                 }
             }
         },
@@ -623,7 +623,7 @@ export const SliderData = {
                     'pictureTitle': 'Трудный выбор',
                     'year': '1887',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Текст о картине..'
+                    'info': 'Пожилому патрицию предстоит выбор между красавицей-рабыней и китайской вазой. Богатый римлянин находится в раздумье, он пресыщен всякими наслаждениями. Изображённый рядом сын патриция с восторгом смотрит на тело невольницы, не разделяя отцовских затруднений с выбором. Таким образом, картина является аллегорией молодости и старости, здесь на первый план вынесена тема ценностей и приоритетов. Примечательно, что за спиной патриция художник изобразил кентавра из коллекции римского Капитолийского музея, который сам по себе является аллегорией старости. По мнению Е. Нестеровой, данная картина показывает, что «Для Семирадского люди и предметы одинаково неодушевлены или, точнее, одушевлены одинаково». Картина демонстрировалась в России на персональной выставке Семирадского в 1890 году.'
                 }
             }
         },
@@ -721,8 +721,8 @@ export const SliderData = {
                 'cropSize': cropSizeRopewalker,
                 'textArea': {
                     'author': 'Генрих Семирадский (1843–1902)',
-                    'pictureTitle': 'Трудный выбор',
-                    'year': '1887',
+                    'pictureTitle': 'Канатоходка',
+                    'year': '1898',
                     'typeOfCanvas': 'Холст, масло',
                     'info': 'Текст о картине..'
                 }
@@ -807,16 +807,13 @@ export const SliderData = {
                 },
                 'textArea': {
                     'author': 'Генрих Семирадский (1843–1902)',
-                    'pictureTitle': 'Трудный выбор',
-                    'year': '1887',
+                    'pictureTitle': 'Канатоходка',
+                    'year': '1898',
                     'typeOfCanvas': 'Холст, масло',
                     'info': 'Описание..'
                 }
             }
-        },
-
-
-
+        }
     ]
 };
 
@@ -831,7 +828,7 @@ export const SliderDataEng = {
                     'pictureTitle': 'Square of Saint Trinity in Paris',
                     'year': '1893',
                     'typeOfCanvas': 'Oil on canvas',
-                    'info': 'Pierre-Auguste Renoir was born in Limoges, Haute-Vienne, France, in 1841. His father, Léonard Renoir, was a tailor of modest means, so in 1844, Renoir\'s family moved to Paris in search of more favorable prospects. The location of their home, in rue d’Argenteuil in central Paris, placed Renoir in proximity to the Louvre. Although the young Renoir had a natural proclivity for drawing, he exhibited a greater talent for singing. '
+                    'info': 'A special place among the paintings displayed in the Upper Pantry is taken by The Square in front of the Sainte-Trinité Church in Paris. It is a work by Pierre Auguste Renoir, a painter, graphic artist and sculptor who was one of the founders and most prominent exponents of Impressionism. Painting directly en plein air, he succeeded in masterfully conveying the dynamic atmosphere of a big city.'
                 }
             }
         },
@@ -921,12 +918,604 @@ export const SliderDataEng = {
                     'pictureTitle': 'Square of Saint Trinity in Paris',
                     'year': '1893',
                     'typeOfCanvas': 'Oil on canvas',
-                    'info': 'Although Renoir displayed a talent for his work, he frequently tired of the subject matter and sought refuge in the galleries of the Louvre. The owner of the factory recognized his apprentice’s talent and communicated this to Renoir’s family. Following this, Renoir started taking lessons to prepare for entry into Ecole des Beaux Arts.'
+                    'info': 'The image of people in the picture is noteworthy - these are just silhouettes painted with dark colors. However, the author only needs a few strokes to show us the person in his activity and character: you can see how two chatted at ease on the right, and on the wagon you can see how the tired cab was hunched over.'
                 }
             }
         },
 
 
+        {
+            "index": 2,
+            'pictureData': {
+                'cropSize': cropSizeAmmon,
+                'soundtrack': {
+                    'sound': ammonSounds,
+                },
+                'textArea': {
+                    'author': 'Vladimir Ammon (1826–1879)',
+                    'pictureTitle': 'View of the Science Academy and Dvortsovaya embankment in Petersburg',
+                    'year': '1850',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'The earliest of the presented paintings includes the “View of the Academy of Sciences and the Palace Embankment in St. Petersburg” by Vladimir Ammon. The picture dates from the middle of the XIX century.'
+                }
+            }
+        },
+        {
+            "index": 3,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': ammon1
+                    },
+                    {
+                        'index': 1,
+                        'picture': ammon2
+                    },
+                    {
+                        'index': 2,
+                        'picture': ammon3
+                    },
+                    {
+                        'index': 3,
+                        'picture': ammon4
+                    },
+                    {
+                        'index': 4,
+                        'picture': ammon5
+                    },
+                    {
+                        'index': 5,
+                        'picture': ammon6
+                    },
+                    {
+                        'index': 6,
+                        'picture': ammon7
+                    },
+                    {
+                        'index': 7,
+                        'picture': ammon8
+                    },
+                    {
+                        'index': 8,
+                        'picture': ammon9
+                    },
+                    {
+                        'index': 9,
+                        'picture': ammon10
+                    },
+                    {
+                        'index': 10,
+                        'picture': ammon11
+                    },
+                    {
+                        'index': 11,
+                        'picture': ammon12
+                    },
+                    {
+                        'index': 12,
+                        'picture': ammon13
+                    },
+                    {
+                        'index': 13,
+                        'picture': ammon14
+                    },
+                    {
+                        'index': 14,
+                        'picture': ammon15
+                    },
+                    {
+                        'index': 15,
+                        'picture': ammon16
+                    }
+                ],
+                'partSize': {
+                    'width': 900,
+                    'height': 579
+                },
+                'position': {
+                    'top': 1000,
+                    'left': 1000,
+                },
+                'textArea': {
+                    'author': 'Vladimir Ammon (1826–1879)',
+                    'pictureTitle': 'View of the Science Academy and Dvortsovaya embankment in Petersburg',
+                    'year': '1850',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'In the center of the picture you can see a young couple walking along the promenade.'
+                }
+            }
+        },
+        {
+            "index": 4,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': ammon1
+                    },
+                    {
+                        'index': 1,
+                        'picture': ammon2
+                    },
+                    {
+                        'index': 2,
+                        'picture': ammon3
+                    },
+                    {
+                        'index': 3,
+                        'picture': ammon4
+                    },
+                    {
+                        'index': 4,
+                        'picture': ammon5
+                    },
+                    {
+                        'index': 5,
+                        'picture': ammon6
+                    },
+                    {
+                        'index': 6,
+                        'picture': ammon7
+                    },
+                    {
+                        'index': 7,
+                        'picture': ammon8
+                    },
+                    {
+                        'index': 8,
+                        'picture': ammon9
+                    },
+                    {
+                        'index': 9,
+                        'picture': ammon10
+                    },
+                    {
+                        'index': 10,
+                        'picture': ammon11
+                    },
+                    {
+                        'index': 11,
+                        'picture': ammon12
+                    },
+                    {
+                        'index': 12,
+                        'picture': ammon13
+                    },
+                    {
+                        'index': 13,
+                        'picture': ammon14
+                    },
+                    {
+                        'index': 14,
+                        'picture': ammon15
+                    },
+                    {
+                        'index': 15,
+                        'picture': ammon16
+                    }
+                ],
+                'partSize': {
+                    'width': 900,
+                    'height': 579
+                },
+                'position': {
+                    'top': 1500,
+                    'left': 1300,
+                },
+                'textArea': {
+                    'author': 'Vladimir Ammon (1826–1879)',
+                    'pictureTitle': 'View of the Science Academy and Dvortsovaya embankment in Petersburg',
+                    'year': '1850',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'As well as a young maid doing laundry'
+                }
+            }
+        },
+
+
+        {
+            "index": 5,
+            'pictureData': {
+                'cropSize': cropSizeBrullov,
+                'textArea': {
+                    'author': 'Karl Brullov (1799–1852)',
+                    'pictureTitle': 'Mass in Basilica Santa Maria Majore on the occasion of the return to Rome of Pope Pius IX',
+                    'year': '1850',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Having left Russia in 1849 for treatment abroad after a long illness, Bryullov works hard and fruitfully. Evidence of this - a sketch of the painting "Mass in the Cathedral of Santa Maria Maggiore on the occasion of the return to Rome of Pope Pius IX". Italy was Bryullov\'s beloved country and, being here during the period of deep religious and political changes (the proclamation of the Italian Republic by Giuseppe Garibaldi and its defeat, the reform of the Catholic Church), he considered himself obligated to capture this on canvas. The first Mass, in which Pope Pius IX participated after the fall of the Republic upon his return to Rome, was celebrated in the ancient church of Santa Maria Maggiore.'
+                }
+            }
+        },
+        {
+            "index": 6,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': brullov1
+                    },
+                    {
+                        'index': 1,
+                        'picture': brullov2
+                    },
+                    {
+                        'index': 2,
+                        'picture': brullov3
+                    },
+                    {
+                        'index': 3,
+                        'picture': brullov4
+                    },
+                    {
+                        'index': 4,
+                        'picture': brullov5
+                    },
+                    {
+                        'index': 5,
+                        'picture': brullov6
+                    },
+                    {
+                        'index': 6,
+                        'picture': brullov7
+                    },
+                    {
+                        'index': 7,
+                        'picture': brullov8
+                    },
+                    {
+                        'index': 8,
+                        'picture': brullov9
+                    },
+                    {
+                        'index': 9,
+                        'picture': brullov10
+                    },
+                    {
+                        'index': 10,
+                        'picture': brullov11
+                    },
+                    {
+                        'index': 11,
+                        'picture': brullov12
+                    },
+                    {
+                        'index': 12,
+                        'picture': brullov13
+                    },
+                    {
+                        'index': 13,
+                        'picture': brullov14
+                    },
+                    {
+                        'index': 14,
+                        'picture': brullov15
+                    },
+                    {
+                        'index': 15,
+                        'picture': brullov16
+                    }
+                ],
+                'partSize': {
+                    'width': 900,
+                    'height': 720
+                },
+                'position': {
+                    'top': 1200,
+                    'left': 1600,
+                },
+                'textArea': {
+                    'author': 'Karl Brullov (1799–1852)',
+                    'pictureTitle': 'Mass in Basilica Santa Maria Majore on the occasion of the return to Rome of Pope Pius IX',
+                    'year': '1850',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Bryullov did not have time to catch all these events, but they were alive and fresh in the perception of contemporaries. In addition to sketching with a graphite pencil the general composition, details of clothes, faces and figures of characters, traditionally fluent or more carefully worked out by sketch or with shading, for this picture the artist also made gouache drafts, outlining a coloristic solution. In his sketch, Bryullov chose an unexpected compositional perspective: the protagonist of the event is in the background, and the whole scene is occupied by images of Romans and Romans, monks and laymen, a kneeling flock participating in the service, moreover, these are mainly ladies. The artist did not depict the jubilant people. It is possible that the picture was to become a political manifesto, but, of course, it is impossible to reliably judge this from sketches.'
+                }
+            }
+        },
+
+
+        {
+            "index": 7,
+            'pictureData': {
+                'cropSize': cropSizeMakovsky,
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Konstantin Makovsky painted The Judgement of Paris on a story from ancient Greek mythology – the argument between three goddesses – Hera, Athena and Aphrodite – over which of them is the most beautiful. The large-sized canvas enabled the artist to present the subject in depth. There is also an influence here as well of tableaux vivants – recreations of works of art by people dressed in appropriate costume – that were a popular amusement in creative circles. Konstantin Makovsky was keen on paintings like these that enabled him to present a multifigure scene in the fullest detail.'
+                }
+            }
+        },
+        {
+            "index": 8,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 1100,
+                    'left': 1300,
+                },
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'The Judgement of Paris was executed in a striking vivid manner. The artist skilfully conveyed texture, the play of colour and nuances of colour. Makovsky sent this work to the 1889 Paris World’s Fair, where he was awarded a 1st-class gold medal and membership of the Legion of Honour. Even before the fair opened the Judgement of Paris was bought by the American Charles Schumann. For many years the painting hung in his jewellery store on Broadway, New York, and then in a private sports club.'
+                }
+            }
+        },
+
+
+        {
+            "index": 9,
+            'pictureData': {
+                'cropSize': cropSizeSemiradskyChoice,
+                'textArea': {
+                    'author': 'Henryk Siemiradzki (1843–1902)',
+                    'pictureTitle': 'Hard decision',
+                    'year': '1887',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'The elderly patrician will have to choose between a beautiful slave and a Chinese vase. The rich Roman is in thought, he is saturated with all sorts of pleasures. The patrician son, pictured next, looks with enthusiasm at the body of the slave, not sharing her father’s difficulties with the choice. Thus, the picture is an allegory of youth and old age, here the theme of values ​​and priorities is brought to the fore. It is noteworthy that behind the patrician, the artist depicted a centaur from the collection of the Roman Capitoline Museum, which in itself is an allegory of old age. According to E. Nesterova, this picture shows that "For Siemiradzki, people and objects are equally inanimate or, more precisely, animated equally." The picture was shown in Russia at the personal exhibition of Siemiradzki in 1890.'
+                }
+            }
+        },
+        {
+            "index": 10,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': semiradskyHard1
+                    },
+                    {
+                        'index': 1,
+                        'picture': semiradskyHard2
+                    },
+                    {
+                        'index': 2,
+                        'picture': semiradskyHard3
+                    },
+                    {
+                        'index': 3,
+                        'picture': semiradskyHard4
+                    },
+                    {
+                        'index': 4,
+                        'picture': semiradskyHard5
+                    },
+                    {
+                        'index': 5,
+                        'picture': semiradskyHard6
+                    },
+                    {
+                        'index': 6,
+                        'picture': semiradskyHard7
+                    },
+                    {
+                        'index': 7,
+                        'picture': semiradskyHard8
+                    },
+                    {
+                        'index': 8,
+                        'picture': semiradskyHard9
+                    },
+                    {
+                        'index': 9,
+                        'picture': semiradskyHard10
+                    },
+                    {
+                        'index': 10,
+                        'picture': semiradskyHard11
+                    },
+                    {
+                        'index': 11,
+                        'picture': semiradskyHard12
+                    },
+                    {
+                        'index': 12,
+                        'picture': semiradskyHard13
+                    },
+                    {
+                        'index': 13,
+                        'picture': semiradskyHard14
+                    },
+                    {
+                        'index': 14,
+                        'picture': semiradskyHard15
+                    },
+                    {
+                        'index': 15,
+                        'picture': semiradskyHard16
+                    }
+                ],
+                'partSize': {
+                    'width': 900,
+                    'height': 575
+                },
+                'position': {
+                    'top': 800,
+                    'left': 1900,
+                },
+                'textArea': {
+                    'author': 'Henryk Siemiradzki (1843–1902)',
+                    'pictureTitle': 'Hard decision',
+                    'year': '1887',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Description..'
+                }
+            }
+        },
+
+
+        {
+            "index": 11,
+            'pictureData': {
+                'cropSize': cropSizeRopewalker,
+                'textArea': {
+                    'author': 'Henryk Siemiradzki (1843–1902)',
+                    'pictureTitle': 'Rope-dancer',
+                    'year': '1898',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Drawing info'
+                }
+            }
+        },
+        {
+            "index": 12,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': ropewalker1
+                    },
+                    {
+                        'index': 1,
+                        'picture': ropewalker2
+                    },
+                    {
+                        'index': 2,
+                        'picture': ropewalker3
+                    },
+                    {
+                        'index': 3,
+                        'picture': ropewalker4
+                    },
+                    {
+                        'index': 4,
+                        'picture': ropewalker5
+                    },
+                    {
+                        'index': 5,
+                        'picture': ropewalker6
+                    },
+                    {
+                        'index': 6,
+                        'picture': ropewalker7
+                    },
+                    {
+                        'index': 7,
+                        'picture': ropewalker8
+                    },
+                    {
+                        'index': 8,
+                        'picture': ropewalker9
+                    },
+                    {
+                        'index': 9,
+                        'picture': ropewalker10
+                    },
+                    {
+                        'index': 10,
+                        'picture': ropewalker11
+                    },
+                    {
+                        'index': 11,
+                        'picture': ropewalker12
+                    },
+                    {
+                        'index': 12,
+                        'picture': ropewalker13
+                    },
+                    {
+                        'index': 13,
+                        'picture': ropewalker14
+                    },
+                    {
+                        'index': 14,
+                        'picture': ropewalker15
+                    },
+                    {
+                        'index': 15,
+                        'picture': ropewalker16
+                    }
+                ],
+                'partSize': {
+                    'width': 950,
+                    'height': 500
+                },
+                'position': {
+                    'top': 400,
+                    'left': 2600,
+                },
+                'textArea': {
+                    'author': 'Henryk Siemiradzki (1843–1902)',
+                    'pictureTitle': 'Rope-dancer',
+                    'year': '1898',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Description..'
+                }
+            }
+        }
     ]
 };
 
