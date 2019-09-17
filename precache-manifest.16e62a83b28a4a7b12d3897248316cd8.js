@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb34f24b8e5c9a86b3ce39f52fe9d378",
+    "revision": "c67def97dcd767dc923a3123fb33e254",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "97958f0584b919ef0032",
+    "revision": "64f462a869d3d27f2e8a",
     "url": "/Faberge-Drawings/static/css/main.737d2bb3.chunk.css"
   },
   {
-    "revision": "5b988bc3eea65c528df6",
-    "url": "/Faberge-Drawings/static/js/2.6de90496.chunk.js"
+    "revision": "1e493d720dc77a0a5d0a",
+    "url": "/Faberge-Drawings/static/js/2.37f9363e.chunk.js"
   },
   {
-    "revision": "97958f0584b919ef0032",
-    "url": "/Faberge-Drawings/static/js/main.13f459c1.chunk.js"
+    "revision": "64f462a869d3d27f2e8a",
+    "url": "/Faberge-Drawings/static/js/main.fa9d2dc1.chunk.js"
   },
   {
     "revision": "0263afbe168399bc9571",
