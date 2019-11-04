@@ -47,7 +47,9 @@
     outline: none;
 }
 
-.app__main__nextSlidePage:hover {
+.app__main__nextSlidePage:hover,
+.app__main__languageToggle:hover,
+.app__main__EggsPage:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -65,11 +67,29 @@
     height: 45px;
     border-radius: 50%;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     outline: none;
     color: #fff;
 }
 
-.app__main__languageToggle:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+.app__main__EggsPage {
+    position: absolute;
+    left: 48%;
+    bottom: 3%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    /* border: 3px solid #fff; */
+    outline: none;
+}
+
+.app__main__EggsPage_nextPageArrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
 }

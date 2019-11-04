@@ -42,7 +42,7 @@ class Slider extends Component {
     nextImg = () => {
         let newIndex = this.state.slider.index + 1;
 
-        if ( newIndex < 13 ) { // последний слайд - на 1 >
+        if ( newIndex < 17 ) { // последний n-слайд + 1  файла дата
             this.setState({
                 slider: SliderData.slides[newIndex],
             })
@@ -79,7 +79,7 @@ class Slider extends Component {
 
                     {
                         // this.state.slider.index >= 1  // для двух слайдов
-                        this.state.slider.index >= 12  // для n слайдов файла дата
+                        this.state.slider.index >= 16  // для n-слайдов файла дата
                         ?
                         <NavLink to='/lastSlide'>
                             <button className={styles.app__slider__nextSlidePageRight}>

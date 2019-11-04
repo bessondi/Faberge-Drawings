@@ -1,12 +1,13 @@
 {
   "name": "faberge-drawings",
+  "author": "Dmitry Bessonov",
+  "e-mail": "dmitrybessonov@icloud.com",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://bessondi.github.io/Faberge-Drawings/",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-preloaders": "^3.0.3",
     "react-scripts": "3.0.1"
   },
   "scripts": {

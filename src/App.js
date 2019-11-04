@@ -1,38 +1,14 @@
-import React from 'react';
-import {Route, Switch} from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import Preloader from './components/preloader/preloader';
 
-import Main from "./components/main/main";
-import Slider from "./components/slider/slider";
-import LastSlide from "./components/slider/lastSlide/lastSlide";
-
-import EngMain from "./components/main/engMain";
-import EngSlider from "./components/slider/engSlider";
-import LastSlideEng from "./components/slider/lastSlide/lastSlideEng";
-
-import './App.css';
-
-// import engSliderData from './components/englishVersion/engsliderData';
-// import media from '../../css/media.module.css';
+const AppRouter = lazy(() => import('./components/AppRouter'));
 
 
 function App() {
     return (
-        <div className="app"
-             onContextMenu={ (e) => e.preventDefault() }
-             onMouseDown={ (e) => e.preventDefault() }
-        >
-            {/*header*/}
-                <Switch>
-                    <Route exact path='/' component={Main} />
-                    <Route path='/slider' component={Slider} />
-                    <Route path='/lastSlide' component={LastSlide} />
-
-                    <Route path='/eng' component={EngMain}/>
-                    <Route path='/engSlider' component={EngSlider}/>
-                    <Route path='/lastSlideEng' component={LastSlideEng} />
-                </Switch>
-            {/*footer*/}
-        </div>
+        <Suspense fallback={ <Preloader/> }>
+            <AppRouter />
+        </Suspense>
     );
 }
 

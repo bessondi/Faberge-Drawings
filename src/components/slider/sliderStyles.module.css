@@ -37,7 +37,8 @@
 }
 
 .app__slider__nextSlidePageRight {
-    right: -30px;
+    left: 67.8%;
+    /* z-index: 1; */
 }
 
 .app__slider_prevSlidePageArrowLeft {

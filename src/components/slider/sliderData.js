@@ -129,7 +129,7 @@ export const SliderData = {
                     'pictureTitle': 'Площадь перед церковью Святой Троицы в Париже',
                     'year': '1893',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Особое место среди представленных в Верхней буфетной картин занимает «Площадь перед церковью Святой Троицы в Париже». Она написана Пьером Огюстом Ренуаром – живописцем, графиком и скульптором, одним из основателей и самых видных представителей импрессионизма. Художнику на основе пленэрных впечатлений мастерски удалось передать динамичную атмосферу большого города.'
+                    'info': 'Французский художник, один из главных представителей импрессионизма, писал картины в широком жанровом разнообразии – пейзажи, натюрморты, портреты, бытовые сцены. Стремление создавать новые работы не покидало художника даже в последние годы его жизни, когда он страдал от ревматизма. \n Картина «Площадь перед собором Святой Троицы в Париже» была написана в первую годовщину после провальной выставки членов «Анонимного кооперативного товарищества», в которое входили такие художники, как Фантен-Латур, Сислей, Базиль и Клод Моне, Сезанн и Писсарро. После этой выставки группа художников получила прозвище «импрессионисты». \n Площадь перед собором предстает явно оживленной, возможно, это связано с новизной здания. Собор Святой Троицы был построен в 1861—1867 годы, а место собора когда-то занимал популярный ресторан «La Grande Pinte». \n Техника импрессионистов здесь мастерски отражает динамичную атмосферу города.'
                 }
             }
         },
@@ -406,7 +406,7 @@ export const SliderData = {
                     'pictureTitle': 'Вид Академии наук и Дворцовой набережной в Петербурге',
                     'year': '1850',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'А также молодую горничную стирающую вещи'
+                    'info': 'А также молодую девушку у воды'
                 }
             }
         },
@@ -522,7 +522,7 @@ export const SliderData = {
                     'pictureTitle': 'Суд Париса',
                     'year': '1889',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': 'Картина «Суд Париса», написанная Константином Егоровичем Маковским на сюжет известного античного мифа, изображает спор трех богинь – Геры, Афины и Афродиты – о том, кто из них самая прекрасная. Большие размеры холста позволили раскрыть сюжет во всех подробностях. Сыграла свою роль и популярность в творческой среде так называемых «живых картин» – натурных постановок, напоминавших известные произведения искусства. Константин Маковский увлекался подобными картинами, позволявшими ему во всех подробностях передать многофигурную сцену.'
+                    'info': 'Картина «Суд Париса», написанная Константином Егоровичем Маковским на сюжет известного античного мифа, изображает спор трех богинь – Геры, Афины и Афродиты – о том, кто из них самая прекрасная. \n Большие размеры холста позволили раскрыть сюжет во всех подробностях. С одной стороны, выбор крупного формата обусловлен общей тенденцией отечественного искусства этого времени к работе в монументальных формах (романы, симфонии, оперы). Сыграла свою роль и популярность в творческой среде так называемых «живых картин» – натурных постановок, напоминавших известные произведения искусства. Константин Маковский увлекался подобными «картинами», позволявшими ему во всех подробностях передать многофигурную сцену. \n «Суд Париса» решен в эффектной живописной манере. Художник виртуозно передает фактуру, игру света, колористические нюансы. Это произведение, а также картины «Демон и Тамара» и «Смерть Ивана Грозного», Маковский отправил на Всемирную выставку в Париж в 1889 году. Он получил за них золотую медаль I степени и был награжден орденом Почетного легиона. Однако еще до открытия выставки «Суд Париса» купил американец Чарльз Шуманн. Работа долгое время находилась в его ювелирном магазине на Бродвее, в Нью-Йорке, а затем висела в интерьере частного спортивного клуба.'
                 }
             }
         },
@@ -600,22 +600,366 @@ export const SliderData = {
                     'height': 775
                 },
                 'position': {
-                    'top': 1100,
-                    'left': 1300,
+                    'top': 1200,
+                    'left': 1200,
                 },
                 'textArea': {
                     'author': 'Константин Маковский (1839–1915)',
                     'pictureTitle': 'Суд Париса',
                     'year': '1889',
                     'typeOfCanvas': 'Холст, масло',
-                    'info': '«Суд Париса» решен в эффектной живописной манере. Художник виртуозно передает фактуру, игру света, колористические нюансы. Это произведение Маковский отправил на Всемирную выставку в Париж в 1889 году. Он получил за него золотую медаль I степени и был награжден орденом Почетного легиона. Однако еще до открытия выставки «Суд Париса» купил американец Чарльз Шуманн. Работа долгое время находилась в его ювелирном магазине на Бродвее, в Нью-Йорке, а затем висела в интерьере частного спортивного клуба.'
+                    'info': 'Парис - в древнегреческом эпосе сын последнего троянского царя Приама, виновник развязывания Троянской войны. Сказания о Парисе послужили сюжетом для многочисленных произведений искусства.'
+                }
+            }
+        },
+        {
+            "index": 9,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 1100,
+                    'left': 1600,
+                },
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': '«Яблоко раздора - золотое яблоко, с надписью «Прекраснейшей», подкинутое богиней раздора Эридой во время свадебного пира Пелея и Фетиды. \n Яблоко стало причиной ссоры трех богинь - Геры, Афины и Афродиты. Троянский царевич Парис должен был решить, кто из богинь достоин называться прекраснейшей. Богини за победу сулили царю различные награды. Гера обещала сделать его самым могущественным правителем, Афина - самым храбрым героем, но победила в конкурсе Афродита, которая пообещала Парису самую красивую женщину. Она помогла Парису выкрасть Елену, жену спартанского царя Менелая, и это стало причиной Троянской войны. \n Поэтому выражение «яблоко раздора» обозначает любую вещь или событие, которые могут привести к непредсказуемым и разрушительным последствиям.'
+                }
+            }
+        },
+        {
+            "index": 10,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 1000,
+                    'left': 2250,
+                },
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': '«Афродита - богиня красоты и любви, одна из 12 великих олимпийских богов. Также богиня плодородия, вечной весны и жизни. Волна. \n Самый красивый миф о рождении Афродиты основан на повествовании Гесиода, греческого поэта, жившего в конце VIII - начале VII века до н.э. \n Легенда гласит, что у богини Геи и бога Урана родилось много детей-богов. Уран был жесток, он укрывал рожденных детей в утробе Геи, отчего она страдала и мучилась. Гея решила отомстить Урану и призвала на помощь своих детей. Из всех детей помочь матери согласился Кронос, олицетворяющий в мифологии Время. Он ранил Урана. Кровь Урана попала в море, смешавшись с морской водой, она бурлила и пенилась. В этой пене появилась прекрасная девушка. Это и была Афродита. Она вышла на берег на острове Кипре, потому часто ее называют Кипридой. \n Имя Афродита происходит от слова «пена».'
+                }
+            }
+        },
+        {
+            "index": 11,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 400,
+                    'left': 800,
+                },
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Гера - одна из двенадцати верховных олимпийский богинь, покровительница брака, сестра и жена Зевса. Согласно мифам, Гера отличается властностью, жестокостью и ревнивым нравом. Павлин в античной мифологии считается птицей Геры. Этот образ связан с мифом о прекрасной Ио, дочери бога реки Инах, и стоглазом великане Аргусе. Гера разместила глаза погибшего от руки Гермеса Аргуса на крыльях и хвосте павлина, который с тех пор стал птицей богини Геры.'
+                }
+            }
+        },
+        {
+            "index": 12,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 900,
+                    'left': 3450,
+                },
+                'textArea': {
+                    'author': 'Константин Маковский (1839–1915)',
+                    'pictureTitle': 'Суд Париса',
+                    'year': '1889',
+                    'typeOfCanvas': 'Холст, масло',
+                    'info': 'Афина - богиня мудрости, военной стратегии и тактики, одна из наиболее почитаемых богинь Древней Греции. Афина - богиня войны, но она признает только благоразумную войну, ведомую по всем правилам военного искусства и имеющую определенную цель. Кроме того, богиня знаний, искусств и ремёсел; дева-воительница, покровительница городов и государств, наук и мастерства, ума, сноровки, изобретательности. \n Афина родилась не от матери, а прямо из головы Зевса, поэтому Афине чужды все женские слабости. Она отличается серьезным, почти мужским характером. Афина легко отличима от других древнегреческих богинь благодаря своей необычной внешности. В отличие от других женских божеств, она использует мужские атрибуты — одета в доспехи, держит в руках копьё. \n Коринфский шлем с конским гребнем стал одним из символов Древней Греции классического периода. Шлем получил название по городу Коринф на Пелопоннесе, где было развито производство таких шлемов.'
                 }
             }
         },
 
 
         {
-            "index": 9,
+            "index": 13,
             'pictureData': {
                 'cropSize': cropSizeSemiradskyChoice,
                 'textArea': {
@@ -628,7 +972,7 @@ export const SliderData = {
             }
         },
         {
-            "index": 10,
+            "index": 14,
             'pictureData': {
                 'parts': [
                     {
@@ -716,7 +1060,7 @@ export const SliderData = {
 
 
         {
-            "index": 11,
+            "index": 15,
             'pictureData': {
                 'cropSize': cropSizeRopewalker,
                 'textArea': {
@@ -729,7 +1073,7 @@ export const SliderData = {
             }
         },
         {
-            "index": 12,
+            "index": 16,
             'pictureData': {
                 'parts': [
                     {
@@ -823,12 +1167,15 @@ export const SliderDataEng = {
             "index": 0,
             'pictureData': {
                 'cropSize': cropSizeRenoir,
+                'soundtrack': {
+                    'sound': renoirSound,
+                },
                 'textArea': {
                     'author': 'Pierre-Auguste Renoir (1841-1919)',
                     'pictureTitle': 'Square of Saint Trinity in Paris',
                     'year': '1893',
                     'typeOfCanvas': 'Oil on canvas',
-                    'info': 'A special place among the paintings displayed in the Upper Pantry is taken by The Square in front of the Sainte-Trinité Church in Paris. It is a work by Pierre Auguste Renoir, a painter, graphic artist and sculptor who was one of the founders and most prominent exponents of Impressionism. Painting directly en plein air, he succeeded in masterfully conveying the dynamic atmosphere of a big city.'
+                    'info': 'The French artist, one of the main representatives of impressionism, painted paintings in a wide variety of genres - landscapes, still-lifes, portraits, everyday scenes. The desire to create new works did not leave the artist even in the last years of his life, when he suffered from rheumatism. \n Piazza in front of the Cathedral of the Holy Trinity in Paris was painted on the first anniversary of the failed exhibition of members of the Anonymous Cooperative Society, which included artists such as Fanten-Latour, Cisley, Basil and Claude Monet, Cézanne and Pissarro. After this exhibition, the group of artists was nicknamed "impressionists". \n The square in front of the cathedral is clearly lively, perhaps due to the novelty of the building. The Cathedral of the Holy Trinity was built in 1861-1867, and the place of the cathedral was once occupied by the popular restaurant "La Grande Pinte". \n The Impressionist technique here masterfully reflects the dynamic atmosphere of the city.'
                 }
             }
         },
@@ -909,10 +1256,10 @@ export const SliderDataEng = {
                     'top': 1200,
                     'left': 1000,
                 },
-                'soundtrack': {
-                    'sound': renoirSound,
-                    'title': 'Square noise'
-                },
+                // 'soundtrack': {
+                //     'sound': renoirSound,
+                //     'title': 'Square noise'
+                // },
                 'textArea': {
                     'author': 'Pierre-Auguste Renoir (1841-1919)',
                     'pictureTitle': 'Square of Saint Trinity in Paris',
@@ -1224,7 +1571,7 @@ export const SliderDataEng = {
                     'pictureTitle': 'The Judgement of Paris',
                     'year': '1889',
                     'typeOfCanvas': 'Oil on canvas',
-                    'info': 'Konstantin Makovsky painted The Judgement of Paris on a story from ancient Greek mythology – the argument between three goddesses – Hera, Athena and Aphrodite – over which of them is the most beautiful. The large-sized canvas enabled the artist to present the subject in depth. There is also an influence here as well of tableaux vivants – recreations of works of art by people dressed in appropriate costume – that were a popular amusement in creative circles. Konstantin Makovsky was keen on paintings like these that enabled him to present a multifigure scene in the fullest detail.'
+                    'info': 'The painting "The Court of Paris", painted by Konstantin Makovsky on the plot of the famous ancient myth, depicts the dispute of three goddesses - Hera, Athens and Aphrodite - about which of them is the most beautiful. \n The large size of the canvas allowed to reveal the story in detail. On the one hand, the choice of a large format is conditioned by the general tendency of Russian art of that time to work in monumental forms (novels, symphonies, operas). Played its role and popularity in the creative environment of the so-called "living paintings" - natural productions, resembling famous works of art. Konstantin Makovsky was fond of such "paintings", allowing him to convey in detail the multi-figured scene. \n "The Court of Paris" is solved in a spectacular pictorial manner. The artist masterly conveys the texture, the play of light, coloristic nuances. This work, as well as the paintings "Demon and Tamara" and "Death of Ivan the Terrible", Makovsky sent to the World Exhibition in Paris in 1889. He received a gold medal for them I degree and was awarded the Order of the Legion of Honor. However, even before the opening of the exhibition "Court of Paris" bought the American Charles Schumann. The work was for a long time in his jewelry store on Broadway, New York, and then hung in the interior of a private sports club.'
                 }
             }
         },
@@ -1302,22 +1649,366 @@ export const SliderDataEng = {
                     'height': 775
                 },
                 'position': {
-                    'top': 1100,
-                    'left': 1300,
+                    'top': 1200,
+                    'left': 1200,
                 },
                 'textArea': {
                     'author': 'Constantine Makovskiy (1839–1915)',
                     'pictureTitle': 'The Judgement of Paris',
                     'year': '1889',
                     'typeOfCanvas': 'Oil on canvas',
-                    'info': 'The Judgement of Paris was executed in a striking vivid manner. The artist skilfully conveyed texture, the play of colour and nuances of colour. Makovsky sent this work to the 1889 Paris World’s Fair, where he was awarded a 1st-class gold medal and membership of the Legion of Honour. Even before the fair opened the Judgement of Paris was bought by the American Charles Schumann. For many years the painting hung in his jewellery store on Broadway, New York, and then in a private sports club.'
+                    'info': 'Paris is the son of the last Trojan king Priam in the ancient Greek epic, who was responsible for the outbreak of the Trojan War. The tales of Paris were the subject of many works of art.'
+                }
+            }
+        },
+        {
+            "index": 9,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 1100,
+                    'left': 1600,
+                },
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'The apple of discord is a golden apple with the inscription "Beautiful", thrown by the goddess of discord Erissa during the wedding feast of Peleius and Fetida. \n The apple caused a quarrel between three goddesses - Hera, Athena and Aphrodite. The Trojan prince Paris had to decide who of the goddesses was worthy to be called the most beautiful. The goddesses promised the king various awards for his victory. Hera promised to make him the most powerful ruler, Athena - the bravest hero, but won the contest Aphrodite, who promised Paris the most beautiful woman. She helped Paris to steal Elena, the wife of the Spartan king Menelaus, and this was the reason for the Trojan War. \n Therefore, the expression "apple of discord" means any thing or event that can lead to unpredictable and destructive consequences.'
+                }
+            }
+        },
+        {
+            "index": 10,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 1000,
+                    'left': 2250,
+                },
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Aphrodite is the goddess of beauty and love, one of the 12 great Olympic gods. Also the goddess of fertility, eternal spring and life. Wave. \n The most beautiful myth about Aphrodite\'s birth is based on the story of Hesiod, a Greek poet who lived in the late VIII - early VII century BC. \n Legend has it that the goddess Gaia and the goddess Uranus had many children of the gods.  Uranus was cruel, he hid the children born in Gaia\'s womb, which caused her to suffer and suffer. Gaia decided to take revenge on Uranus and called on her children to help her. Of all the children, Kronos agreed to help his mother, a personification of Time in mythology. He wounded Uranus. The blood of Uranus entered the sea, mixed with sea water, and it was bubbling and foaming. A beautiful girl appeared in this foam. It was Aphrodite. She came ashore on the island of Cyprus, so she is often called Cyprus. \n Aphrodite\'s name comes from the word "foam".'
+                }
+            }
+        },
+        {
+            "index": 11,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 400,
+                    'left': 800,
+                },
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Hera is one of the twelve supreme Olympic goddesses, the patroness of marriage, sister and wife of Zeus. According to myths, Hera is distinguished by his power, cruelty and jealous temperament. Peacock in ancient mythology is considered the bird of Hera. This image is associated with the myth of the beautiful Io, daughter of the god of the river Inach, and a giant Argus with a hundred eyes. Hera placed the eyes of Hermes Argus, who died by hand, on the wings and tail of the peacock, who has since become a bird of the goddess Hera.'
+                }
+            }
+        },
+        {
+            "index": 12,
+            'pictureData': {
+                'parts': [
+                    {
+                        'index': 0,
+                        'picture': makovsky1
+                    },
+                    {
+                        'index': 1,
+                        'picture': makovsky2
+                    },
+                    {
+                        'index': 2,
+                        'picture': makovsky3
+                    },
+                    {
+                        'index': 3,
+                        'picture': makovsky4
+                    },
+                    {
+                        'index': 4,
+                        'picture': makovsky5
+                    },
+                    {
+                        'index': 5,
+                        'picture': makovsky6
+                    },
+                    {
+                        'index': 6,
+                        'picture': makovsky7
+                    },
+                    {
+                        'index': 7,
+                        'picture': makovsky8
+                    },
+                    {
+                        'index': 8,
+                        'picture': makovsky9
+                    },
+                    {
+                        'index': 9,
+                        'picture': makovsky10
+                    },
+                    {
+                        'index': 10,
+                        'picture': makovsky11
+                    },
+                    {
+                        'index': 11,
+                        'picture': makovsky12
+                    },
+                    {
+                        'index': 12,
+                        'picture': makovsky13
+                    },
+                    {
+                        'index': 13,
+                        'picture': makovsky14
+                    },
+                    {
+                        'index': 14,
+                        'picture': makovsky15
+                    },
+                    {
+                        'index': 15,
+                        'picture': makovsky16
+                    }
+                ],
+                'partSize': {
+                    'width': 1250,
+                    'height': 775
+                },
+                'position': {
+                    'top': 900,
+                    'left': 3450,
+                },
+                'textArea': {
+                    'author': 'Constantine Makovskiy (1839–1915)',
+                    'pictureTitle': 'The Judgement of Paris',
+                    'year': '1889',
+                    'typeOfCanvas': 'Oil on canvas',
+                    'info': 'Athena is the goddess of wisdom, military strategy and tactics, one of the most revered goddesses of ancient Greece. Athena is the goddess of war, but she recognizes only a reasonable war, governed by all the rules of military art and with a certain purpose. In addition, the goddess of knowledge, arts and crafts, the maiden warrior, patroness of cities and states, sciences and craftsmanship, intelligence, skill and ingenuity. \n Athena was born not from her mother, but directly from the head of Zeus, so Athena is alien to all female weaknesses. She has a serious, almost masculine character. Athena is easily distinguishable from other ancient Greek goddesses due to its unusual appearance. Unlike other female deities, she uses male attributes - dressed in armor, holding a spear in his hands. \n Corinthian helmet with horseback ridge became one of the symbols of Ancient Greece of the classical period. The helmet was named after the town of Corinth in the Peloponnese, where the production of such helmets was developed.'
                 }
             }
         },
 
 
         {
-            "index": 9,
+            "index": 13,
             'pictureData': {
                 'cropSize': cropSizeSemiradskyChoice,
                 'textArea': {
@@ -1330,7 +2021,7 @@ export const SliderDataEng = {
             }
         },
         {
-            "index": 10,
+            "index": 14,
             'pictureData': {
                 'parts': [
                     {
@@ -1418,7 +2109,7 @@ export const SliderDataEng = {
 
 
         {
-            "index": 11,
+            "index": 15,
             'pictureData': {
                 'cropSize': cropSizeRopewalker,
                 'textArea': {
@@ -1431,7 +2122,7 @@ export const SliderDataEng = {
             }
         },
         {
-            "index": 12,
+            "index": 16,
             'pictureData': {
                 'parts': [
                     {
@@ -1526,7 +2217,7 @@ export const LastSlideData = {
             'repeat': 'Посмотреть еще раз',
             'return': 'Вернуться в начало',
             'info': 'Материалы подготовлены сотрудниками Музея Фаберже:',
-            'names': 'Анастасия Гранкина, Александра Татарова, ... Дмитрий Бессонов'
+            'names': 'Дарья Шохина, Инга Василевская ... Дмитрий Бессонов'
         }
     ]
 };
@@ -1537,7 +2228,7 @@ export const LastSlideDataEng = {
             'repeat': 'View drawings again',
             'return': 'Back to the main page',
             'info': 'Materials prepared by the Faberge Museum:\n',
-            'names': 'Anastasia Grankina, Alexandra Tatarova, ..., Dmitry Bessonov'
+            'names': 'Daria Shohina, Inga Vasilevskaya ... Dmitry Bessonov'
         }
     ]
 };

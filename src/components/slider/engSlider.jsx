@@ -14,13 +14,13 @@ class EngSlider extends Component {
         }
     }
 
-    componentDidMount() {
-        this.timer = setInterval( this.nextImg, 40000 )
-    }
+    // componentDidMount() {
+    //     this.timer = setInterval( this.nextImg, 40000 )
+    // }
 
-    componentWillUnmount() {
-        clearInterval(this.timer)
-    }
+    // componentWillUnmount() {
+    //     clearInterval(this.timer)
+    // }
 
     prevImg = () => {
         let newIndex = this.state.slider.index - 1;
@@ -40,7 +40,7 @@ class EngSlider extends Component {
     nextImg = () => {
         let newIndex = this.state.slider.index + 1;
 
-        if (newIndex < 13) { // последний слайд
+        if (newIndex < 17) { // последний слайд
             this.setState({
                 slider: SliderDataEng.slides[newIndex],
             })
@@ -76,7 +76,7 @@ class EngSlider extends Component {
                    }
 
                     {
-                        this.state.slider.index >= 12  // для двух слайдов
+                        this.state.slider.index >= 16  // для двух слайдов
                         ?
                         <NavLink to='/lastSlideEng'>
                             <button className={styles.app__slider__nextSlidePageRight}>

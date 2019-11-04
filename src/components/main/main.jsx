@@ -39,6 +39,12 @@ class Main extends Component {
                                 <div className={styles.app__main__nextSlidePage_nextSlidePageArrow}/>
                             </button>
                         </NavLink>
+
+                        <NavLink to='/eggsPage'>
+                            <button className={styles.app__main__EggsPage}>
+                                <div className={styles.app__main__EggsPage_nextPageArrow}/>
+                            </button>
+                        </NavLink>
                     </Background>
                 </main>
             );
