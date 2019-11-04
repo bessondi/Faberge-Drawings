@@ -1,23 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c67def97dcd767dc923a3123fb33e254",
+    "revision": "873173977a1efc8db5d45ee428429b79",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "64f462a869d3d27f2e8a",
-    "url": "/Faberge-Drawings/static/css/main.737d2bb3.chunk.css"
+    "revision": "ebd81cd8df1927300923",
+    "url": "/Faberge-Drawings/static/css/2.2d173791.chunk.css"
   },
   {
-    "revision": "1e493d720dc77a0a5d0a",
-    "url": "/Faberge-Drawings/static/js/2.37f9363e.chunk.js"
+    "revision": "53cdfc7f180ff0090c43",
+    "url": "/Faberge-Drawings/static/css/main.424b454a.chunk.css"
   },
   {
-    "revision": "64f462a869d3d27f2e8a",
-    "url": "/Faberge-Drawings/static/js/main.fa9d2dc1.chunk.js"
+    "revision": "ebd81cd8df1927300923",
+    "url": "/Faberge-Drawings/static/js/2.f3a55ae9.chunk.js"
   },
   {
-    "revision": "0263afbe168399bc9571",
-    "url": "/Faberge-Drawings/static/js/runtime~main.8a2e87dd.js"
+    "revision": "c148bbe7cc338a9c2a1c",
+    "url": "/Faberge-Drawings/static/js/3.0ffc37b4.chunk.js"
+  },
+  {
+    "revision": "e7ab57a8221c803e30cd",
+    "url": "/Faberge-Drawings/static/js/4.edd23fad.chunk.js"
+  },
+  {
+    "revision": "53cdfc7f180ff0090c43",
+    "url": "/Faberge-Drawings/static/js/main.005d0e24.chunk.js"
+  },
+  {
+    "revision": "a832e4858273d949d92d",
+    "url": "/Faberge-Drawings/static/js/runtime~main.ca64b8f1.js"
+  },
+  {
+    "revision": "cf18d252e383b05f55ef182bcd957c03",
+    "url": "/Faberge-Drawings/static/media/15.cf18d252.jpg"
   },
   {
     "revision": "a71519a2b6a8b249d4911847bf812b2c",
@@ -164,6 +180,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/CityNoise.55e17987.mp3"
   },
   {
+    "revision": "6a195099b11990b01458eecf333956c9",
+    "url": "/Faberge-Drawings/static/media/Clock.6a195099.jpg"
+  },
+  {
+    "revision": "966b05edd15f13850197d3808935dfca",
+    "url": "/Faberge-Drawings/static/media/Coron.966b05ed.jpg"
+  },
+  {
+    "revision": "c9223005668cddb44aa89db2dd6be521",
+    "url": "/Faberge-Drawings/static/media/Georg.c9223005.jpg"
+  },
+  {
+    "revision": "f1d0bf9ea736e86c6d3d91771c372c92",
+    "url": "/Faberge-Drawings/static/media/Hen.f1d0bf9e.jpg"
+  },
+  {
+    "revision": "6fed02d5d19e67eff1db6ec7785948c9",
+    "url": "/Faberge-Drawings/static/media/Hen2.6fed02d5.jpg"
+  },
+  {
+    "revision": "5c842e272fc5ec81099de1c12f54a6d6",
+    "url": "/Faberge-Drawings/static/media/Hen_bird.5c842e27.jpg"
+  },
+  {
+    "revision": "8540ca54ed493e1b2c177c7df53d0192",
+    "url": "/Faberge-Drawings/static/media/Hen_bird_inEgg.8540ca54.jpg"
+  },
+  {
+    "revision": "ffab8379333936cc80e41c46209b19ea",
+    "url": "/Faberge-Drawings/static/media/Lilies.ffab8379.jpg"
+  },
+  {
     "revision": "3276fb83e3392a139d64b83ae52003e1",
     "url": "/Faberge-Drawings/static/media/Makovsky.3276fb83.jpg"
   },
@@ -244,6 +292,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/PFAgoraSansPro-Thin.9fe65381.ttf"
   },
   {
+    "revision": "5b4541b8afff89cc99ed0ccf360dd72b",
+    "url": "/Faberge-Drawings/static/media/Ren.5b4541b8.jpg"
+  },
+  {
     "revision": "f6ce657ce43ae52df7f7b437c1affb57",
     "url": "/Faberge-Drawings/static/media/Renoir.f6ce657c.jpg"
   },
@@ -310,6 +362,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70847fd6c27bc0a015cdda0e8ca3c378",
     "url": "/Faberge-Drawings/static/media/Renoir_16.70847fd6.jpg"
+  },
+  {
+    "revision": "657ac9b7e3faf20d4d22a60f30cb97fe",
+    "url": "/Faberge-Drawings/static/media/Rose.657ac9b7.jpg"
   },
   {
     "revision": "a1b768a33146e8d960a688a93a66629c",
@@ -448,6 +504,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/Semiradskiy_16.13394947.jpg"
   },
   {
+    "revision": "306488ba7e0c3b826bf75712b034a657",
+    "url": "/Faberge-Drawings/static/media/Tree.306488ba.jpg"
+  },
+  {
     "revision": "12eb34e71f6d2b68705ebba9ff97042f",
     "url": "/Faberge-Drawings/static/media/WaterSounds.12eb34e7.mp3"
   },
@@ -462,5 +522,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1073ef70f8369f29b2d2805f0ded751",
     "url": "/Faberge-Drawings/static/media/repeatBtn.b1073ef7.svg"
+  },
+  {
+    "revision": "3bc1e869edf4ab532e496804dcc6cfcb",
+    "url": "/Faberge-Drawings/static/media/romanov_eggs.3bc1e869.jpg"
   }
 ]);
