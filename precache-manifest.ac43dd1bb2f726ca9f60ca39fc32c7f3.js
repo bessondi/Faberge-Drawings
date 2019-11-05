@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "873173977a1efc8db5d45ee428429b79",
+    "revision": "4bda35df7886ee693c664da1a3b67123",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "ebd81cd8df1927300923",
-    "url": "/Faberge-Drawings/static/css/2.2d173791.chunk.css"
+    "revision": "e97d47be54e948f7d8d4",
+    "url": "/Faberge-Drawings/static/css/2.7aa12b32.chunk.css"
   },
   {
-    "revision": "53cdfc7f180ff0090c43",
+    "revision": "d29e0e143c21901ce651",
     "url": "/Faberge-Drawings/static/css/main.424b454a.chunk.css"
   },
   {
-    "revision": "ebd81cd8df1927300923",
-    "url": "/Faberge-Drawings/static/js/2.f3a55ae9.chunk.js"
+    "revision": "e97d47be54e948f7d8d4",
+    "url": "/Faberge-Drawings/static/js/2.42f36062.chunk.js"
   },
   {
     "revision": "c148bbe7cc338a9c2a1c",
     "url": "/Faberge-Drawings/static/js/3.0ffc37b4.chunk.js"
   },
   {
-    "revision": "e7ab57a8221c803e30cd",
-    "url": "/Faberge-Drawings/static/js/4.edd23fad.chunk.js"
+    "revision": "39ab078dfe14cd91c53f",
+    "url": "/Faberge-Drawings/static/js/4.a83ed05a.chunk.js"
   },
   {
-    "revision": "53cdfc7f180ff0090c43",
-    "url": "/Faberge-Drawings/static/js/main.005d0e24.chunk.js"
+    "revision": "d29e0e143c21901ce651",
+    "url": "/Faberge-Drawings/static/js/main.ddee6eb7.chunk.js"
   },
   {
-    "revision": "a832e4858273d949d92d",
-    "url": "/Faberge-Drawings/static/js/runtime~main.ca64b8f1.js"
+    "revision": "f79e0ce999af4df195f4",
+    "url": "/Faberge-Drawings/static/js/runtime~main.21563ad2.js"
   },
   {
-    "revision": "cf18d252e383b05f55ef182bcd957c03",
-    "url": "/Faberge-Drawings/static/media/15.cf18d252.jpg"
+    "revision": "42acd4db08935f13e32429582404c2ef",
+    "url": "/Faberge-Drawings/static/media/15.42acd4db.jpg"
   },
   {
     "revision": "a71519a2b6a8b249d4911847bf812b2c",
@@ -180,36 +180,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/CityNoise.55e17987.mp3"
   },
   {
-    "revision": "6a195099b11990b01458eecf333956c9",
-    "url": "/Faberge-Drawings/static/media/Clock.6a195099.jpg"
+    "revision": "547ef10e06390efb0d7336f7aa650418",
+    "url": "/Faberge-Drawings/static/media/Clock.547ef10e.jpg"
   },
   {
-    "revision": "966b05edd15f13850197d3808935dfca",
-    "url": "/Faberge-Drawings/static/media/Coron.966b05ed.jpg"
+    "revision": "8dfdb03b93e8dec93c54a019727c18d5",
+    "url": "/Faberge-Drawings/static/media/Coron.8dfdb03b.jpg"
   },
   {
-    "revision": "c9223005668cddb44aa89db2dd6be521",
-    "url": "/Faberge-Drawings/static/media/Georg.c9223005.jpg"
+    "revision": "99f733b24b989fcaf7af2bc6eecda02d",
+    "url": "/Faberge-Drawings/static/media/Coron_pin1.99f733b2.jpg"
   },
   {
-    "revision": "f1d0bf9ea736e86c6d3d91771c372c92",
-    "url": "/Faberge-Drawings/static/media/Hen.f1d0bf9e.jpg"
+    "revision": "7fa776c4fe95a433c752d5ee444e192c",
+    "url": "/Faberge-Drawings/static/media/Georg.7fa776c4.jpg"
   },
   {
-    "revision": "6fed02d5d19e67eff1db6ec7785948c9",
-    "url": "/Faberge-Drawings/static/media/Hen2.6fed02d5.jpg"
+    "revision": "71ea62483e3e24a2fda91e1057ac9b0d",
+    "url": "/Faberge-Drawings/static/media/Georg_pin1.71ea6248.jpg"
   },
   {
-    "revision": "5c842e272fc5ec81099de1c12f54a6d6",
-    "url": "/Faberge-Drawings/static/media/Hen_bird.5c842e27.jpg"
+    "revision": "2226d2d25b346262e8d5617c8db59852",
+    "url": "/Faberge-Drawings/static/media/Hen.2226d2d2.jpg"
+  },
+  {
+    "revision": "d8ebd6bf14fbffe8ffbbde9db1edce86",
+    "url": "/Faberge-Drawings/static/media/Hen_pin1.d8ebd6bf.jpg"
+  },
+  {
+    "revision": "04ad94ea27335e05e9df6f6a92b9fb43",
+    "url": "/Faberge-Drawings/static/media/Hen_pin2.04ad94ea.jpg"
   },
   {
     "revision": "8540ca54ed493e1b2c177c7df53d0192",
-    "url": "/Faberge-Drawings/static/media/Hen_bird_inEgg.8540ca54.jpg"
+    "url": "/Faberge-Drawings/static/media/Hen_pin3.8540ca54.jpg"
   },
   {
-    "revision": "ffab8379333936cc80e41c46209b19ea",
-    "url": "/Faberge-Drawings/static/media/Lilies.ffab8379.jpg"
+    "revision": "cd01825decc8c8080e7b085c47c96122",
+    "url": "/Faberge-Drawings/static/media/Lilies.cd01825d.jpg"
   },
   {
     "revision": "3276fb83e3392a139d64b83ae52003e1",
@@ -292,8 +300,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/PFAgoraSansPro-Thin.9fe65381.ttf"
   },
   {
-    "revision": "5b4541b8afff89cc99ed0ccf360dd72b",
-    "url": "/Faberge-Drawings/static/media/Ren.5b4541b8.jpg"
+    "revision": "5b489d73211d2b193c22cfa3cec68161",
+    "url": "/Faberge-Drawings/static/media/Ren_gray.5b489d73.jpg"
+  },
+  {
+    "revision": "8b6997b86b17e074c54d882bbe8b3141",
+    "url": "/Faberge-Drawings/static/media/Ren_pin1.8b6997b8.jpg"
+  },
+  {
+    "revision": "21054dd4b434f3dfca83a13ede476370",
+    "url": "/Faberge-Drawings/static/media/Ren_pin2.21054dd4.jpg"
   },
   {
     "revision": "f6ce657ce43ae52df7f7b437c1affb57",
@@ -364,8 +380,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/Renoir_16.70847fd6.jpg"
   },
   {
-    "revision": "657ac9b7e3faf20d4d22a60f30cb97fe",
-    "url": "/Faberge-Drawings/static/media/Rose.657ac9b7.jpg"
+    "revision": "61a17aadd7e1ceecf6ad10ebf6a38038",
+    "url": "/Faberge-Drawings/static/media/Rose.61a17aad.jpg"
   },
   {
     "revision": "a1b768a33146e8d960a688a93a66629c",
@@ -504,8 +520,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/media/Semiradskiy_16.13394947.jpg"
   },
   {
-    "revision": "306488ba7e0c3b826bf75712b034a657",
-    "url": "/Faberge-Drawings/static/media/Tree.306488ba.jpg"
+    "revision": "115cd85277e12f84a82624333bab6269",
+    "url": "/Faberge-Drawings/static/media/Tree.115cd852.jpg"
   },
   {
     "revision": "12eb34e71f6d2b68705ebba9ff97042f",
