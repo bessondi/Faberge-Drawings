@@ -1,6 +1,6 @@
 .app__slider__prevSlidePageLeft,
 .app__slider__nextSlidePageRight {
-    position: fixed;
+    position: absolute;
     top: 45%;
     color: #fff;
     width: 60px;
@@ -37,7 +37,8 @@
 }
 
 .app__slider__nextSlidePageRight {
-    left: 67.8%;
+    /* left: 67.8%; */
+    right: 27.8%;
     /* z-index: 1; */
 }
 

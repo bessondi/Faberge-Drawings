@@ -45,7 +45,6 @@ class ImageRender extends Component {
                 justify-content: flex-end;
                 left: 40px;
                 bottom: 30px;
-                background: #fff;
                 width: 300px;
                 height: 100px;
                 color: #fff;
@@ -76,7 +75,7 @@ class ImageRender extends Component {
                 height: 100vh;
                 z-index: 10;
                 background: #fff;
-                // background: #000;
+                /* background: #000; */
             `;
 
             const TextArea = styled.div`
@@ -91,7 +90,7 @@ class ImageRender extends Component {
                 line-height: 1.6rem;
                 overflow-Y: scroll;
                 color: #000;
-                // color: #fff;
+                /* color: #fff; */
                     &::-webkit-scrollbar {
                         width: 0;
                     }

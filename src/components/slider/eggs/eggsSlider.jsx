@@ -12,7 +12,6 @@ class EggSlider extends Component {
         super(props)
         this.state = {
             slider: SliderData.slides[0],
-            // isPinsClosed: true,
             isCard1Showed: false,
             isCard2Showed: false,
             isCard3Showed: false,

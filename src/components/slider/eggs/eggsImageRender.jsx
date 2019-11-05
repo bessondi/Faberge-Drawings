@@ -78,7 +78,6 @@ class EggsImageRender extends Component {
                 justify-content: flex-end;
                 left: 40px;
                 bottom: 30px;
-                background: #fff;
                 width: 300px;
                 height: 100px;
                 color: #fff;
@@ -109,7 +108,7 @@ class EggsImageRender extends Component {
                 height: 100vh;
                 z-index: 10;
                 background: #fff;
-                // background: #000;
+                /* background: #000; */
             `;
 
             const TextArea = styled.div`
@@ -124,7 +123,7 @@ class EggsImageRender extends Component {
                 line-height: 1.6rem;
                 overflow-Y: scroll;
                 color: #000;
-                // color: #fff;
+                /* color: #fff; */
                     &::-webkit-scrollbar {
                         width: 0;
                     }
@@ -201,7 +200,7 @@ class EggsImageRender extends Component {
                 width: 25px;
                 height: 25px;
                 /* color: #000; */
-                background: #dadada;
+                
                 border: 2px solid #fff;
                 border-radius: 50%;
                 font-size: 0.7rem;
@@ -231,6 +230,10 @@ class EggsImageRender extends Component {
             let PinDescription = styled.div`
                 /* display: flex; */
                 /* flex-direction: column; */
+                /* position:relative;
+                top: 10px;
+                left: 50px; */
+
                 flex-wrap: nowrap;
                 justify-content: space-around;
                 align-items: center;
@@ -355,11 +358,12 @@ class EggsImageRender extends Component {
                 width: 70%;
                 height: 100vh;
                 margin-right: 30%;
-                /* animation-duration: 1s; */
-                /* animation-name: showPic; */
+                background-color: #dadada;
+                //animation-duration: .3s;
+                //animation-name: showPic;
             `;
             const BlackField = styled.div`
-                background-color: #000;
+                background-color: #dadada;
             `;
             return (
                 <BlackField>
