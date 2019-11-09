@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bda35df7886ee693c664da1a3b67123",
+    "revision": "9aaad0880f85b5fbe5b6c9e53413a4e1",
     "url": "/Faberge-Drawings/index.html"
   },
   {
-    "revision": "e97d47be54e948f7d8d4",
-    "url": "/Faberge-Drawings/static/css/2.7aa12b32.chunk.css"
+    "revision": "f7a37e6aad821a167c08",
+    "url": "/Faberge-Drawings/static/css/2.c169cb6c.chunk.css"
   },
   {
     "revision": "d29e0e143c21901ce651",
     "url": "/Faberge-Drawings/static/css/main.424b454a.chunk.css"
   },
   {
-    "revision": "e97d47be54e948f7d8d4",
-    "url": "/Faberge-Drawings/static/js/2.42f36062.chunk.js"
+    "revision": "f7a37e6aad821a167c08",
+    "url": "/Faberge-Drawings/static/js/2.dcf3d5af.chunk.js"
   },
   {
     "revision": "c148bbe7cc338a9c2a1c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Faberge-Drawings/static/js/main.ddee6eb7.chunk.js"
   },
   {
-    "revision": "f79e0ce999af4df195f4",
-    "url": "/Faberge-Drawings/static/js/runtime~main.21563ad2.js"
+    "revision": "4d024d928e81b1cba4de",
+    "url": "/Faberge-Drawings/static/js/runtime~main.a881ef13.js"
   },
   {
     "revision": "42acd4db08935f13e32429582404c2ef",
