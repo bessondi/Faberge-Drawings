@@ -190,13 +190,13 @@ class EggsImageRender extends Component {
         };
 
 
-        const Pins = pins.map( (pin, id) => { 
+        const Pins = pins.map((pin, id) => {
 
             let PinDot = styled.button`
                 /* display: flex; */
                 position: absolute;
-                top: ${ pin.coordinateTop - 0.8 }%;
-                left: ${ pin.coordinateLeft - 0.8 }%;
+                top: ${ pin.coordinateTop - 0.8}%;
+                left: ${ pin.coordinateLeft - 0.8}%;
                 width: 25px;
                 height: 25px;
                 /* color: #000; */
@@ -210,12 +210,12 @@ class EggsImageRender extends Component {
                         background: #a1a1a1;
                         width: 30px;
                         height: 30px;
-                        top: ${ pin.coordinateTop - 1.1 }%;
-                        left: ${ pin.coordinateLeft - 1.1 }%;
+                        top: ${ pin.coordinateTop - 1.1}%;
+                        left: ${ pin.coordinateLeft - 1.1}%;
                     }
 
                 ${ props => {
-                    if ( props.toggle ) {
+                    if (props.toggle) {
                         return `
                             background: #7f7f7f;
                         `;
@@ -240,19 +240,19 @@ class EggsImageRender extends Component {
                 margin: 0;
                 padding: 0;
                 position: absolute;
-                top: ${ pin.coordinateTop }%;
-                left: ${ pin.coordinateLeft }%;
+                top: ${ pin.coordinateTop}%;
+                left: ${ pin.coordinateLeft}%;
                 color: #000;
                 background: #fff;
                 border: 2px solid #fff;
                 border-radius: 10px;
                 box-shadow: 0 0 10px rgba(0,0,0,0.5);
                 z-index: 11;
-                /* animation-duration: 1s;
+                /* animation-duration: .5s;
                 animation-name: showPic; */
 
                 ${ props => {
-                    if ( props.toggle ) {
+                    if (props.toggle) {
                         return `
                             display: flex;
                         `;
@@ -261,12 +261,12 @@ class EggsImageRender extends Component {
                             display: none;
                         `;
                     }
-                    
+
                 }}
             `;
 
             let PinImage = styled.div`
-                background: url( ${ pin.img } );
+                background: url( ${ pin.img} );
                 /* display: block;
                 position: absolute; */
                 width: 80%;
@@ -311,34 +311,34 @@ class EggsImageRender extends Component {
                 <div key={id}>
 
                     <PinDot key={pin.id}
-                        onClick={ 
+                        onClick={
                             pin.card === 'card-1' ? this.showCard1 : null ||
-                            pin.card === 'card-2' ? this.showCard2 : null ||
-                            pin.card === 'card-3' ? this.showCard3 : null ||
-                            pin.card === 'card-4' ? this.showCard4 : null ||
-                            pin.card === 'card-5' ? this.showCard5 : null
-                        } 
-                        toggle={ 
+                                pin.card === 'card-2' ? this.showCard2 : null ||
+                                    pin.card === 'card-3' ? this.showCard3 : null ||
+                                        pin.card === 'card-4' ? this.showCard4 : null ||
+                                            pin.card === 'card-5' ? this.showCard5 : null
+                        }
+                        toggle={
                             (this.state.isCard1Showed && pin.card === 'card-1') ? this.state.isCard1Showed : null ||
-                            (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
-                            (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
-                            (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
-                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
-                        } 
+                                (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
+                                    (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
+                                        (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
+                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
+                        }
                     />
 
-                    <PinDescription 
-                        toggle={ 
+                    <PinDescription
+                        toggle={
                             (this.state.isCard1Showed && pin.card === 'card-1') ? this.state.isCard1Showed : null ||
-                            (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
-                            (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
-                            (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
-                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
-                        } 
+                                (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
+                                    (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
+                                        (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
+                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
+                        }
                     >
                         <PinImage />
                         <PinText>
-                            { pin.info }
+                            {pin.info}
                             {/* <TextGradientBottom/> */}
                         </PinText>
                     </PinDescription>
@@ -346,7 +346,7 @@ class EggsImageRender extends Component {
                 </div>
             )
 
-        } );
+        });
 
 
         const FullImage = () => {
@@ -359,8 +359,8 @@ class EggsImageRender extends Component {
                 height: 100vh;
                 margin-right: 30%;
                 background-color: #dadada;
-                //animation-duration: .3s;
-                //animation-name: showPic;
+                /* animation-duration: .3s; */
+                /* animation-name: showPic; */
             `;
             const BlackField = styled.div`
                 background-color: #dadada;
@@ -376,54 +376,56 @@ class EggsImageRender extends Component {
             );
         };
 
-        const DetailedView = () => {
-            const MosaicField = styled.div`
-                padding-right: 30%;            
-                width: ${partSize.width * 4}px;
-                height: ${partSize.height * 4}px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                background-color: #000;
-            `;
+        // const DetailedView = () => {
+        //     const MosaicField = styled.div`
+        //         padding-right: 30%;            
+        //         width: ${partSize.width * 4}px;
+        //         height: ${partSize.height * 4}px;
+        //         display: flex;
+        //         flex-direction: row;
+        //         flex-wrap: wrap;
+        //         background-color: #000;
+        //     `;
 
-            const MosaicParts = parts.map( (id) => {
-                const Mosaic = () => {
-                    return (
-                        <img src={parts[id].picture}
-                            alt=""
-                            style={{
-                                display: 'block',
-                                width: partSize.width,
-                                height: partSize.height,
-                                animationDuration: .3 + 's',
-                                animationName: 'showPic'
-                            }}
-                        />
-                    )
-                };
-                return (
-                    <LazyLoad width={partSize.width} height={partSize.height} key={id}>
-                        <Mosaic />
-                    </LazyLoad>
-                );
-            });
+        //     const MosaicParts = parts.map( (id) => {
+        //         const Mosaic = () => {
+        //             return (
+        //                 <img src={parts[id].picture}
+        //                     alt=""
+        //                     style={{
+        //                         display: 'block',
+        //                         width: partSize.width,
+        //                         height: partSize.height,
+        //                         animationDuration: .3 + 's',
+        //                         animationName: 'showPic'
+        //                     }}
+        //                 />
+        //             )
+        //         };
+        //         return (
+        //             <LazyLoad width={partSize.width} height={partSize.height} key={id}>
+        //                 <Mosaic />
+        //             </LazyLoad>
+        //         );
+        //     });
 
-            return (
-                <MosaicField>
-                    {MosaicParts}
-                    <ViewportGradient />
-                    <PictureTitle />
+        //     return (
+        //         <MosaicField>
+        //             {MosaicParts}
+        //             <ViewportGradient />
+        //             <PictureTitle />
 
-                    <PictureDescription />
-                </MosaicField>
-            );
-        };
+        //             <PictureDescription />
+        //         </MosaicField>
+        //     );
+        // };
 
         const FullOrDetailed = () => {
             return (
                 <React.Fragment>
-                    { cropSize ? <FullImage /> : <DetailedView /> }
+                    {/* { cropSize ?  */}
+                    <FullImage />
+                    {/* : <DetailedView /> } */}
                 </React.Fragment>
             );
         };

@@ -50,7 +50,7 @@
 .app__main__nextSlidePage:hover,
 .app__main__languageToggle:hover,
 .app__main__EggsPage:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .app__main__nextSlidePage_nextSlidePageArrow {
@@ -81,16 +81,31 @@
     height: 50px;
     border-radius: 50%;
     background-color: transparent;
-    /* border: 3px solid #fff; */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     outline: none;
+    animation: circle 3s infinite;
 }
 
 .app__main__EggsPage_nextPageArrow {
     border: solid #fff;
-    border-width: 0 4px 4px 0;
+    border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 9px;
     transform: rotate(45deg);
+    animation: arrow 3s infinite;
 }
 
+@keyframes arrow {
+    to {
+        transform: translateY(50%) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    to {
+        opacity: 0;
+    }
+}
