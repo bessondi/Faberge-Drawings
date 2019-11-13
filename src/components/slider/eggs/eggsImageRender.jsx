@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import LazyLoad from 'react-lazy-load';
+// import LazyLoad from 'react-lazy-load';
 
 
 class EggsImageRender extends Component {
@@ -49,7 +49,7 @@ class EggsImageRender extends Component {
 
     showCard5 = () => {
         this.setState({
-            isCard5Showed: !this.state.isCard3Showed,
+            isCard5Showed: !this.state.isCard5Showed,
         });
     }
 
@@ -59,7 +59,7 @@ class EggsImageRender extends Component {
         // console.log('state '+this.state.isCard1Showed); 
 
         const { slide } = this.props;
-        const { parts, partSize, cropSize, textArea } = slide.pictureData;
+        const { cropSize, textArea } = slide.pictureData; //parts, partSize,
         const { pins } = slide;
 
         const ViewportGradient = styled.div`
@@ -240,8 +240,8 @@ class EggsImageRender extends Component {
                 margin: 0;
                 padding: 0;
                 position: absolute;
-                top: ${ pin.coordinateTop}%;
-                left: ${ pin.coordinateLeft}%;
+                /* top: ${ pin.coordinateTop }%; */
+                /* left: ${ pin.coordinateLeft }%; */
                 color: #000;
                 background: #fff;
                 border: 2px solid #fff;
@@ -251,7 +251,7 @@ class EggsImageRender extends Component {
                 /* animation-duration: .5s;
                 animation-name: showPic; */
 
-                ${ props => {
+                ${ props => { // show pin
                     if (props.toggle) {
                         return `
                             display: flex;
@@ -261,12 +261,35 @@ class EggsImageRender extends Component {
                             display: none;
                         `;
                     }
+                }}
 
+                ${ props => { // left pin
+                    if (props.side === 'left') {
+                        return `
+                            left: ${ pin.coordinateLeft - 24 }%;
+                        `;
+                    } else if (props.side === 'right') {
+                        return `
+                            left: ${ pin.coordinateLeft }%;
+                        `;
+                    }
+                }}
+
+                ${ props => { // bottom pin
+                    if (props.vertical === 'bottom') {
+                        return `
+                            top: ${ pin.coordinateTop - 20 }%;
+                        `;
+                    } else if (props.vertical === 'top') {
+                        return `
+                            top: ${ pin.coordinateTop }%;
+                        `;
+                    }
                 }}
             `;
 
             let PinImage = styled.div`
-                background: url( ${ pin.img} );
+                background: url( ${ pin.img } );
                 /* display: block;
                 position: absolute; */
                 width: 80%;
@@ -335,6 +358,7 @@ class EggsImageRender extends Component {
                                         (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
                                             (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
                         }
+                        side={ pin.side } vertical={ pin.vertical }
                     >
                         <PinImage />
                         <PinText>

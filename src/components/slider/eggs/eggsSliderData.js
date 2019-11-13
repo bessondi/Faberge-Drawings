@@ -8,17 +8,36 @@ import Tree from "../../../media/images/eggs/Tree.jpg";
 import Fifteen from "../../../media/images/eggs/15.jpg";
 import Georg from "../../../media/images/eggs/Georg.jpg";
 
+
 import Hen_pin1 from "../../../media/images/eggs/Hen_pin1.jpg";
 import Hen_pin2 from "../../../media/images/eggs/Hen_pin3.jpg";
 import Hen_pin3 from "../../../media/images/eggs/Hen_pin2.jpg";
 
 import Ren_pin1 from "../../../media/images/eggs/Ren_pin1.jpg";
-import Ren_pin2 from "../../../media/images/eggs/Ren_pin2.jpg";
+import Ren_pin2 from "../../../media/images/eggs/Ren_pin2_2.jpg";
+import Ren_pin3 from "../../../media/images/eggs/Ren_pin3.jpg";
+import Ren_pin4 from "../../../media/images/eggs/Ren_pin4.jpg";
+
+import Rose_pin1 from "../../../media/images/eggs/Rose_pin1.jpg";
 
 import Coron_pin1 from "../../../media/images/eggs/Coron_pin1.jpg";
+import Coron_pin2 from "../../../media/images/eggs/Coron_pin2.jpg";
+import Coron_pin3 from "../../../media/images/eggs/Coron_pin3.jpg";
+
+import Lilies_pin1 from "../../../media/images/eggs/Lilies_pin1.jpg";
+
+import Clock_pin1 from "../../../media/images/eggs/Clock_pin1.jpg";
+
+import Tree_pin1 from "../../../media/images/eggs/Tree_pin1.jpg";
+
+import Fifteen_pin1 from "../../../media/images/eggs/15_pin1.jpg";
+import Fifteen_pin2 from "../../../media/images/eggs/15_pin2.jpg";
+// import Fifteen_pin3 from "../../../media/images/eggs/15_pin3.jpg";
+// import Fifteen_pin4 from "../../../media/images/eggs/15_pin4.jpg";
+// import Fifteen_pin5 from "../../../media/images/eggs/15_pin5.jpg";
 
 import Georg_pin1 from "../../../media/images/eggs/Georg_pin1.jpg";
-
+// import Georg_pin2 from "../../../media/images/eggs/Georg_pin2.jpg";
 
 
 export const SliderData = {
@@ -39,26 +58,32 @@ export const SliderData = {
                 {
                     "index": 0,
                     'img': Hen_pin1,
-                    'info': '1 здесь будет краткое описание элемента',
+                    'info': 'Яйцо изготовлено из золота, покрытого слоем матовой эмали для схожести с натуральной яичной скорлупой. Тонкая золотая кайма обрамляет место соединения двух половин яйца. Оно имеет длину 64 мм. Две половины яйца соединяются байонетным соединением, и при его открытии можно увидеть сюрприз.',
                     'coordinateTop': '15',
-                    'coordinateLeft': '25',
-                    'card': 'card-1'
+                    'coordinateLeft': '30',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 {
                     "index": 1,
                     'img': Hen_pin2,
-                    'info': '2 здесь будет краткое описание элемента',
-                    'coordinateTop': '50',
-                    'coordinateLeft': '42',
-                    'card': 'card-2'
+                    'info': 'Внутри яйца находится желток, выполненный из матового золота, содержащий разноцветную золотую курочку с рубиновыми глазами.',
+                    'coordinateTop': '65',
+                    'coordinateLeft': '55',
+                    'card': 'card-2',
+                    'side': 'left',
+                    'vertical': 'top'
                 },
                 {
                     "index": 2,
                     'img': Hen_pin3,
-                    'info': '3 здесь будет краткое описание элемента',
+                    'info': 'Курочка имеет шарнирный механизм, открываемый при помощи хвостового оперения, что позволяет получить доступ к ещё двум сюрпризам, которые в настоящий момент утеряны.',
                     'coordinateTop': '60',
                     'coordinateLeft': '15',
-                    'card': 'card-3'
+                    'card': 'card-3',
+                    'side': 'right',
+                    'vertical': 'bottom'
                 }
             ]
             },
@@ -78,27 +103,43 @@ export const SliderData = {
                 {
                     "index": 0,
                     'img': Ren_pin1,
-                    'info': '1 здесь будет краткое описание элемента',
-                    'coordinateTop': '12',
+                    'info': 'На верхней половине яйца алмазами выложена дата «1894» в овалe из землянично-красной прозрачной эмали, обрамлённой стилизованными раковинами из зелёной эмали и фигурами из красной и белой эмали.',
+                    'coordinateTop': '10',
                     'coordinateLeft': '35',
-                    'card': 'card-1'
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 {
                     "index": 1,
-                    'img': Ren_pin2,
-                    'info': '2 здесь будет краткое описание элемента',
-                    'coordinateTop': '60',
-                    'coordinateLeft': '35',
-                    'card': 'card-2'
+                    'img': Ren_pin4,
+                    'info': 'Верхняя часть яйца, открывающаяся на золотом шарнире, украшена накладной трельяжной решёткой, выполненной из белой эмали с алмазными и рубиновыми цветами на местах пересечений.',
+                    'coordinateTop': '35',
+                    'coordinateLeft': '20',
+                    'card': 'card-2',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
-                // {
-                //     "index": 2,
-                //     'img': Ren_pin3,
-                //     'info': '3  lorem 3 lorem 3 lorem 3 lorem 3 lorem',
-                //     'coordinateTop': '60',
-                //     'coordinateLeft': '15',
-                //     'card': 'card-3'
-                // }
+                {
+                    "index": 2,
+                    'img': Ren_pin3,
+                    'info': 'С обеих сторон ларца размещены ручки в виде золотых скульптурных львиных голов с кольцами в зубах.',
+                    'coordinateTop': '60',
+                    'coordinateLeft': '12',
+                    'card': 'card-3',
+                    'side': 'right',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 2,
+                    'img': Ren_pin2,
+                    'info': 'По версии, высказанной Кристофером Форбсом, сюрпризом было яйцо Воскресение Христово, которое идеально подходит по размерам в яйцо «Ренессанс» и имеет схожее исполнение и цветовую гамму.',
+                    'coordinateTop': '65',
+                    'coordinateLeft': '40',
+                    'card': 'card-4',
+                    'side': 'right',
+                    'vertical': 'top'
+                }
             ]
         },
         {
@@ -116,18 +157,20 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': '',
-                    'info': '1 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '12',
-                    'coordinateLeft': '35',
-                    'card': 'card-1'
+                    'img': Rose_pin1,
+                    'info': 'Яйцо открывается как бонбоньерка, являя спрятанный внутри бутон розы, покрытый жёлтой эмалью.',
+                    'coordinateTop': '45',
+                    'coordinateLeft': '40',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'bottom'
                 },
                 // {
                 //     "index": 1,
                 //     'img': '',
-                //     'info': '2 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '15',
-                //     'coordinateLeft': '55',
+                //     'info': 'Лепестки бутона раздвигались, открывая золотую корону с бриллиантами и рубинами и кулон со звёздчатым рубином-кабошоном. Оба этих последних сюрприза утеряны.',
+                //     'coordinateTop': '65',
+                //     'coordinateLeft': '38',
                 //     'card': 'card-2'
                 // }
             ]
@@ -147,19 +190,33 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': Coron_pin1,
-                    'info': '1 здесь будет краткое описание элемента и картинка',
+                    'img': Coron_pin2,
+                    'info': 'Сверху на яйце, под крупным портретным бриллиантом находится монограмма императрицы Александры Фёдоровны, усыпанная бриллиантами и рубинами огранки розой на белом эмалевом фоне.',
                     'coordinateTop': '10',
-                    'coordinateLeft': '30',
-                    'card': 'card-1'
+                    'coordinateLeft': '35',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 {
                     "index": 1,
-                    'img': '',
-                    'info': '2 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '60',
-                    'coordinateLeft': '40',
-                    'card': 'card-2'
+                    'img': Coron_pin1,
+                    'info': 'Основание яйца выполнено в виде чашечки цветка с тонкой гравировкой листьев и расположенной посередине чёрной по белой эмали датой «1897», видимой сквозь крупный алмаз в круглом обрамлении мелких.',
+                    'coordinateTop': '55',
+                    'coordinateLeft': '17',
+                    'card': 'card-2',
+                    'side': 'right',
+                    'vertical': 'bottom'
+                },
+                {
+                    "index": 2,
+                    'img': Coron_pin3,
+                    'info': 'Внутри яйца в белой бархатной подложке размещается миниатюрная копия императорской кареты 1793 года Екатерины II, длиной менее 100 мм, использованная в коронационной процессии Николая и Александры, проходившей в Успенском соборе Москвы. Карета, воспроизведённая до мельчайших подробностей, покрыта землянично-красной эмалью с накладной трельяжной решеткой с алмазами.',
+                    'coordinateTop': '80',
+                    'coordinateLeft': '34',
+                    'card': 'card-3',
+                    'side': 'right',
+                    'vertical': 'bottom'
                 }
             ]
         },
@@ -178,11 +235,13 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': '',
-                    'info': '1 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '10',
-                    'coordinateLeft': '30',
-                    'card': 'card-1'
+                    'img': Lilies_pin1,
+                    'info': 'Верхний медальон венчает корона, украшенная россыпью бриллиантов и рубином в форме кабошона.',
+                    'coordinateTop': '15',
+                    'coordinateLeft': '40',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 // {
                 //     "index": 1,
@@ -209,11 +268,13 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': '',
-                    'info': '1 здесь будет краткое описание элемента и картинка',
+                    'img': Clock_pin1,
+                    'info': 'Сюрпризом яйца является петушок с рубиновыми глазами, способный петь, раскрывать клюв и махать крыльями. Движение обеспечивается заводным механизмом. Петушок появляется из-под верхней ажурной крышки изделия либо с наступлением каждого нового часа',
                     'coordinateTop': '10',
-                    'coordinateLeft': '30',
-                    'card': 'card-1'
+                    'coordinateLeft': '40',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 // {
                 //     "index": 1,
@@ -240,11 +301,13 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': '',
-                    'info': '1 здесь будет краткое описание элемента и картинка',
+                    'img': Tree_pin1,
+                    'info': 'Сюрпризом императорского ювелирного пасхального яйца «Лавровое дерево» является механическая крылатая певчая птичка, способная поворачивать голову, раскрывать клюв, петь и махать крыльями. Движение обеспечивается заводным механизмом.',
                     'coordinateTop': '10',
-                    'coordinateLeft': '30',
-                    'card': 'card-1'
+                    'coordinateLeft': '42',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 // {
                 //     "index": 1,
@@ -271,19 +334,53 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
-                    'img': '',
+                    'img': Fifteen_pin1,
                     'info': '1 здесь будет краткое описание элемента и картинка',
                     'coordinateTop': '10',
                     'coordinateLeft': '30',
-                    'card': 'card-1'
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 1,
+                    'img': Fifteen_pin2,
+                    'info': '2 здесь будет краткое описание элемента и картинка',
+                    'coordinateTop': '40',
+                    'coordinateLeft': '40',
+                    'card': 'card-2',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 // {
-                //     "index": 1,
-                //     'img': '',
+                //     "index": 2,
+                //     'img': 'Fifteen_pin3',
                 //     'info': '2 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '60',
+                //     'coordinateTop': '30',
                 //     'coordinateLeft': '40',
-                //     'card': 'card-2'
+                //     'card': 'card-3',
+                //     'side': 'right',
+                //     'vertical': 'top'
+                // },
+                // {
+                //     "index": 3,
+                //     'img': 'Fifteen_pin4',
+                //     'info': '2 здесь будет краткое описание элемента и картинка',
+                //     'coordinateTop': '40',
+                //     'coordinateLeft': '40',
+                //     'card': 'card-4',
+                //     'side': 'right',
+                //     'vertical': 'top'
+                // },
+                // {
+                //     "index": 4,
+                //     'img': 'Fifteen_pin5',
+                //     'info': '5 здесь будет краткое описание элемента и картинка',
+                //     'coordinateTop': '50',
+                //     'coordinateLeft': '40',
+                //     'card': 'card-5',
+                //     'side': 'right',
+                //     'vertical': 'top'
                 // }
             ]
         },
@@ -304,9 +401,11 @@ export const SliderData = {
                     "index": 0,
                     'img': Georg_pin1,
                     'info': '1 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '10',
-                    'coordinateLeft': '35',
-                    'card': 'card-1'
+                    'coordinateTop': '60',
+                    'coordinateLeft': '40',
+                    'card': 'card-1',
+                    'side': 'right',
+                    'vertical': 'top'
                 },
                 // {
                 //     "index": 1,
@@ -314,7 +413,9 @@ export const SliderData = {
                 //     'info': '2 здесь будет краткое описание элемента и картинка',
                 //     'coordinateTop': '60',
                 //     'coordinateLeft': '40',
-                //     'card': 'card-2'
+                //     'card': 'card-2',
+                    // 'side': 'right',
+                    // 'vertical': 'top'
                 // }
             ]
         },

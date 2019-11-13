@@ -1,4 +1,4 @@
-**Faberge Museum Drawings**
+Faberge Museum Drawings
 
 [Drawings Viewer Display](https://bessondi.github.io/Faberge-Drawings/)
 

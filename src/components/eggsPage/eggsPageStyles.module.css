@@ -9,6 +9,13 @@
     overflow: hidden;
 }
 
+.app__main__mainViewVideo {
+    height: 100vh;
+    width: 100%;
+    animation-duration: 3s;
+    animation-name: showPic;
+}
+
 .app__main__mainTitle {
     position: absolute;
     left: 15%;
@@ -107,5 +114,15 @@
 @keyframes circle {
     to {
         opacity: 0;
+    }
+}
+
+@keyframes showPic {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+       
     }
 }
