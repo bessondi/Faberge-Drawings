@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-// import LazyLoad from 'react-lazy-load';
 
 
 class EggsImageRender extends Component {
@@ -9,7 +8,8 @@ class EggsImageRender extends Component {
         isCard2Showed: this.props.isCard2Showed,
         isCard3Showed: this.props.isCard3Showed,
         isCard4Showed: this.props.isCard4Showed,
-        isCard5Showed: this.props.isCardS5howed,
+        isCard5Showed: this.props.isCard5Showed,
+        isCard6Showed: this.props.isCard6Showed,
     };
 
 
@@ -20,6 +20,7 @@ class EggsImageRender extends Component {
             isCard3Showed: nextProps.true > this.props.false,
             isCard4Showed: nextProps.true > this.props.false,
             isCard5Showed: nextProps.true > this.props.false,
+            isCard6Showed: nextProps.true > this.props.false,
         });
     }
 
@@ -53,8 +54,15 @@ class EggsImageRender extends Component {
         });
     }
 
+    showCard6 = () => {
+        this.setState({
+            isCard6Showed: !this.state.isCard6Showed,
+        });
+    }
+
 
     render() {
+        // console.log(this.props.slide.pictureData.soundtrack);
         // console.log('props '+this.props.isCard1Showed);  
         // console.log('state '+this.state.isCard1Showed); 
 
@@ -178,17 +186,9 @@ class EggsImageRender extends Component {
                         {textArea.info.split('\n').map((text, id) => <Paragraph key={id}> {text} </Paragraph>)}
                     </TextArea>
                     <TextGradientBottom />
-
-                    {/*{*/}
-                    {/*soundtrack ?*/}
-                    {/*<Player soundtrack={soundtrack.sound} soundtrackTitle={soundtrack.title}/>*/}
-                    {/*:*/}
-                    {/*null*/}
-                    {/*}*/}
                 </DescriptionArea>
             );
         };
-
 
         const Pins = pins.map((pin, id) => {
 
@@ -266,7 +266,7 @@ class EggsImageRender extends Component {
                 ${ props => { // left pin
                     if (props.side === 'left') {
                         return `
-                            left: ${ pin.coordinateLeft - 24 }%;
+                            left: calc(${ pin.coordinateLeft }% - 340px);
                         `;
                     } else if (props.side === 'right') {
                         return `
@@ -278,7 +278,7 @@ class EggsImageRender extends Component {
                 ${ props => { // bottom pin
                     if (props.vertical === 'bottom') {
                         return `
-                            top: ${ pin.coordinateTop - 20 }%;
+                            top: calc(${ pin.coordinateTop }% - 150px);
                         `;
                     } else if (props.vertical === 'top') {
                         return `
@@ -339,14 +339,16 @@ class EggsImageRender extends Component {
                                 pin.card === 'card-2' ? this.showCard2 : null ||
                                     pin.card === 'card-3' ? this.showCard3 : null ||
                                         pin.card === 'card-4' ? this.showCard4 : null ||
-                                            pin.card === 'card-5' ? this.showCard5 : null
+                                            pin.card === 'card-5' ? this.showCard5 : null ||
+                                                pin.card === 'card-6' ? this.showCard6 : null
                         }
                         toggle={
                             (this.state.isCard1Showed && pin.card === 'card-1') ? this.state.isCard1Showed : null ||
                                 (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
                                     (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
                                         (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
-                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
+                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null ||
+                                                (this.state.isCard6Showed && pin.card === 'card-6') ? this.state.isCard6Showed : null
                         }
                     />
 
@@ -356,7 +358,9 @@ class EggsImageRender extends Component {
                                 (this.state.isCard2Showed && pin.card === 'card-2') ? this.state.isCard2Showed : null ||
                                     (this.state.isCard3Showed && pin.card === 'card-3') ? this.state.isCard3Showed : null ||
                                         (this.state.isCard4Showed && pin.card === 'card-4') ? this.state.isCard4Showed : null ||
-                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null
+                                            (this.state.isCard5Showed && pin.card === 'card-5') ? this.state.isCard5Showed : null ||
+                                                (this.state.isCard6Showed && pin.card === 'card-6') ? this.state.isCard6Showed : null
+
                         }
                         side={ pin.side } vertical={ pin.vertical }
                     >
@@ -369,7 +373,6 @@ class EggsImageRender extends Component {
 
                 </div>
             )
-
         });
 
 
@@ -400,62 +403,8 @@ class EggsImageRender extends Component {
             );
         };
 
-        // const DetailedView = () => {
-        //     const MosaicField = styled.div`
-        //         padding-right: 30%;            
-        //         width: ${partSize.width * 4}px;
-        //         height: ${partSize.height * 4}px;
-        //         display: flex;
-        //         flex-direction: row;
-        //         flex-wrap: wrap;
-        //         background-color: #000;
-        //     `;
-
-        //     const MosaicParts = parts.map( (id) => {
-        //         const Mosaic = () => {
-        //             return (
-        //                 <img src={parts[id].picture}
-        //                     alt=""
-        //                     style={{
-        //                         display: 'block',
-        //                         width: partSize.width,
-        //                         height: partSize.height,
-        //                         animationDuration: .3 + 's',
-        //                         animationName: 'showPic'
-        //                     }}
-        //                 />
-        //             )
-        //         };
-        //         return (
-        //             <LazyLoad width={partSize.width} height={partSize.height} key={id}>
-        //                 <Mosaic />
-        //             </LazyLoad>
-        //         );
-        //     });
-
-        //     return (
-        //         <MosaicField>
-        //             {MosaicParts}
-        //             <ViewportGradient />
-        //             <PictureTitle />
-
-        //             <PictureDescription />
-        //         </MosaicField>
-        //     );
-        // };
-
-        const FullOrDetailed = () => {
-            return (
-                <React.Fragment>
-                    {/* { cropSize ?  */}
-                    <FullImage />
-                    {/* : <DetailedView /> } */}
-                </React.Fragment>
-            );
-        };
-
         return (
-            <FullOrDetailed />
+            <FullImage />
         );
     }
 }

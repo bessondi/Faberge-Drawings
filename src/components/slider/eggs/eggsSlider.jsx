@@ -6,6 +6,9 @@ import EggsImageRender from "./eggsImageRender";
 import {SliderData} from './eggsSliderData';
 import styles from './eggsSliderStyles.module.css';
 
+import styled from 'styled-components';
+import Player from "../player/player";
+
 
 class EggSlider extends Component {
     constructor(props) {
@@ -17,9 +20,9 @@ class EggSlider extends Component {
             isCard3Showed: false,
             isCard4Showed: false,
             isCard5Showed: false,
+            isCard6Showed: false
         }
     }
-
 
     // componentDidMount() {
     //     // this.timer = setInterval( this.nextImg, 40000 )
@@ -67,6 +70,7 @@ class EggSlider extends Component {
 
     render() {
         const {slider} = this.state;
+        const { soundtrack } = slider.pictureData; 
         // console.log(this.state.slider.index);
         // console.log(this.state.isPinsClosed);
 
@@ -107,9 +111,28 @@ class EggSlider extends Component {
             )
         };
 
+        const Audioguide = () => {
+            const PlayBtn = styled.div`
+                position: fixed;
+                right: 33%;
+                bottom: 40px;
+                z-index: 10;
+            `;
+            return (
+                <PlayBtn>
+                    {
+                        soundtrack ?
+                        <Player soundtrack={soundtrack.sound} />
+                        : null
+                    }
+                </PlayBtn>
+            )
+        };
 
         return (
             <React.Fragment>
+                <NavButtons/>
+                <Audioguide />
 
                 <EggsImageRender 
                     slide={slider} 
@@ -119,9 +142,8 @@ class EggSlider extends Component {
                     isCard3Showed={this.state.isCard3Showed}
                     isCard4Showed={this.state.isCard4Showed}
                     isCard5Showed={this.state.isCard5Showed}
+                    isCard6Showed={this.state.isCard6Showed}
                 />
-                <NavButtons/>
-
             </React.Fragment>
         );
     }

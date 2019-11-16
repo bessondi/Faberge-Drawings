@@ -16,13 +16,13 @@ class Slider extends Component {
         }
     }
 
-    componentDidMount() {
-        this.timer = setInterval( this.nextImg, 40000 )
-    }
+    // componentDidMount() {
+    //     this.timer = setInterval( this.nextImg, 40000 )
+    // }
 
-    componentWillUnmount() {
-        clearInterval(this.timer)
-    }
+    // componentWillUnmount() {
+    //     clearInterval(this.timer)
+    // }
 
     prevImg = () => {
         let newIndex = this.state.slider.index - 1;

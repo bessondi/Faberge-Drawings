@@ -10,16 +10,20 @@
 }
 
 .app__main__mainViewVideo {
+    /* display: flex;
+    align-content: center; */
     height: 100vh;
     width: 100%;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-name: showPic;
+    /* margin : 100px; */
 }
 
 .app__main__mainTitle {
     position: absolute;
     left: 15%;
     top: 32%;
+    /* color: #000; */
 }
 
 .app__main__mainTitle p:nth-child(1),

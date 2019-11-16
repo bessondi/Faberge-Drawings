@@ -30,14 +30,26 @@ import Clock_pin1 from "../../../media/images/eggs/Clock_pin1.jpg";
 
 import Tree_pin1 from "../../../media/images/eggs/Tree_pin1.jpg";
 
-import Fifteen_pin1 from "../../../media/images/eggs/15_pin1.jpg";
-import Fifteen_pin2 from "../../../media/images/eggs/15_pin2.jpg";
-// import Fifteen_pin3 from "../../../media/images/eggs/15_pin3.jpg";
-// import Fifteen_pin4 from "../../../media/images/eggs/15_pin4.jpg";
-// import Fifteen_pin5 from "../../../media/images/eggs/15_pin5.jpg";
+import Fifteen_pin1 from "../../../media/images/eggs/15_A-N_pin.jpg";
+import Fifteen_pin2 from "../../../media/images/eggs/15_childs_pin.jpg";
+import Fifteen_pin3 from "../../../media/images/eggs/15_coron_pin.jpg";
+import Fifteen_pin4 from "../../../media/images/eggs/15_process_pin.jpg";
+import Fifteen_pin5 from "../../../media/images/eggs/15_gaaga_pin.jpg";
+import Fifteen_pin6 from "../../../media/images/eggs/15_duma_pin.jpg";
 
 import Georg_pin1 from "../../../media/images/eggs/Georg_pin1.jpg";
 // import Georg_pin2 from "../../../media/images/eggs/Georg_pin2.jpg";
+
+
+import hen_audio from "../../../media/sounds/eggs/hen.mp3";
+import reinass_audio from "../../../media/sounds/eggs/reinass.mp3";
+import rose_audio from "../../../media/sounds/eggs/rose.mp3";
+import coron_audio from "../../../media/sounds/eggs/coron.mp3";
+import landushi_audio from "../../../media/sounds/eggs/landushi.mp3";
+import clock_audio from "../../../media/sounds/eggs/clock.mp3";
+import tree_audio from "../../../media/sounds/eggs/tree.mp3";
+import fifteen_audio from "../../../media/sounds/eggs/fifteen.mp3";
+import georg_audio from "../../../media/sounds/eggs/georg.mp3";
 
 
 export const SliderData = {
@@ -46,6 +58,9 @@ export const SliderData = {
             "index": 0,
             'pictureData': {
                 'cropSize': Hen,
+                'soundtrack': {
+                    'sound': hen_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Эрик Коллин',
                     'pictureTitle': 'Пасхальное яйцо «Курочка»',
@@ -59,8 +74,8 @@ export const SliderData = {
                     "index": 0,
                     'img': Hen_pin1,
                     'info': 'Яйцо изготовлено из золота, покрытого слоем матовой эмали для схожести с натуральной яичной скорлупой. Тонкая золотая кайма обрамляет место соединения двух половин яйца. Оно имеет длину 64 мм. Две половины яйца соединяются байонетным соединением, и при его открытии можно увидеть сюрприз.',
-                    'coordinateTop': '15',
-                    'coordinateLeft': '30',
+                    'coordinateTop': '10',
+                    'coordinateLeft': '15',
                     'card': 'card-1',
                     'side': 'right',
                     'vertical': 'top'
@@ -69,7 +84,7 @@ export const SliderData = {
                     "index": 1,
                     'img': Hen_pin2,
                     'info': 'Внутри яйца находится желток, выполненный из матового золота, содержащий разноцветную золотую курочку с рубиновыми глазами.',
-                    'coordinateTop': '65',
+                    'coordinateTop': '35',
                     'coordinateLeft': '55',
                     'card': 'card-2',
                     'side': 'left',
@@ -79,8 +94,8 @@ export const SliderData = {
                     "index": 2,
                     'img': Hen_pin3,
                     'info': 'Курочка имеет шарнирный механизм, открываемый при помощи хвостового оперения, что позволяет получить доступ к ещё двум сюрпризам, которые в настоящий момент утеряны.',
-                    'coordinateTop': '60',
-                    'coordinateLeft': '15',
+                    'coordinateTop': '85',
+                    'coordinateLeft': '35',
                     'card': 'card-3',
                     'side': 'right',
                     'vertical': 'bottom'
@@ -91,6 +106,9 @@ export const SliderData = {
             "index": 1,
             'pictureData': {
                 'cropSize': Ren,
+                'soundtrack': {
+                    'sound': reinass_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Михаил Перхин',
                     'pictureTitle': 'Пасхальное яйцо-шкатулка «Ренессанс»',
@@ -115,7 +133,7 @@ export const SliderData = {
                     'img': Ren_pin4,
                     'info': 'Верхняя часть яйца, открывающаяся на золотом шарнире, украшена накладной трельяжной решёткой, выполненной из белой эмали с алмазными и рубиновыми цветами на местах пересечений.',
                     'coordinateTop': '35',
-                    'coordinateLeft': '20',
+                    'coordinateLeft': '25',
                     'card': 'card-2',
                     'side': 'right',
                     'vertical': 'top'
@@ -134,7 +152,7 @@ export const SliderData = {
                     "index": 2,
                     'img': Ren_pin2,
                     'info': 'По версии, высказанной Кристофером Форбсом, сюрпризом было яйцо Воскресение Христово, которое идеально подходит по размерам в яйцо «Ренессанс» и имеет схожее исполнение и цветовую гамму.',
-                    'coordinateTop': '65',
+                    'coordinateTop': '60',
                     'coordinateLeft': '40',
                     'card': 'card-4',
                     'side': 'right',
@@ -146,6 +164,9 @@ export const SliderData = {
             "index": 2,
             'pictureData': {
                 'cropSize': Rose,
+                'soundtrack': {
+                    'sound': rose_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Михаил Перхин',
                     'pictureTitle': 'Пасхальное яйцо «Бутон розы»',
@@ -179,6 +200,9 @@ export const SliderData = {
             "index": 3,
             'pictureData': {
                 'cropSize': Coron,
+                'soundtrack': {
+                    'sound': coron_audio,
+                },
                 'textArea': {
                     'author': 'Мастера: Михаил Перхин, Генрик Вигстрём, Сюрприз — Георг Штейн',
                     'pictureTitle': 'Пасхальное яйцо «Коронационное»',
@@ -192,7 +216,7 @@ export const SliderData = {
                     "index": 0,
                     'img': Coron_pin2,
                     'info': 'Сверху на яйце, под крупным портретным бриллиантом находится монограмма императрицы Александры Фёдоровны, усыпанная бриллиантами и рубинами огранки розой на белом эмалевом фоне.',
-                    'coordinateTop': '10',
+                    'coordinateTop': '8',
                     'coordinateLeft': '35',
                     'card': 'card-1',
                     'side': 'right',
@@ -224,6 +248,9 @@ export const SliderData = {
             "index": 4,
             'pictureData': {
                 'cropSize': Lilies,
+                'soundtrack': {
+                    'sound': landushi_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Михаил Перхин',
                     'pictureTitle': 'Пасхальное яйцо «Ландыши»',
@@ -257,6 +284,9 @@ export const SliderData = {
             "index": 5,
             'pictureData': {
                 'cropSize': Clock,
+                'soundtrack': {
+                    'sound': clock_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Михаил Перхин',
                     'pictureTitle': 'Пасхальное яйцо-часы «Петушок»',
@@ -290,6 +320,9 @@ export const SliderData = {
             "index": 6,
             'pictureData': {
                 'cropSize': Tree,
+                'soundtrack': {
+                    'sound': tree_audio,
+                },
                 'textArea': {
                     'author': 'Фирма К. Фаберже',
                     'pictureTitle': 'Пасхальное яйцо «Лавровое дерево»',
@@ -323,6 +356,9 @@ export const SliderData = {
             "index": 7,
             'pictureData': {
                 'cropSize': Fifteen,
+                'soundtrack': {
+                    'sound': fifteen_audio,
+                },
                 'textArea': {
                     'author': 'Мастер: Генрих Вигстрем',
                     'pictureTitle': 'Пасхальное яйцо «Пятнадцатилетие царствования»',
@@ -335,59 +371,72 @@ export const SliderData = {
                 {
                     "index": 0,
                     'img': Fifteen_pin1,
-                    'info': '1 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '10',
+                    'info': 'Портреты Николая II и Александры Федоровны. Рамки портретов выполнены из мелких алмазов – «монарших камней», которые почти всегда обрамляют изображения Высочайших особ на произведениях фирмы Фаберже',
+                    'coordinateTop': '5',
                     'coordinateLeft': '30',
                     'card': 'card-1',
-                    'side': 'right',
+                    'side': 'left',
                     'vertical': 'top'
                 },
                 {
                     "index": 1,
                     'img': Fifteen_pin2,
-                    'info': '2 здесь будет краткое описание элемента и картинка',
-                    'coordinateTop': '40',
+                    'info': 'В верхнем ярусе по возрасту расположены портреты трех старших дочерей – Ольги, Татьяны и Марии. Самая маленькая – Анастасия – изображена в нижнем регистре. Там же, в овальных медальонах, проставлены даты – «1894» и «1911». В центральном живописном поясе находятся портреты царя, царицы и цесаревича Алексея – единственного сына императорской четы.',
+                    'coordinateTop': '5',
                     'coordinateLeft': '40',
                     'card': 'card-2',
                     'side': 'right',
                     'vertical': 'top'
                 },
-                // {
-                //     "index": 2,
-                //     'img': 'Fifteen_pin3',
-                //     'info': '2 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '30',
-                //     'coordinateLeft': '40',
-                //     'card': 'card-3',
-                //     'side': 'right',
-                //     'vertical': 'top'
-                // },
-                // {
-                //     "index": 3,
-                //     'img': 'Fifteen_pin4',
-                //     'info': '2 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '40',
-                //     'coordinateLeft': '40',
-                //     'card': 'card-4',
-                //     'side': 'right',
-                //     'vertical': 'top'
-                // },
-                // {
-                //     "index": 4,
-                //     'img': 'Fifteen_pin5',
-                //     'info': '5 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '50',
-                //     'coordinateLeft': '40',
-                //     'card': 'card-5',
-                //     'side': 'right',
-                //     'vertical': 'top'
-                // }
+                {
+                    "index": 2,
+                    'img': Fifteen_pin3,
+                    'info': 'Момент священного коронования Николая II.',
+                    'coordinateTop': '32',
+                    'coordinateLeft': '30',
+                    'card': 'card-3',
+                    'side': 'left',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 3,
+                    'img': Fifteen_pin4,
+                    'info': 'Торжественное шествие в Успенский собор.',
+                    'coordinateTop': '32',
+                    'coordinateLeft': '40',
+                    'card': 'card-4',
+                    'side': 'right',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 4,
+                    'img': Fifteen_pin5,
+                    'info': 'Дом в Гааге, где проходила Первая Мирная конференция.',
+                    'coordinateTop': '60',
+                    'coordinateLeft': '30',
+                    'card': 'card-5',
+                    'side': 'left',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 5,
+                    'img': Fifteen_pin6,
+                    'info': 'Торжественный прием членов Первой Государственной Думы в Зимнем Дворце.',
+                    'coordinateTop': '60',
+                    'coordinateLeft': '40',
+                    'card': 'card-6',
+                    'side': 'right',
+                    'vertical': 'top'
+                }
             ]
         },
         {
             "index": 8,
             'pictureData': {
                 'cropSize': Georg,
+                'soundtrack': {
+                    'sound': georg_audio,
+                },
                 'textArea': {
                     'author': 'Фирма К. Фаберже',
                     'pictureTitle': 'Пасхальное яйцо «Орден Святого Георгия»',
@@ -400,7 +449,7 @@ export const SliderData = {
                 {
                     "index": 0,
                     'img': Georg_pin1,
-                    'info': '1 здесь будет краткое описание элемента и картинка',
+                    'info': 'В основании яйца дата «1916» в зеленом орнаменте. Яйцо находится на ажурной подставке.',
                     'coordinateTop': '60',
                     'coordinateLeft': '40',
                     'card': 'card-1',
