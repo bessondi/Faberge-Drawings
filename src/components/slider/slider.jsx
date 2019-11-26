@@ -17,7 +17,7 @@ class Slider extends Component {
     }
 
     // componentDidMount() {
-    //     this.timer = setInterval( this.nextImg, 40000 )
+    //     this.timer = setInterval( this.nextImg, 60000 )
     // }
 
     // componentWillUnmount() {

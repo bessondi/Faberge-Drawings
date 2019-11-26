@@ -20,19 +20,35 @@ class EggSlider extends Component {
             isCard3Showed: false,
             isCard4Showed: false,
             isCard5Showed: false,
-            isCard6Showed: false
+            isCard6Showed: false,
+            // sliderDelay: 4000
         }
     }
 
     // componentDidMount() {
-    //     // this.timer = setInterval( this.nextImg, 40000 )
+    //     // this.timer = setInterval( this.nextImg, 60000 );
+    //         this.nextImageChanger();
+    // }
+
+    // nextImageChanger = () => {
+    //     let delay = this.state.sliderDelay;
+    //     let newSlide = () => this.nextImg();
+        
+
+    //     setTimeout(function run() {
+    //         newSlide();
+    //         // console.log(delay);
+    //         setTimeout(run, delay);
+    //     }, delay);
     // }
 
     // componentWillUnmount() {
-    //     clearInterval(this.timer)
+    //     clearInterval(this.nextImageChanger)
     // }
 
+   
 
+    
     prevImg = () => {
         let newIndex = this.state.slider.index - 1;
 
@@ -43,6 +59,7 @@ class EggSlider extends Component {
         } else {
             this.setState({
                 slider: SliderData.slides[newIndex],
+                // sliderDelay: this.state.sliderDelay *2
             })
         }
         // console.log(this.state.slider.index);
@@ -56,6 +73,7 @@ class EggSlider extends Component {
         if ( newIndex < 9 ) { // последний n-слайд + 1  файла дата
             this.setState({
                 slider: SliderData.slides[newIndex],
+                // sliderDelay: this.state.sliderDelay *2
             })
         } else {
             this.setState({

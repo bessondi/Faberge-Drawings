@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.app__main__mainViewVideoDrawings {
+    width: 100%;
+}
+
 .app__main__mainTitle {
     position: absolute;
     left: 15%;

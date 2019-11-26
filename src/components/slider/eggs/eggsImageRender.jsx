@@ -75,7 +75,7 @@ class EggsImageRender extends Component {
             position: fixed;
             bottom: 0;
             left: 0;
-            height: 30%;
+            height: 35%;
             width: 70%;
         `;
         const PictureTitle = () => {
