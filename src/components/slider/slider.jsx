@@ -6,6 +6,7 @@ import ImageRender from "./imageRender";
 
 import {SliderData} from './sliderData';
 import styles from './sliderStyles.module.css';
+// import ProgressBar from '../progressbar';
 
 
 class Slider extends Component {
@@ -99,10 +100,8 @@ class Slider extends Component {
 
         return (
             <React.Fragment>
-
                 <ImageRender slide={slider} index={this.state.slider.index} />
                 <NavButtons/>
-
             </React.Fragment>
         );
     }

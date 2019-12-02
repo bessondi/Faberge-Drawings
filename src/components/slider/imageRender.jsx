@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
 import Player from "./player/player";
 import img from '../../media/images/Aivazovsky.jpg'
+import ProgressBar from '../progressbar';
 // import TextGradient from '../stickyTextGradient';
 
 
@@ -23,7 +24,7 @@ class ImageRender extends Component {
 
     render() {
         const { slide } = this.props;
-        const { parts, partSize, cropSize, textArea, soundtrack } = slide.pictureData;
+        const { parts, partSize, cropSize, textArea, soundtrack, icon } = slide.pictureData;
         // const { pins } = slide;
         // const count = this.props.slide.index;
         // console.log(pins);
@@ -94,7 +95,6 @@ class ImageRender extends Component {
                     &::-webkit-scrollbar {
                         width: 0;
                     }
-                
             `;
 
             const Paragraph = styled.p`
@@ -155,6 +155,9 @@ class ImageRender extends Component {
                         {/*:*/}
                         {/*null*/}
                     {/*}*/}
+
+                    {/*<ProgressBar imageIcon={icon} />*/}
+
                 </DescriptionArea>
             );
         };

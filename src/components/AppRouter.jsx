@@ -17,8 +17,8 @@ import LastEggsSlide from './slider/eggs/lastEggsSlide/lastEggsSlide';
 function AppRouter() {
     return (
         <div className="app"
-             onContextMenu={ (e) => e.preventDefault() }
-             onMouseDown={ (e) => e.preventDefault() }
+            //  onContextMenu={ (e) => e.preventDefault() }
+            //  onMouseDown={ (e) => e.preventDefault() }
         >
             {/*header*/}
             <Switch>

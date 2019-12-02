@@ -42,7 +42,7 @@ class EggsPage extends Component {
 
                     <Background>
                         <EggVideoBackground>
-                            <video className={styles.app__main__mainViewVideo} preload="auto" muted="" autoplay="" loop="loop" playsinline="" controls="" poster={EggMovPoster}>
+                            <video className={styles.app__main__mainViewVideo} preload="auto" muted="" autoPlay="autoplay" loop="loop" playsInline="playsinline" controls="" poster={EggMovPoster}>
                                 <source src={EggMov} type="video/webm"/>
                                 <source src={EggMov2} type="video/mp4"/>
                             </video>

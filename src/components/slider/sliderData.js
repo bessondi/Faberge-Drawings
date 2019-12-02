@@ -1,4 +1,5 @@
 import cropSizeRenoir from "../../media/images/compressed/Renoir.jpg";
+import renoirIco from "../../media/images/compressed/Renoir_ico.jpg";
 import renoir1 from "../../media/images/mosaic/Renoir/Renoir_01.jpg";
 import renoir2 from "../../media/images/mosaic/Renoir/Renoir_02.jpg";
 import renoir3 from "../../media/images/mosaic/Renoir/Renoir_03.jpg";
@@ -120,6 +121,7 @@ export const SliderData = {
             "index": 0,
             'pictureData': {
                 'cropSize': cropSizeRenoir,
+                'icon': renoirIco,
                 'soundtrack': {
                     'sound': renoirSound,
                     // 'title': 'Шум площади'

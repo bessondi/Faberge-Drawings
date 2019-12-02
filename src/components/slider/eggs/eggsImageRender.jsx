@@ -206,18 +206,27 @@ class EggsImageRender extends Component {
                 font-size: 0.7rem;
                 z-index: 12;
                 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                   
                     &:hover {
                         background: #a1a1a1;
-                        width: 30px;
-                        height: 30px;
-                        top: ${ pin.coordinateTop - 1.1}%;
-                        left: ${ pin.coordinateLeft - 1.1}%;
+                        // width: 30px;
+                        // height: 30px;
+                        // top: ${ pin.coordinateTop - 1.1}%;
+                        // left: ${ pin.coordinateLeft - 1.1}%;
                     }
 
                 ${ props => {
                     if (props.toggle) {
                         return `
                             background: #7f7f7f;
+                                &::before {
+                                    content: '\\d7';
+                                    color: #fff;
+                                    font-size: 1.4rem;
+                                    position: relative;
+                                    top: -7px;
+                                    left: -2px;
+                                }
                         `;
                     } else {
                         return `
