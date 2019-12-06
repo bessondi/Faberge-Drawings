@@ -1,8 +1,8 @@
 Faberge Museum Collection
 
-[Collection Viewer](https://bessondi.github.io/Faberge-Drawings/)
+[Collection viewer app](https://bessondi.github.io/Faberge-Drawings/)
 
-[Project prototype](https://www.figma.com/file/DBZ4cj978n0IsKAldBerEV/Museum-Drawings)
+[Project UI prototype](https://www.figma.com/file/DBZ4cj978n0IsKAldBerEV/Museum-Drawings)
 
 ***
 
