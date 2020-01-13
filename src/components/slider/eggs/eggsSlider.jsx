@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 import EggsImageRender from "./eggsImageRender";
 
 import {SliderData} from './eggsSliderData';
-import styles from './eggsSliderStyles.module.css';
+import styles from '../sliderStyles.module.css';
 
 import styled from 'styled-components';
 import Player from "../player/player";

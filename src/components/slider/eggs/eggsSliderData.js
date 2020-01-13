@@ -1,12 +1,12 @@
-import Hen from "../../../media/images/eggs/Hen.jpg";
-import Ren from "../../../media/images/eggs/Ren_gray.jpg";
-import Rose from "../../../media/images/eggs/Rose.jpg";
-import Lilies from "../../../media/images/eggs/Lilies.jpg";
-import Coron from "../../../media/images/eggs/Coron.jpg";
-import Clock from "../../../media/images/eggs/Clock.jpg";
-import Tree from "../../../media/images/eggs/Tree.jpg";
-import Fifteen from "../../../media/images/eggs/15.jpg";
-import Georg from "../../../media/images/eggs/Georg.jpg";
+import Hen from "../../../media/images/eggs/compress/Hen.jpg";
+import Ren from "../../../media/images/eggs/compress/Ren_gray.jpg";
+import Rose from "../../../media/images/eggs/compress/Rose.jpg";
+import Lilies from "../../../media/images/eggs/compress/Lilies.jpg";
+import Coron from "../../../media/images/eggs/compress/Coron.jpg";
+import Clock from "../../../media/images/eggs/compress/Clock.jpg";
+import Tree from "../../../media/images/eggs/compress/Tree.jpg";
+import Fifteen from "../../../media/images/eggs/compress/15.jpg"; 
+import Georg from "../../../media/images/eggs/compress/Georg.jpg";
 
 
 import Hen_pin1 from "../../../media/images/eggs/Hen_pin1.jpg";
@@ -19,6 +19,8 @@ import Ren_pin3 from "../../../media/images/eggs/Ren_pin3.jpg";
 import Ren_pin4 from "../../../media/images/eggs/Ren_pin4.jpg";
 
 import Rose_pin1 from "../../../media/images/eggs/Rose_pin1.jpg";
+import Rose_pin2 from "../../../media/images/eggs/Rose_pin2.jpg";
+import Rose_pin3 from "../../../media/images/eggs/Rose_pin3.jpg";
 
 import Coron_pin1 from "../../../media/images/eggs/Coron_pin1.jpg";
 import Coron_pin2 from "../../../media/images/eggs/Coron_pin2.jpg";
@@ -38,7 +40,9 @@ import Fifteen_pin5 from "../../../media/images/eggs/15_gaaga_pin.jpg";
 import Fifteen_pin6 from "../../../media/images/eggs/15_duma_pin.jpg";
 
 import Georg_pin1 from "../../../media/images/eggs/Georg_pin1.jpg";
-// import Georg_pin2 from "../../../media/images/eggs/Georg_pin2.jpg";
+import Georg_pin2 from "../../../media/images/eggs/Georg_pin2.jpg";
+import Georg_pin3 from "../../../media/images/eggs/Georg_pin3.jpg";
+import Georg_pin4 from "../../../media/images/eggs/Georg_pin4.jpg";
 
 
 import hen_audio from "../../../media/sounds/eggs/hen.mp3";
@@ -74,8 +78,8 @@ export const SliderData = {
                     "index": 0,
                     'img': Hen_pin1,
                     'info': 'Яйцо изготовлено из золота, покрытого слоем матовой эмали для схожести с натуральной яичной скорлупой. Тонкая золотая кайма обрамляет место соединения двух половин яйца. Оно имеет длину 64 мм. Две половины яйца соединяются байонетным соединением, и при его открытии можно увидеть сюрприз.',
-                    'coordinateTop': '10',
-                    'coordinateLeft': '15',
+                    'coordinateTop': '15',
+                    'coordinateLeft': '25',
                     'card': 'card-1',
                     'side': 'right',
                     'vertical': 'top'
@@ -84,8 +88,8 @@ export const SliderData = {
                     "index": 1,
                     'img': Hen_pin2,
                     'info': 'Внутри яйца находится желток, выполненный из матового золота, содержащий разноцветную золотую курочку с рубиновыми глазами.',
-                    'coordinateTop': '35',
-                    'coordinateLeft': '55',
+                    'coordinateTop': '40',
+                    'coordinateLeft': '50',
                     'card': 'card-2',
                     'side': 'left',
                     'vertical': 'top'
@@ -95,7 +99,7 @@ export const SliderData = {
                     'img': Hen_pin3,
                     'info': 'Курочка имеет шарнирный механизм, открываемый при помощи хвостового оперения, что позволяет получить доступ к ещё двум сюрпризам, которые в настоящий момент утеряны.',
                     'coordinateTop': '85',
-                    'coordinateLeft': '35',
+                    'coordinateLeft': '30',
                     'card': 'card-3',
                     'side': 'right',
                     'vertical': 'bottom'
@@ -178,22 +182,34 @@ export const SliderData = {
             'pins': [
                 {
                     "index": 0,
+                    'img': Rose_pin2,
+                    'info': 'На верхней части яйца, под большим плоским алмазом, изображен миниатюрный портрет Николая II, написанный акварелью на пластине слоновой кости.',
+                    'coordinateTop': '15',
+                    'coordinateLeft': '28',
+                    'card': 'card-1',
+                    'side': 'left',
+                    'vertical': 'top'
+                },
+                {
+                    "index": 1,
                     'img': Rose_pin1,
                     'info': 'Яйцо открывается как бонбоньерка, являя спрятанный внутри бутон розы, покрытый жёлтой эмалью.',
-                    'coordinateTop': '45',
+                    'coordinateTop': '40',
                     'coordinateLeft': '40',
-                    'card': 'card-1',
+                    'card': 'card-2',
                     'side': 'right',
                     'vertical': 'bottom'
                 },
-                // {
-                //     "index": 1,
-                //     'img': '',
-                //     'info': 'Лепестки бутона раздвигались, открывая золотую корону с бриллиантами и рубинами и кулон со звёздчатым рубином-кабошоном. Оба этих последних сюрприза утеряны.',
-                //     'coordinateTop': '65',
-                //     'coordinateLeft': '38',
-                //     'card': 'card-2'
-                // }
+                {
+                    "index": 2,
+                    'img': Rose_pin3,
+                    'info': 'На нижней стороне яйца под алмазом начертана дата создания подарка.',
+                    'coordinateTop': '63',
+                    'coordinateLeft': '32',
+                    'card': 'card-3',
+                    'side': 'left',
+                    'vertical': 'bottom'
+                },
             ]
         },
         {
@@ -216,20 +232,20 @@ export const SliderData = {
                     "index": 0,
                     'img': Coron_pin2,
                     'info': 'Сверху на яйце, под крупным портретным бриллиантом находится монограмма императрицы Александры Фёдоровны, усыпанная бриллиантами и рубинами огранки розой на белом эмалевом фоне.',
-                    'coordinateTop': '8',
-                    'coordinateLeft': '35',
+                    'coordinateTop': '30',
+                    'coordinateLeft': '58',
                     'card': 'card-1',
-                    'side': 'right',
-                    'vertical': 'top'
+                    'side': 'left',
+                    'vertical': 'bottom'
                 },
                 {
                     "index": 1,
                     'img': Coron_pin1,
                     'info': 'Основание яйца выполнено в виде чашечки цветка с тонкой гравировкой листьев и расположенной посередине чёрной по белой эмали датой «1897», видимой сквозь крупный алмаз в круглом обрамлении мелких.',
-                    'coordinateTop': '55',
-                    'coordinateLeft': '17',
+                    'coordinateTop': '40',
+                    'coordinateLeft': '30',
                     'card': 'card-2',
-                    'side': 'right',
+                    'side': 'left',
                     'vertical': 'bottom'
                 },
                 {
@@ -237,7 +253,7 @@ export const SliderData = {
                     'img': Coron_pin3,
                     'info': 'Внутри яйца в белой бархатной подложке размещается миниатюрная копия императорской кареты 1793 года Екатерины II, длиной менее 100 мм, использованная в коронационной процессии Николая и Александры, проходившей в Успенском соборе Москвы. Карета, воспроизведённая до мельчайших подробностей, покрыта землянично-красной эмалью с накладной трельяжной решеткой с алмазами.',
                     'coordinateTop': '80',
-                    'coordinateLeft': '34',
+                    'coordinateLeft': '30',
                     'card': 'card-3',
                     'side': 'right',
                     'vertical': 'bottom'
@@ -264,7 +280,7 @@ export const SliderData = {
                     "index": 0,
                     'img': Lilies_pin1,
                     'info': 'Верхний медальон венчает корона, украшенная россыпью бриллиантов и рубином в форме кабошона.',
-                    'coordinateTop': '15',
+                    'coordinateTop': '18',
                     'coordinateLeft': '40',
                     'card': 'card-1',
                     'side': 'right',
@@ -300,7 +316,7 @@ export const SliderData = {
                     "index": 0,
                     'img': Clock_pin1,
                     'info': 'Сюрпризом яйца является петушок с рубиновыми глазами, способный петь, раскрывать клюв и махать крыльями. Движение обеспечивается заводным механизмом. Петушок появляется из-под верхней ажурной крышки изделия либо с наступлением каждого нового часа',
-                    'coordinateTop': '10',
+                    'coordinateTop': '15',
                     'coordinateLeft': '40',
                     'card': 'card-1',
                     'side': 'right',
@@ -337,7 +353,7 @@ export const SliderData = {
                     'img': Tree_pin1,
                     'info': 'Сюрпризом императорского ювелирного пасхального яйца «Лавровое дерево» является механическая крылатая певчая птичка, способная поворачивать голову, раскрывать клюв, петь и махать крыльями. Движение обеспечивается заводным механизмом.',
                     'coordinateTop': '10',
-                    'coordinateLeft': '42',
+                    'coordinateLeft': '38',
                     'card': 'card-1',
                     'side': 'right',
                     'vertical': 'top'
@@ -372,7 +388,7 @@ export const SliderData = {
                     "index": 0,
                     'img': Fifteen_pin1,
                     'info': 'Портреты Николая II и Александры Федоровны. Рамки портретов выполнены из мелких алмазов – «монарших камней», которые почти всегда обрамляют изображения Высочайших особ на произведениях фирмы Фаберже',
-                    'coordinateTop': '5',
+                    'coordinateTop': '10',
                     'coordinateLeft': '30',
                     'card': 'card-1',
                     'side': 'left',
@@ -382,7 +398,7 @@ export const SliderData = {
                     "index": 1,
                     'img': Fifteen_pin2,
                     'info': 'В верхнем ярусе по возрасту расположены портреты трех старших дочерей – Ольги, Татьяны и Марии. Самая маленькая – Анастасия – изображена в нижнем регистре. Там же, в овальных медальонах, проставлены даты – «1894» и «1911». В центральном живописном поясе находятся портреты царя, царицы и цесаревича Алексея – единственного сына императорской четы.',
-                    'coordinateTop': '5',
+                    'coordinateTop': '10',
                     'coordinateLeft': '40',
                     'card': 'card-2',
                     'side': 'right',
@@ -392,7 +408,7 @@ export const SliderData = {
                     "index": 2,
                     'img': Fifteen_pin3,
                     'info': 'Момент священного коронования Николая II.',
-                    'coordinateTop': '32',
+                    'coordinateTop': '37',
                     'coordinateLeft': '30',
                     'card': 'card-3',
                     'side': 'left',
@@ -402,7 +418,7 @@ export const SliderData = {
                     "index": 3,
                     'img': Fifteen_pin4,
                     'info': 'Торжественное шествие в Успенский собор.',
-                    'coordinateTop': '32',
+                    'coordinateTop': '37',
                     'coordinateLeft': '40',
                     'card': 'card-4',
                     'side': 'right',
@@ -412,7 +428,7 @@ export const SliderData = {
                     "index": 4,
                     'img': Fifteen_pin5,
                     'info': 'Дом в Гааге, где проходила Первая Мирная конференция.',
-                    'coordinateTop': '60',
+                    'coordinateTop': '65',
                     'coordinateLeft': '30',
                     'card': 'card-5',
                     'side': 'left',
@@ -422,7 +438,7 @@ export const SliderData = {
                     "index": 5,
                     'img': Fifteen_pin6,
                     'info': 'Торжественный прием членов Первой Государственной Думы в Зимнем Дворце.',
-                    'coordinateTop': '60',
+                    'coordinateTop': '65',
                     'coordinateLeft': '40',
                     'card': 'card-6',
                     'side': 'right',
@@ -449,23 +465,43 @@ export const SliderData = {
                 {
                     "index": 0,
                     'img': Georg_pin1,
-                    'info': 'В основании яйца дата «1916» в зеленом орнаменте. Яйцо находится на ажурной подставке.',
-                    'coordinateTop': '60',
-                    'coordinateLeft': '40',
+                    'info': 'На верхней части яйца расположена монограмма Марии Федоровны.',
+                    'coordinateTop': '8',
+                    'coordinateLeft': '35',
                     'card': 'card-1',
                     'side': 'right',
                     'vertical': 'top'
                 },
-                // {
-                //     "index": 1,
-                //     'img': '',
-                //     'info': '2 здесь будет краткое описание элемента и картинка',
-                //     'coordinateTop': '60',
-                //     'coordinateLeft': '40',
-                //     'card': 'card-2',
-                    // 'side': 'right',
-                    // 'vertical': 'top'
-                // }
+                {
+                    "index": 1,
+                    'img': Georg_pin2,
+                    'info': 'Под знаком Георгиевского ордена расположен акварельный миниатюрный портрет Николая II',
+                    'coordinateTop': '52',
+                    'coordinateLeft': '40',
+                    'card': 'card-2',
+                    'side': 'right',
+                    'vertical': 'bottom'
+                },
+                {
+                    "index": 2,
+                    'img': Georg_pin3,
+                    'info': 'С противоположной стороны яйца под медалью раположен акварельный портрет цесаревича Алексея',
+                    'coordinateTop': '35',
+                    'coordinateLeft': '25',
+                    'card': 'card-3',
+                    'side': 'left',
+                    'vertical': 'bottom'
+                },
+                {
+                    "index": 3,
+                    'img': Georg_pin4,
+                    'info': 'В основании яйца дата подарка «1916» в зеленом орнаменте. Яйцо находится на ажурной подставке.',
+                    'coordinateTop': '65',
+                    'coordinateLeft': '40',
+                    'card': 'card-4',
+                    'side': 'right',
+                    'vertical': 'top'
+                },
             ]
         },
     ]

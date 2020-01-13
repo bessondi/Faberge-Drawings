@@ -7,6 +7,7 @@ import DrawMov from '../../media/video/Drawings.webm';
 import DrawMov2 from '../../media/video/Drawings.mp4';
 import DrawingsPoster from '../../media/video/DrawingsPoster.jpg';
 
+
 class Main extends Component {
     render() {
         const MainView = () => {
@@ -32,7 +33,8 @@ class Main extends Component {
                         <EggVideoBackground>
                             <video className={styles.app__main__mainViewVideoDrawings}
                                 // preload="auto" muted="" autoplay="" loop="loop" controls=""
-                                preload="true" autoPlay="autoplay" loop="loop" playsInline="playsinline"
+                                // preload="true" autoPlay="autoplay" loop="loop" playsInline="playsinline"
+                                muted autoPlay playsInline loop preload
                                 poster={DrawingsPoster}>
                                 <source src={DrawMov} type="video/webm" />
                                 <source src={DrawMov2} type="video/mp4" />
