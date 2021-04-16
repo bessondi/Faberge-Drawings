@@ -101,7 +101,6 @@ export default function EggSlider({sliderData}) {
 
       <EggsImageRender
         slide={slider.slide}
-        index={slider.index}
         isCard1Showed={slider.isCard1Showed}
         isCard2Showed={slider.isCard2Showed}
         isCard3Showed={slider.isCard3Showed}
