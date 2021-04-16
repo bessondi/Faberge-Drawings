@@ -87,6 +87,7 @@ class EggsImageRender extends Component {
         color: #fff;
         background: transparent;
         font-size: 0.7rem;
+        font-family: "Circe-Light", "Helvetica Neue", sans-serif;
       `;
       return (
         <PictureTitle>
@@ -112,6 +113,7 @@ class EggsImageRender extends Component {
         height: 100vh;
         z-index: 10;
         background: #fff;
+        font-family: "Circe-Light", "Helvetica Neue", sans-serif;
       `;
 
       const TextArea = styled.div`
@@ -187,8 +189,6 @@ class EggsImageRender extends Component {
         left: ${pin.coordinateLeft - 0.8}%;
         width: 25px;
         height: 25px;
-        /* color: #000; */
-
         border: 2px solid #fff;
         border-radius: 50%;
         font-size: 0.7rem;
@@ -226,12 +226,6 @@ class EggsImageRender extends Component {
       `;
 
       let PinDescription = styled.div`
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* position:relative;
-        top: 10px;
-        left: 50px; */
-
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
@@ -246,8 +240,7 @@ class EggsImageRender extends Component {
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         z-index: 11;
-        /* animation-duration: .5s;
-        animation-name: showPic; */
+
 
         ${props => { // show pin
           if (props.toggle) {
@@ -266,11 +259,6 @@ class EggsImageRender extends Component {
               animation-name: showPic;
           `;
           }
-          // else {
-          //     return `
-          //         display: none;
-          //     `;
-          // }
         }} */ ${props => { // left pin
           if (props.side === 'left') {
             return `
@@ -309,11 +297,11 @@ class EggsImageRender extends Component {
       let PinText = styled.p`
         width: 300px;
         height: 125px;
-        /* color: #000; */
         font-size: 0.9rem;
         overflow: auto;
         margin: 10px 20px;
-        /* text-align: center; */
+        line-height: 1.2rem;
+        font-family: "Circe-Light", "Helvetica Neue", sans-serif;
       `;
 
       return (

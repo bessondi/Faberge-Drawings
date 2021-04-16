@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
 import Player from "./player/player";
-import img from '../../media/images/Aivazovsky.jpg'
 // import ProgressBar from '../progressbar';
 // import TextGradient from '../stickyTextGradient';
 
@@ -47,6 +46,7 @@ class ImageRender extends Component {
         color: #fff;
         background: transparent;
         font-size: 0.7rem;
+        font-family: "Circe-Light", "Helvetica Neue", sans-serif;
       `;
       return (
         <PictureTitle>
@@ -72,6 +72,7 @@ class ImageRender extends Component {
         height: 100vh;
         z-index: 10;
         background: #fff;
+        font-family: "Circe-Light", "Helvetica Neue", sans-serif;
       `;
 
       const TextArea = styled.div`

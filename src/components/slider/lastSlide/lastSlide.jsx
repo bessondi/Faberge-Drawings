@@ -43,6 +43,7 @@ export default function LastSlide({img, lastSlideData, pathToStart, pathToHome})
       color: #fff;
       text-decoration: none;
       margin-left: 100px;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
     `;
     const Repeat = styled.div`
       position: absolute;
@@ -72,6 +73,7 @@ export default function LastSlide({img, lastSlideData, pathToStart, pathToHome})
       color: #fff;
       text-decoration: none;
       margin-left: 25px;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
     `;
 
     return (
@@ -113,6 +115,7 @@ export default function LastSlide({img, lastSlideData, pathToStart, pathToHome})
       width: 30%;
       height: 100vh;
       background: #f5f5f5;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
     `;
     const TextArea = styled.p`
       padding: 20px 50px 20px 40px;

@@ -39,23 +39,42 @@ import ammon16 from "../../media/images/mosaic/Ammon/Ammon_16.jpg";
 import ammonSounds from '../../media/sounds/WaterSounds.mp3';
 
 
-import cropSizeBrullov from "../../media/images/compressed/Brullov.jpg";
-import brullov1 from "../../media/images/mosaic/Brullov/Brullov_01.jpg";
-import brullov2 from "../../media/images/mosaic/Brullov/Brullov_02.jpg";
-import brullov3 from "../../media/images/mosaic/Brullov/Brullov_03.jpg";
-import brullov4 from "../../media/images/mosaic/Brullov/Brullov_04.jpg";
-import brullov5 from "../../media/images/mosaic/Brullov/Brullov_05.jpg";
-import brullov6 from "../../media/images/mosaic/Brullov/Brullov_06.jpg";
-import brullov7 from "../../media/images/mosaic/Brullov/Brullov_07.jpg";
-import brullov8 from "../../media/images/mosaic/Brullov/Brullov_08.jpg";
-import brullov9 from "../../media/images/mosaic/Brullov/Brullov_09.jpg";
-import brullov10 from "../../media/images/mosaic/Brullov/Brullov_10.jpg";
-import brullov11 from "../../media/images/mosaic/Brullov/Brullov_11.jpg";
-import brullov12 from "../../media/images/mosaic/Brullov/Brullov_12.jpg";
-import brullov13 from "../../media/images/mosaic/Brullov/Brullov_13.jpg";
-import brullov14 from "../../media/images/mosaic/Brullov/Brullov_14.jpg";
-import brullov15 from "../../media/images/mosaic/Brullov/Brullov_15.jpg";
-import brullov16 from "../../media/images/mosaic/Brullov/Brullov_16.jpg";
+import cropSizeAivazovsky from "../../media/images/compressed/Aivazovsky.jpg";
+import aivazovsky1 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_01.jpg";
+import aivazovsky2 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_02.jpg";
+import aivazovsky3 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_03.jpg";
+import aivazovsky4 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_04.jpg";
+import aivazovsky5 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_05.jpg";
+import aivazovsky6 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_06.jpg";
+import aivazovsky7 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_07.jpg";
+import aivazovsky8 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_08.jpg";
+import aivazovsky9 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_09.jpg";
+import aivazovsky10 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_10.jpg";
+import aivazovsky11 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_11.jpg";
+import aivazovsky12 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_12.jpg";
+import aivazovsky13 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_13.jpg";
+import aivazovsky14 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_14.jpg";
+import aivazovsky15 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_15.jpg";
+import aivazovsky16 from "../../media/images/mosaic/Aivazovsky/Aivazovsky_16.jpg";
+
+
+// import cropSizeBrullov from "../../media/images/compressed/Brullov.jpg";
+// import brullov1 from "../../media/images/mosaic/Brullov/Brullov_01.jpg";
+// import brullov2 from "../../media/images/mosaic/Brullov/Brullov_02.jpg";
+// import brullov3 from "../../media/images/mosaic/Brullov/Brullov_03.jpg";
+// import brullov4 from "../../media/images/mosaic/Brullov/Brullov_04.jpg";
+// import brullov5 from "../../media/images/mosaic/Brullov/Brullov_05.jpg";
+// import brullov6 from "../../media/images/mosaic/Brullov/Brullov_06.jpg";
+// import brullov7 from "../../media/images/mosaic/Brullov/Brullov_07.jpg";
+// import brullov8 from "../../media/images/mosaic/Brullov/Brullov_08.jpg";
+// import brullov9 from "../../media/images/mosaic/Brullov/Brullov_09.jpg";
+// import brullov10 from "../../media/images/mosaic/Brullov/Brullov_10.jpg";
+// import brullov11 from "../../media/images/mosaic/Brullov/Brullov_11.jpg";
+// import brullov12 from "../../media/images/mosaic/Brullov/Brullov_12.jpg";
+// import brullov13 from "../../media/images/mosaic/Brullov/Brullov_13.jpg";
+// import brullov14 from "../../media/images/mosaic/Brullov/Brullov_14.jpg";
+// import brullov15 from "../../media/images/mosaic/Brullov/Brullov_15.jpg";
+// import brullov16 from "../../media/images/mosaic/Brullov/Brullov_16.jpg";
 
 
 import cropSizeMakovsky from "../../media/images/compressed/Makovsky.jpg";
@@ -414,16 +433,115 @@ export const sliderData = {
     },
 
 
+    // {
+    //   "index": 5,
+    //   'pictureData': {
+    //     'cropSize': cropSizeBrullov,
+    //     'textArea': {
+    //       'author': 'Карл Брюллов (1799–1852)',
+    //       'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
+    //       'year': '1850',
+    //       'typeOfCanvas': 'Холст, масло',
+    //       'info': 'Покинув Россию в 1849 году для лечения за рубежом после длительной болезни, Брюллов много и плодотворно работает. Свидетельство тому - эскиз картины «Месса в соборе Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX». Италия была любимой страной Брюллова и, находясь здесь в период  глубоких религиозно-политических изменений (провозглашение Итальянской Республики Джузеппе Гарибальди и ее разгром, реформа католической церкви), он счел себя обязанным запечатлеть это на холсте. Первая месса, в которой участвовал папа Пий IX после падения Республики при возвращении его в Рим,  была отслужена в старинном храме Санта Мариа Маджоре.'
+    //     }
+    //   }
+    // },
+    // {
+    //   "index": 6,
+    //   'pictureData': {
+    //     'parts': [
+    //       {
+    //         'index': 0,
+    //         'picture': brullov1
+    //       },
+    //       {
+    //         'index': 1,
+    //         'picture': brullov2
+    //       },
+    //       {
+    //         'index': 2,
+    //         'picture': brullov3
+    //       },
+    //       {
+    //         'index': 3,
+    //         'picture': brullov4
+    //       },
+    //       {
+    //         'index': 4,
+    //         'picture': brullov5
+    //       },
+    //       {
+    //         'index': 5,
+    //         'picture': brullov6
+    //       },
+    //       {
+    //         'index': 6,
+    //         'picture': brullov7
+    //       },
+    //       {
+    //         'index': 7,
+    //         'picture': brullov8
+    //       },
+    //       {
+    //         'index': 8,
+    //         'picture': brullov9
+    //       },
+    //       {
+    //         'index': 9,
+    //         'picture': brullov10
+    //       },
+    //       {
+    //         'index': 10,
+    //         'picture': brullov11
+    //       },
+    //       {
+    //         'index': 11,
+    //         'picture': brullov12
+    //       },
+    //       {
+    //         'index': 12,
+    //         'picture': brullov13
+    //       },
+    //       {
+    //         'index': 13,
+    //         'picture': brullov14
+    //       },
+    //       {
+    //         'index': 14,
+    //         'picture': brullov15
+    //       },
+    //       {
+    //         'index': 15,
+    //         'picture': brullov16
+    //       }
+    //     ],
+    //     'partSize': {
+    //       'width': 900,
+    //       'height': 720
+    //     },
+    //     'position': {
+    //       'top': 1200,
+    //       'left': 1600,
+    //     },
+    //     'textArea': {
+    //       'author': 'Карл Брюллов (1799–1852)',
+    //       'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
+    //       'year': '1850',
+    //       'typeOfCanvas': 'Холст, масло',
+    //       'info': 'Брюллов не успел застать все эти события, однако они были живы  и свежы в восприятии современников. Кроме набросков графитным карандашом общей композиции, деталей одежды, лиц и фигур персонажей, традиционно бегло или более тщательно проработанных очерком или с растушевкой, для этой картины художник выполнил еще и гуашевые наброски, намечая и колористическое решение. В своем эскизе Брюллов выбрал неожиданный композиционный ракурс: главный герой события находится на втором плане, а всю авансцену занимают изображения римлян и римлянок, монахов и мирян, коленопреклоненной паствы, участвующей в богослужении, притом, в основном,  это  дамы.  Ликующего народа художник не изобразил. Не исключено, что картина должна была стать политическим манифестом, но, разумеется, достоверно судить об этом  по эскизам невозможно.'
+    //     }
+    //   }
+    // },
     {
       "index": 5,
       'pictureData': {
-        'cropSize': cropSizeBrullov,
+        'cropSize': cropSizeAivazovsky,
         'textArea': {
-          'author': 'Карл Брюллов (1799–1852)',
-          'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
-          'year': '1850',
+          'author': 'Иван Айвазовский (1817–1900)',
+          'pictureTitle': 'Кораблекрушение',
+          'year': '1888',
           'typeOfCanvas': 'Холст, масло',
-          'info': 'Покинув Россию в 1849 году для лечения за рубежом после длительной болезни, Брюллов много и плодотворно работает. Свидетельство тому - эскиз картины «Месса в соборе Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX». Италия была любимой страной Брюллова и, находясь здесь в период  глубоких религиозно-политических изменений (провозглашение Итальянской Республики Джузеппе Гарибальди и ее разгром, реформа католической церкви), он счел себя обязанным запечатлеть это на холсте. Первая месса, в которой участвовал папа Пий IX после падения Республики при возвращении его в Рим,  была отслужена в старинном храме Санта Мариа Маджоре.'
+          'info': 'Картина «Кораблекрушение» — один из вариантов многочисленных кораблекрушений, написанных художником с выдающимся мастерством и неисчерпаемой фантазией.'
         }
       }
     },
@@ -433,67 +551,67 @@ export const sliderData = {
         'parts': [
           {
             'index': 0,
-            'picture': brullov1
+            'picture': aivazovsky1
           },
           {
             'index': 1,
-            'picture': brullov2
+            'picture': aivazovsky2
           },
           {
             'index': 2,
-            'picture': brullov3
+            'picture': aivazovsky3
           },
           {
             'index': 3,
-            'picture': brullov4
+            'picture': aivazovsky4
           },
           {
             'index': 4,
-            'picture': brullov5
+            'picture': aivazovsky5
           },
           {
             'index': 5,
-            'picture': brullov6
+            'picture': aivazovsky6
           },
           {
             'index': 6,
-            'picture': brullov7
+            'picture': aivazovsky7
           },
           {
             'index': 7,
-            'picture': brullov8
+            'picture': aivazovsky8
           },
           {
             'index': 8,
-            'picture': brullov9
+            'picture': aivazovsky9
           },
           {
             'index': 9,
-            'picture': brullov10
+            'picture': aivazovsky10
           },
           {
             'index': 10,
-            'picture': brullov11
+            'picture': aivazovsky11
           },
           {
             'index': 11,
-            'picture': brullov12
+            'picture': aivazovsky12
           },
           {
             'index': 12,
-            'picture': brullov13
+            'picture': aivazovsky13
           },
           {
             'index': 13,
-            'picture': brullov14
+            'picture': aivazovsky14
           },
           {
             'index': 14,
-            'picture': brullov15
+            'picture': aivazovsky15
           },
           {
             'index': 15,
-            'picture': brullov16
+            'picture': aivazovsky16
           }
         ],
         'partSize': {
@@ -501,15 +619,15 @@ export const sliderData = {
           'height': 720
         },
         'position': {
-          'top': 1200,
-          'left': 1600,
+          'top': 1800,
+          'left': 800,
         },
         'textArea': {
-          'author': 'Карл Брюллов (1799–1852)',
-          'pictureTitle': 'Месса в базилике Санта Мария Маджоре по случаю возвращения в Рим папы Пия IX',
-          'year': '1850',
+          'author': 'Иван Айвазовский (1817–1900)',
+          'pictureTitle': 'Кораблекрушение',
+          'year': '1888',
           'typeOfCanvas': 'Холст, масло',
-          'info': 'Брюллов не успел застать все эти события, однако они были живы  и свежы в восприятии современников. Кроме набросков графитным карандашом общей композиции, деталей одежды, лиц и фигур персонажей, традиционно бегло или более тщательно проработанных очерком или с растушевкой, для этой картины художник выполнил еще и гуашевые наброски, намечая и колористическое решение. В своем эскизе Брюллов выбрал неожиданный композиционный ракурс: главный герой события находится на втором плане, а всю авансцену занимают изображения римлян и римлянок, монахов и мирян, коленопреклоненной паствы, участвующей в богослужении, притом, в основном,  это  дамы.  Ликующего народа художник не изобразил. Не исключено, что картина должна была стать политическим манифестом, но, разумеется, достоверно судить об этом  по эскизам невозможно.'
+          'info': 'Изображенные среди урагана люди, безусловно, испытывают страх, и художник это передает, но основным настроением картины страх человека перед стихией у Айвазовского не становится никогда.'
         }
       }
     },
@@ -1466,13 +1584,13 @@ export const sliderDataEng = {
     {
       "index": 5,
       'pictureData': {
-        'cropSize': cropSizeBrullov,
+        'cropSize': cropSizeAivazovsky,
         'textArea': {
-          'author': 'Karl Brullov (1799–1852)',
-          'pictureTitle': 'Mass in Basilica Santa Maria Majore on the occasion of the return to Rome of Pope Pius IX',
-          'year': '1850',
+          'author': 'Ivan Aivazovsky (1817–1900)',
+          'pictureTitle': 'Shipwreck',
+          'year': '1888',
           'typeOfCanvas': 'Oil on canvas',
-          'info': 'Having left Russia in 1849 for treatment abroad after a long illness, Bryullov works hard and fruitfully. Evidence of this - a sketch of the painting "Mass in the Cathedral of Santa Maria Maggiore on the occasion of the return to Rome of Pope Pius IX". Italy was Bryullov\'s beloved country and, being here during the period of deep religious and political changes (the proclamation of the Italian Republic by Giuseppe Garibaldi and its defeat, the reform of the Catholic Church), he considered himself obligated to capture this on canvas. The first Mass, in which Pope Pius IX participated after the fall of the Republic upon his return to Rome, was celebrated in the ancient church of Santa Maria Maggiore.'
+          'info': 'The painting "Shipwreck" is one of the versions of numerous shipwrecks painted by the artist with outstanding skill and inexhaustible imagination.'
         }
       }
     },
@@ -1482,67 +1600,67 @@ export const sliderDataEng = {
         'parts': [
           {
             'index': 0,
-            'picture': brullov1
+            'picture': aivazovsky1
           },
           {
             'index': 1,
-            'picture': brullov2
+            'picture': aivazovsky2
           },
           {
             'index': 2,
-            'picture': brullov3
+            'picture': aivazovsky3
           },
           {
             'index': 3,
-            'picture': brullov4
+            'picture': aivazovsky4
           },
           {
             'index': 4,
-            'picture': brullov5
+            'picture': aivazovsky5
           },
           {
             'index': 5,
-            'picture': brullov6
+            'picture': aivazovsky6
           },
           {
             'index': 6,
-            'picture': brullov7
+            'picture': aivazovsky7
           },
           {
             'index': 7,
-            'picture': brullov8
+            'picture': aivazovsky8
           },
           {
             'index': 8,
-            'picture': brullov9
+            'picture': aivazovsky9
           },
           {
             'index': 9,
-            'picture': brullov10
+            'picture': aivazovsky10
           },
           {
             'index': 10,
-            'picture': brullov11
+            'picture': aivazovsky11
           },
           {
             'index': 11,
-            'picture': brullov12
+            'picture': aivazovsky12
           },
           {
             'index': 12,
-            'picture': brullov13
+            'picture': aivazovsky13
           },
           {
             'index': 13,
-            'picture': brullov14
+            'picture': aivazovsky14
           },
           {
             'index': 14,
-            'picture': brullov15
+            'picture': aivazovsky15
           },
           {
             'index': 15,
-            'picture': brullov16
+            'picture': aivazovsky16
           }
         ],
         'partSize': {
@@ -1550,15 +1668,15 @@ export const sliderDataEng = {
           'height': 720
         },
         'position': {
-          'top': 1200,
-          'left': 1600,
+          'top': 1800,
+          'left': 800,
         },
         'textArea': {
-          'author': 'Karl Brullov (1799–1852)',
-          'pictureTitle': 'Mass in Basilica Santa Maria Majore on the occasion of the return to Rome of Pope Pius IX',
-          'year': '1850',
+          'author': 'Ivan Aivazovsky (1817–1900)',
+          'pictureTitle': 'Shipwreck',
+          'year': '1888',
           'typeOfCanvas': 'Oil on canvas',
-          'info': 'Bryullov did not have time to catch all these events, but they were alive and fresh in the perception of contemporaries. In addition to sketching with a graphite pencil the general composition, details of clothes, faces and figures of characters, traditionally fluent or more carefully worked out by sketch or with shading, for this picture the artist also made gouache drafts, outlining a coloristic solution. In his sketch, Bryullov chose an unexpected compositional perspective: the protagonist of the event is in the background, and the whole scene is occupied by images of Romans and Romans, monks and laymen, a kneeling flock participating in the service, moreover, these are mainly ladies. The artist did not depict the jubilant people. It is possible that the picture was to become a political manifesto, but, of course, it is impossible to reliably judge this from sketches.'
+          'info': 'The people depicted amidst the hurricane, of course, feel fear, and the artist conveys this, but the main mood of the picture of man\'s fear of the elements in Aivazovsky never becomes.'
         }
       }
     },
@@ -2104,7 +2222,7 @@ export const sliderDataEng = {
           'pictureTitle': 'Hard decision',
           'year': '1887',
           'typeOfCanvas': 'Oil on canvas',
-          'info': 'Description..'
+          'info': 'Thus the painting is an allegory of youth and old age, with the theme of values and priorities at the forefront. It is noteworthy that behind the back of the patrician the artist depicted a centaur from the collection of the Roman Capitoline Museum, which itself is an allegory of old age. According to E. Nesterova, this painting shows that "For Semiradsky people and objects are equally inanimate or, more precisely, animated equally. The painting was shown in Russia at the personal exhibition of Siemiradzki in 1890.'
         }
       }
     },
@@ -2119,7 +2237,7 @@ export const sliderDataEng = {
           'pictureTitle': 'Rope-dancer',
           'year': '1898',
           'typeOfCanvas': 'Oil on canvas',
-          'info': 'Drawing info'
+          'info': 'One of the greatest representatives of late academism, Henry Semiradsky spent most of his active artistic life in Rome and is best known for his monumental paintings on subjects dating from the 8th century B.C. to the 3rd - 4th century A.D., centered around historical events and the fate of Ancient Greece and Ancient Rome. Semiradsky, like many of his contemporaries, viewed the ancient tradition as the source, the foundation, of European civilization.'
         }
       }
     },
@@ -2205,7 +2323,7 @@ export const sliderDataEng = {
           'pictureTitle': 'Rope-dancer',
           'year': '1898',
           'typeOfCanvas': 'Oil on canvas',
-          'info': 'Description..'
+          'info': 'The later period of the artist\'s work, to which the painting "Rope-Walker" belongs, is characterized by plein air scenes, far from historical context, and idyllic paintings, in which Semiradsky demonstrates his talent as a colorist and master of light and shade especially brightly. The "Italian genre" with its hedonistic moods was of interest to artists of the second half of the 19th century and was in great demand among the demanding public. Semiradsky more than anyone else managed to convey the atmosphere of the serene sunny south, remaining sublimely refined, without descending to rough sensuality and everyday life even in banal subjects.'
         }
       }
     }
@@ -2222,6 +2340,6 @@ export const lastSlideData = {
 export const lastSlideDataEng = {
   'repeat': 'View drawings again',
   'return': 'Back to the main page',
-  'info': 'Materials prepared by the Faberge Museum:\n',
+  'info': 'Materials prepared by the Fabergé Museum:\n',
   'names': 'Daria Shohina, Inga Vasilevskaya, Dmitry Bessonov'
 };
