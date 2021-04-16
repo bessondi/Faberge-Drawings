@@ -1,170 +1,146 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
-
 import styles from './lastSlideStyles.module.css';
-import img from '../../../media/images/compressed/Ammon.jpg';
 import repeatBtn from '../../../media/icons/repeatBtn.svg';
-import {LastSlideData} from "../sliderData";
 
 
+export default function LastSlide({img, lastSlideData, pathToStart, pathToHome}) {
+  const [section] = useState(lastSlideData)
 
-class LastSlide extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            sections: LastSlideData.sections[0]
-        }
-    }
+  const Background = () => {
+    const BlackField = styled.div`
+      background-color: #000;
+    `;
+    const Background = styled.div`
+      background-image: url(${img});
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 70%;
+      height: 100vh;
+      margin-right: 30%;
+      animation-duration: .5s;
+      animation-name: showPic;
+    `;
+    const ViewportGradient = styled.div`
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 100vh;
+      width: 70%;
+    `;
+    const Return = styled.div`
+      position: absolute;
+      left: 20%;
+      top: 65%;
+      display: flex;
+      align-items: center;
+    `;
+    const ReturnText = styled.p`
+      font-size: 2rem;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 100px;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
+    `;
+    const Repeat = styled.div`
+      position: absolute;
+      left: 20%;
+      top: 45%;
+      display: flex;
+      align-items: center;
+    `;
+    const RepeatBtn = styled.button`
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 4px solid #fff;
+      outline: none;
+      cursor: pointer;
+    `;
+    const RepeatArrow = styled.div`
+      background-image: url(${repeatBtn});
+      position: relative;
+      left: 14px;
+      width: 35px;
+      height: 35px;
+    `;
+    const RepeatText = styled.p`
+      font-size: 2.5rem;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
+    `;
 
-    render() {
-        const {sections} = this.state;
+    return (
+      <BlackField>
+        <Background/>
+        <ViewportGradient/>
 
-        // const LastSlide = () => {
+        <NavLink to={pathToStart}>
+          <Repeat className={styles.lastSlidePage__repeatBtn_active}>
+            <RepeatBtn className={styles.lastSlidePage__repeatBtn}>
+              <RepeatArrow/>
+            </RepeatBtn>
+            <RepeatText>
+              {section.repeat}
+            </RepeatText>
+          </Repeat>
+        </NavLink>
 
-            const Background = () => {
-                const BlackField = styled.div`
-                    background-color: #000;
-                `;
-                const Background = styled.div`
-                    background-image: url(${img});
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    width: 70%;
-                    height: 100vh;
-                    margin-right: 30%;
-                    animation-duration: .5s;
-                    animation-name: showPic;
-                `;
-                const ViewportGradient = styled.div`
-                    background-color: rgba(0,0,0,0.5);
-                    position: fixed;
-                    bottom: 0;
-                    left: 0;
-                    height: 100vh;
-                    width: 70%;
-                `;
-                const Return = styled.div`
-                    position: absolute;
-                    left: 20%;
-                    top: 65%;
-                    display: flex;
-                    align-items: center;
-                `;
-                const ReturnText = styled.p`
-                    font-size: 2rem;
-                    color: #fff;
-                    text-decoration: none;
-                    margin-left: 100px;
-                `;
-                const Repeat = styled.div`
-                    position: absolute;
-                    left: 20%;
-                    top: 45%;
-                    display: flex;
-                    align-items: center;
-                `;
-                const RepeatBtn = styled.button`
-                    width: 85px;
-                    height: 85px;
-                    border-radius: 50%;
-                    background-color: transparent;
-                    border: 4px solid #fff;
-                    outline: none;
-                `;
-                const RepeatArrow = styled.div`
-                    background-image: url(${repeatBtn});
-                    position: relative;
-                    left: 14px;
-                    width: 35px;
-                    height: 35px;
-                    // transform: rotate(-45deg);
-                `;
-                const RepeatText = styled.p`
-                    font-size: 2.5rem;
-                    color: #fff;
-                    text-decoration: none;
-                    margin-left: 25px;
-                `;
+        <NavLink to={pathToHome}>
+          <Return>
+            <ReturnText>
+              {section.return}
+            </ReturnText>
+          </Return>
+        </NavLink>
 
-                return (
-                    <BlackField>
-                        <Background/>
-                        <ViewportGradient/>
+      </BlackField>
+    );
+  };
 
-                        <NavLink to='/slider'>
-                            <Repeat className={styles.lastSlidePage__repeatBtn_active}>
-                                <RepeatBtn className={styles.lastSlidePage__repeatBtn}>
-                                    <RepeatArrow/>
-                                </RepeatBtn>
-                                <RepeatText>
-                                    {sections.repeat}
-                                </RepeatText>
-                            </Repeat>
-                        </NavLink>
+  const PictureDescription = () => {
+    const DescriptionArea = styled.div`
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 30%;
+      height: 100vh;
+      background: #f5f5f5;
+      font-family: "Circe-Light", "Helvetica Neue", sans-serif;
+    `;
+    const TextArea = styled.p`
+      padding: 20px 50px 20px 40px;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: #000;
+      text-align: justify;
+      line-height: 1.6rem;
+    `;
 
-                        <NavLink to='/'>
-                            <Return>
-                                <ReturnText>
-                                    {sections.return}
-                                </ReturnText>
-                            </Return>
-                        </NavLink>
+    return (
+      <DescriptionArea>
+        <TextArea>
+          {section.info}
+          <br/><br/>
+          {section.names}
+        </TextArea>
+      </DescriptionArea>
+    );
+  };
 
-                    </BlackField>
-                );
-            };
-
-            const PictureDescription = () => {
-                const DescriptionArea = styled.div`
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                position: fixed;
-                right: 0;
-                top: 0;
-                width: 30%;
-                height: 100vh;
-                background: #f5f5f5;
-                // background: #000;
-            `;
-                const TextArea = styled.p`
-                padding: 20px 50px 20px 40px; 
-                font-weight: 500;
-                font-size: 1.1rem;
-                color: #000;
-                // color: #fff;
-                text-align: justify;
-                line-height: 1.6rem;
-            `;
-
-                return (
-                    <DescriptionArea>
-                        <TextArea>
-                            {sections.info}
-                            <br/><br/>
-                            {sections.names}
-                        </TextArea>
-                    </DescriptionArea>
-                );
-            };
-
-        //     return (
-        //         <React.Fragment>
-        //             <Background/>
-        //             <PictureDescription/>
-        //         </React.Fragment>
-        //     );
-        // };
-
-        return (
-            <React.Fragment>
-                          <Background/>
-                           <PictureDescription/>
-                       </React.Fragment>
-        )
-    }
+  return (
+    <React.Fragment>
+      <Background/>
+      <PictureDescription/>
+    </React.Fragment>
+  )
 }
-
-export default LastSlide;

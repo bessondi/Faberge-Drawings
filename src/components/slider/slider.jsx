@@ -1,110 +1,72 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 import {NavLink} from "react-router-dom";
-
-
 import ImageRender from "./imageRender";
-
-import {SliderData} from './sliderData';
 import styles from './sliderStyles.module.css';
-// import ProgressBar from '../progressbar';
 
 
-class Slider extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            slider: SliderData.slides[0],
+export default function Slider({data, sliderData}) {
+  const [slider, setSlider] = useState(sliderData.slides[0])
+  const totalSlides = sliderData.slides.length // последний n-слайд + 1  файла дата
+
+  const prevImg = () => {
+    let newIndex = slider.index - 1;
+
+    if (newIndex < 0) {
+      setSlider(sliderData.slides[0])
+    } else {
+      setSlider(sliderData.slides[newIndex])
+    }
+  }
+  const nextImg = () => {
+    let newIndex = slider.index + 1;
+
+    if (newIndex < totalSlides) {
+      setSlider(sliderData.slides[newIndex])
+    } else {
+      setSlider(sliderData.slides[0])
+    }
+  }
+
+  const NavButtons = () => {
+    return (
+      <React.Fragment>
+        {
+          slider.index === 0
+            ?
+            <NavLink to={data.linkToMainPage}>
+              <button className={styles.app__slider__prevSlidePageLeft}>
+                <div className={styles.app__slider_prevSlidePageArrowLeft}/>
+              </button>
+            </NavLink>
+            :
+            <button onClick={() => prevImg()}
+                    className={styles.app__slider__prevSlidePageLeft}>
+              <div className={styles.app__slider_prevSlidePageArrowLeft}/>
+            </button>
         }
-    }
 
-    // componentDidMount() {
-    //     this.timer = setInterval( this.nextImg, 60000 )
-    // }
-
-    // componentWillUnmount() {
-    //     clearInterval(this.timer)
-    // }
-
-    prevImg = () => {
-        let newIndex = this.state.slider.index - 1;
-
-        if (newIndex < 0) {
-            this.setState({
-                slider: SliderData.slides[0],
-            })
-        } else {
-            this.setState({
-                slider: SliderData.slides[newIndex],
-            })
+        {
+          slider.index >= totalSlides - 1  // для n-слайдов файла дата
+            ?
+            <NavLink to={data.linkToLastSlide}>
+              <button className={styles.app__slider__nextSlidePageRight}>
+                <div className={styles.app__slider_nextSlidePageArrowRight}/>
+              </button>
+            </NavLink>
+            :
+            <button onClick={() => nextImg()}
+                    className={styles.app__slider__nextSlidePageRight}>
+              <div className={styles.app__slider_nextSlidePageArrowRight}/>
+            </button>
         }
-        // console.log(this.state.slider.index);
-    }
+      </React.Fragment>
+    )
+  };
 
-    nextImg = () => {
-        let newIndex = this.state.slider.index + 1;
-
-        if ( newIndex < 17 ) { // последний n-слайд + 1  файла дата
-            this.setState({
-                slider: SliderData.slides[newIndex],
-            })
-        } else {
-            this.setState({
-                slider: SliderData.slides[0]
-            })
-        }
-        // console.log(this.state.slider.index);
-    }
-
-
-    render() {
-        const {slider} = this.state;
-        console.log(this.state.slider.index);
-
-        const NavButtons = () => {
-            return(
-                <React.Fragment>
-                   {
-                       this.state.slider.index === 0
-                       ?
-                       <NavLink to='/'>
-                           <button className={styles.app__slider__prevSlidePageLeft}>
-                               <div className={styles.app__slider_prevSlidePageArrowLeft}/>
-                           </button>
-                       </NavLink>
-                       :
-                       <button onClick={ () => this.prevImg() }
-                               className={styles.app__slider__prevSlidePageLeft}>
-                           <div className={styles.app__slider_prevSlidePageArrowLeft}/>
-                       </button>
-                   }
-
-                    {
-                        // this.state.slider.index >= 1  // для двух слайдов
-                        this.state.slider.index >= 16  // для n-слайдов файла дата
-                        ?
-                        <NavLink to='/lastSlide'>
-                            <button className={styles.app__slider__nextSlidePageRight}>
-                                <div className={styles.app__slider_nextSlidePageArrowRight}/>
-                            </button>
-                        </NavLink>
-                        :
-                        <button onClick={ () => this.nextImg() }
-                                className={styles.app__slider__nextSlidePageRight}>
-                            <div className={styles.app__slider_nextSlidePageArrowRight}/>
-                        </button>
-                    }
-                </React.Fragment>
-            )
-        };
-
-
-        return (
-            <React.Fragment>
-                <ImageRender slide={slider} index={this.state.slider.index} />
-                <NavButtons/>
-            </React.Fragment>
-        );
-    }
+  return (
+    <React.Fragment>
+      <ImageRender slide={slider} />
+      <NavButtons/>
+    </React.Fragment>
+  );
 }
-
-export default Slider;
